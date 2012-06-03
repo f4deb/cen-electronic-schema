@@ -1,4 +1,4 @@
-update=29/05/2012 21:23:05
+update=03/06/2012 00:14:48
 last_client=eeschema
 [general]
 version=1
@@ -9,9 +9,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=315
-PadDimH=827
-PadDimV=2402
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -24,22 +24,23 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=Electronic Main Board.net
+LastNetListRead=PIC32 DEV BOARD.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
-LibName2=discret
-LibName3=pin_array
-LibName4=divers
-LibName5=libcms
-LibName6=display
-LibName7=valves
-LibName8=led
-LibName9=dip_sockets
-LibName10=/travail/electronique/Schema Kicad/f4debpcb
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=F:/electronique/Schema KICAD/f4debpcb
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../Schema Kicad
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -69,5 +70,6 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=power
-LibName2=F:/electronique/Schema KICAD/f4deb
+LibName1=conn
+LibName2=power
+LibName3=F:/electronique/git-f4deb-cen-electronic-schema/LIBRARY/CEN-SCHEMA
