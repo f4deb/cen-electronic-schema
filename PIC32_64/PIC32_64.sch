@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 28/05/2012 23:37:43
+EESchema Schematic File Version 2  date 05/06/2012 00:05:48
 LIBS:power
 LIBS:CEN-SCHEMA
 LIBS:PIC32_64-cache
@@ -8,7 +8,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SO100"
-Date "14 sep 2011"
+Date "4 jun 2012"
 Rev "V1-00"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
@@ -482,7 +482,7 @@ P 3450 5200
 F 0 "P4" H 3450 5650 60  0000 C CNN
 F 1 "CONN_8X2" V 3450 5200 50  0000 C CNN
 	1    3450 5200
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_8X2 P2
@@ -491,7 +491,7 @@ P 3450 3850
 F 0 "P2" H 3450 4300 60  0000 C CNN
 F 1 "CONN_8X2" V 3450 3850 50  0000 C CNN
 	1    3450 3850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_8X2 P3
@@ -500,7 +500,7 @@ P 1450 5200
 F 0 "P3" H 1450 5650 60  0000 C CNN
 F 1 "CONN_8X2" V 1450 5200 50  0000 C CNN
 	1    1450 5200
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_8X2 P1
@@ -509,7 +509,7 @@ P 1450 3850
 F 0 "P1" H 1450 4300 60  0000 C CNN
 F 1 "CONN_8X2" V 1450 3850 50  0000 C CNN
 	1    1450 3850
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L PIC32MX795F512H U1
