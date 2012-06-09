@@ -5,3 +5,5 @@
 *.war
 *.ear
 *.bak
+*-cache.lib
+*.000
