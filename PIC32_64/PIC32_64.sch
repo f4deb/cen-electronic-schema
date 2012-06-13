@@ -1,14 +1,13 @@
-EESchema Schematic File Version 2  date 05/06/2012 00:05:48
+EESchema Schematic File Version 2  date 11/06/2012 23:06:50
 LIBS:power
 LIBS:CEN-SCHEMA
-LIBS:PIC32_64-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SO100"
-Date "4 jun 2012"
+Date "11 jun 2012"
 Rev "V1-00"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
@@ -734,7 +733,7 @@ L R R4
 U 1 1 4E6BC2E9
 P 6000 2550
 F 0 "R4" V 5950 2500 50  0000 C CNN
-F 1 "10" V 6050 2500 50  0000 C CNN
+F 1 "0" V 6050 2500 50  0000 C CNN
 	1    6000 2550
 	0    1    1    0   
 $EndComp

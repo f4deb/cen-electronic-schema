@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  04/06/2012 00:29:38
+# EESchema Netlist Version 1.1 created  11/06/2012 23:30:47
 (
  ( /4E7070E5 $noname  P4 CONN_8X2 {Lib=CONN_8X2}
   (    1 /50 )
@@ -166,7 +166,7 @@
   (    1 /7 )
   (    2 +3.3V )
  )
- ( /4E6BC2E9 $noname  R4 10 {Lib=R}
+ ( /4E6BC2E9 $noname  R4 0 {Lib=R}
   (    1 +3.3V )
   (    2 /19 )
  )

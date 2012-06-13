@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  09/06/2012 13:09:42
+# EESchema Netlist Version 1.1 created  13/06/2012 22:50:18
 (
  ( /4FCFCB53 $noname  J7 SIL1 {Lib=SIL1}
   (    1 ? )
@@ -371,35 +371,35 @@
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4F6A4679/4FC52EED $noname  R13 R {Lib=R}
+ ( /4F6A4679/4FC52EED $noname  R13 2.1k {Lib=R}
   (    1 +5V )
   (    2 /5vto3v3/SCL4-5V )
  )
- ( /4F6A4679/4FC52EEC $noname  R14 R {Lib=R}
+ ( /4F6A4679/4FC52EEC $noname  R14 2.1k {Lib=R}
   (    1 +5V )
   (    2 /5vto3v3/SDA4-5V )
  )
- ( /4F6A4679/4FC52EDD $noname  R10 R {Lib=R}
+ ( /4F6A4679/4FC52EDD $noname  R10 2.1k {Lib=R}
   (    1 +5V )
   (    2 /5vto3v3/SDA1-5V )
  )
- ( /4F6A4679/4FC52EDA $noname  R9 R {Lib=R}
+ ( /4F6A4679/4FC52EDA $noname  R9 2.1k {Lib=R}
   (    1 +5V )
   (    2 /5vto3v3/SCL1-5V )
  )
- ( /4F6A4679/4FC52EBF $noname  R11 R {Lib=R}
+ ( /4F6A4679/4FC52EBF $noname  R11 2.1k {Lib=R}
   (    1 +3.3V )
   (    2 /5vto3v3/SDA4 )
  )
- ( /4F6A4679/4FC52EBE $noname  R12 R {Lib=R}
+ ( /4F6A4679/4FC52EBE $noname  R12 2.1k {Lib=R}
   (    1 +3.3V )
   (    2 /PIC32/SCL4 )
  )
- ( /4F6A4679/4FC52EAB $noname  R8 R {Lib=R}
+ ( /4F6A4679/4FC52EAB $noname  R8 2.1k {Lib=R}
   (    1 +3.3V )
   (    2 /PIC32/SCL1 )
  )
- ( /4F6A4679/4FC52EA8 $noname  R7 R {Lib=R}
+ ( /4F6A4679/4FC52EA8 $noname  R7 2.1k {Lib=R}
   (    1 +3.3V )
   (    2 /5vto3v3/SDA1 )
  )
