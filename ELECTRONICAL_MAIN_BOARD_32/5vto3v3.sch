@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 22/07/2012 22:52:49
+EESchema Schematic File Version 2  date 23/07/2012 23:57:13
 LIBS:conn
 LIBS:power
 LIBS:CEN-SCHEMA
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 3
 Title "ELECTRONICAL_MAIN_BOARD_32"
-Date "22 jul 2012"
+Date "23 jul 2012"
 Rev "V1-10"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 ""
