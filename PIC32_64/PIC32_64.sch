@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/06/2012 23:06:50
+EESchema Schematic File Version 2  date 24/08/2012 17:26:21
 LIBS:power
 LIBS:CEN-SCHEMA
 EELAYER 25  0
@@ -7,7 +7,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "SO100"
-Date "11 jun 2012"
+Date "24 aug 2012"
 Rev "V1-00"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
@@ -560,7 +560,7 @@ L C C8
 U 1 1 4E6FB01F
 P 10250 4350
 F 0 "C8" H 10300 4450 50  0000 L CNN
-F 1 "100n" H 10300 4250 50  0000 L CNN
+F 1 "22p" H 10300 4250 50  0000 L CNN
 	1    10250 4350
 	-1   0    0    -1  
 $EndComp
@@ -569,7 +569,7 @@ L C C9
 U 1 1 4E6FB01D
 P 10900 4350
 F 0 "C9" H 10950 4450 50  0000 L CNN
-F 1 "100n" H 10950 4250 50  0000 L CNN
+F 1 "22p" H 10950 4250 50  0000 L CNN
 	1    10900 4350
 	-1   0    0    -1  
 $EndComp
