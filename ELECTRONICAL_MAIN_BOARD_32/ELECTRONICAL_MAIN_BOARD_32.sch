@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012-08-29 22:13:25
+EESchema Schematic File Version 2  date 2012-08-29 22:51:01
 LIBS:conn
 LIBS:power
 LIBS:CEN-SCHEMA
