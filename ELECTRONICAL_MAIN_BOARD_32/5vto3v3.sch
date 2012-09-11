@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012-09-05 23:42:58
+EESchema Schematic File Version 2  date 2012-09-10 22:18:02
 LIBS:conn
 LIBS:power
 LIBS:CEN-SCHEMA
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 3
 Title "ELECTRONICAL_MAIN_BOARD_32"
-Date "5 sep 2012"
+Date "10 sep 2012"
 Rev "V1-20"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 ""
@@ -17,24 +17,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR?
-U 1 1 5047C760
-P 1850 6200
-F 0 "#PWR?" H 1850 6200 30  0001 C CNN
-F 1 "GND" H 1850 6130 30  0001 C CNN
-	1    1850 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 5047C74F
-P 1850 5150
-F 0 "#PWR?" H 1850 5110 30  0001 C CNN
-F 1 "+3.3V" H 1850 5260 30  0000 C CNN
-	1    1850 5150
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	3650 2700 4000 2700
+Wire Wire Line
+	6300 5200 6150 5200
+Wire Wire Line
+	5650 4150 5850 4150
+Wire Wire Line
+	6150 4800 6150 4700
+Wire Wire Line
+	6150 5100 6150 5250
+Wire Wire Line
+	6150 5650 6150 5750
+Connection ~ 6150 5200
+Connection ~ 6150 3900
+Wire Wire Line
+	6150 4350 6150 4450
+Wire Wire Line
+	6150 3800 6150 3950
+Wire Wire Line
+	6150 3500 6150 3400
 Wire Wire Line
 	1850 5250 1850 5150
 Wire Wire Line
@@ -52,11 +54,7 @@ Wire Bus Line
 Wire Bus Line
 	4100 7300 4100 6200
 Wire Wire Line
-	4000 4400 3650 4400
-Wire Wire Line
 	4000 4200 3650 4200
-Wire Wire Line
-	2500 4300 2850 4300
 Wire Wire Line
 	2500 4100 2850 4100
 Connection ~ 9350 3850
@@ -113,8 +111,6 @@ Connection ~ 9200 5550
 Connection ~ 9200 4250
 Wire Wire Line
 	9200 5550 9100 5550
-Wire Bus Line
-	5750 4550 5750 7800
 Wire Wire Line
 	4000 2400 3650 2400
 Wire Wire Line
@@ -262,8 +258,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 1800 2750 1600
 Connection ~ 2750 1700
-Wire Notes Line
-	5750 950  5750 4550
 Wire Wire Line
 	9200 4250 9100 4250
 Wire Wire Line
@@ -307,15 +301,7 @@ Connection ~ 9350 5150
 Wire Wire Line
 	2500 4000 2850 4000
 Wire Wire Line
-	2500 4200 2850 4200
-Wire Wire Line
-	2500 4500 2850 4500
-Wire Wire Line
 	4000 4100 3650 4100
-Wire Wire Line
-	4000 4300 3650 4300
-Wire Wire Line
-	4000 4600 3650 4600
 Wire Wire Line
 	3650 6100 4000 6100
 Wire Wire Line
@@ -337,12 +323,108 @@ Wire Wire Line
 Wire Wire Line
 	2200 5650 1850 5650
 Connection ~ 1850 5650
+Wire Wire Line
+	5650 5450 5850 5450
+Wire Wire Line
+	6300 3900 6150 3900
+Wire Wire Line
+	2500 2600 2850 2600
+$Comp
+L GND #PWR?
+U 1 1 504BBDBA
+P 6150 5750
+F 0 "#PWR?" H 6150 5750 30  0001 C CNN
+F 1 "GND" H 6150 5680 30  0001 C CNN
+	1    6150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 504BBDB9
+P 6150 4700
+F 0 "#PWR?" H 6150 4660 30  0001 C CNN
+F 1 "+3.3V" H 6150 4810 30  0000 C CNN
+	1    6150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 504BBDB8
+P 6150 4850
+F 0 "R?" V 6100 4950 50  0000 C CNN
+F 1 "4.7k" V 6200 4950 50  0000 C CNN
+	1    6150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSS123 Q?
+U 1 1 504BBDB7
+P 6050 5450
+F 0 "Q?" H 6060 5620 60  0000 R CNN
+F 1 "BSS123" H 6060 5300 60  0000 R CNN
+	1    6050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BSS123 Q?
+U 1 1 504BBD9B
+P 6050 4150
+F 0 "Q?" H 6060 4320 60  0000 R CNN
+F 1 "BSS123" H 6060 4000 60  0000 R CNN
+	1    6050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 504BBD9A
+P 6150 3550
+F 0 "R?" V 6100 3650 50  0000 C CNN
+F 1 "4.7k" V 6200 3650 50  0000 C CNN
+	1    6150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 504BBD99
+P 6150 3400
+F 0 "#PWR?" H 6150 3360 30  0001 C CNN
+F 1 "+3.3V" H 6150 3510 30  0000 C CNN
+	1    6150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 504BBD98
+P 6150 4450
+F 0 "#PWR?" H 6150 4450 30  0001 C CNN
+F 1 "GND" H 6150 4380 30  0001 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5047C760
+P 1850 6200
+F 0 "#PWR?" H 1850 6200 30  0001 C CNN
+F 1 "GND" H 1850 6130 30  0001 C CNN
+	1    1850 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5047C74F
+P 1850 5150
+F 0 "#PWR?" H 1850 5110 30  0001 C CNN
+F 1 "+3.3V" H 1850 5260 30  0000 C CNN
+	1    1850 5150
+	1    0    0    -1  
+$EndComp
 $Comp
 L R R?
 U 1 1 5047C6C7
 P 1850 5300
 F 0 "R?" V 1800 5400 50  0000 C CNN
-F 1 "R" V 1900 5400 50  0000 C CNN
+F 1 "4.7k" V 1900 5400 50  0000 C CNN
 	1    1850 5300
 	1    0    0    -1  
 $EndComp
@@ -433,17 +515,17 @@ Text HLabel 4000 2100 2    60   Input ~ 0
 BRS
 Text HLabel 4000 2000 2    60   Input ~ 0
 BRW
-Text HLabel 4000 4600 2    60   Input ~ 0
+Text HLabel 6300 5200 2    60   Input ~ 0
 OC5-5V
-Text HLabel 4000 4400 2    60   Input ~ 0
+Text HLabel 6300 3900 2    60   Input ~ 0
 OC2-5V
-Text HLabel 4000 4300 2    60   Input ~ 0
+Text HLabel 4000 2700 2    60   Input ~ 0
 OC1-5V
-Text HLabel 2500 4500 0    60   Input ~ 0
+Text HLabel 5650 5450 0    60   Input ~ 0
 OC5
-Text HLabel 2500 4300 0    60   Input ~ 0
+Text HLabel 5650 4150 0    60   Input ~ 0
 OC2
-Text HLabel 2500 4200 0    60   Input ~ 0
+Text HLabel 2500 2600 0    60   Input ~ 0
 OC1
 Text HLabel 9650 5850 2    60   Input ~ 0
 SDA4-5V
@@ -694,7 +776,7 @@ F 1 "PCA9306" H 8650 4050 60  0000 C CNN
 $EndComp
 Text Notes 8100 1300 0    90   ~ 18
 LCD CONTRASTE
-Text Notes 600  5650 0    60   ~ 0
+Text Notes 2950 7200 0    60   ~ 0
 0 = B to A\n1= A to B
 $Comp
 L +5V #PWR066

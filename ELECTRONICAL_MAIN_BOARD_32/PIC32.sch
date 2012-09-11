@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012-09-05 23:42:58
+EESchema Schematic File Version 2  date 2012-09-10 22:18:02
 LIBS:conn
 LIBS:power
 LIBS:CEN-SCHEMA
@@ -9,7 +9,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 3
 Title "ELECTRONICAL_MAIN_BOARD_32"
-Date "5 sep 2012"
+Date "10 sep 2012"
 Rev "V1-20"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 ""
@@ -393,7 +393,7 @@ L R R30
 U 1 1 4FF078CF
 P 900 2050
 F 0 "R30" V 850 2000 50  0000 C CNN
-F 1 "1.5k" V 950 2000 50  0000 C CNN
+F 1 "3.2k" V 950 2000 50  0000 C CNN
 	1    900  2050
 	1    0    0    -1  
 $EndComp
@@ -420,7 +420,7 @@ L R R31
 U 1 1 4FF078CC
 P 1100 2050
 F 0 "R31" V 1050 2000 50  0000 C CNN
-F 1 "1.5k" V 1150 2000 50  0000 C CNN
+F 1 "3.2k" V 1150 2000 50  0000 C CNN
 	1    1100 2050
 	1    0    0    -1  
 $EndComp
@@ -447,7 +447,7 @@ L R R33
 U 1 1 4FF078C7
 P 1500 2050
 F 0 "R33" V 1450 2000 50  0000 C CNN
-F 1 "1.5k" V 1550 2000 50  0000 C CNN
+F 1 "3.2k" V 1550 2000 50  0000 C CNN
 	1    1500 2050
 	1    0    0    -1  
 $EndComp
@@ -474,7 +474,7 @@ L R R32
 U 1 1 4FF066CF
 P 1300 2050
 F 0 "R32" V 1250 2000 50  0000 C CNN
-F 1 "1.5k" V 1350 2000 50  0000 C CNN
+F 1 "3.2k" V 1350 2000 50  0000 C CNN
 	1    1300 2050
 	1    0    0    -1  
 $EndComp
