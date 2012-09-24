@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2012-09-16 21:33:00
+Cmp-Mod V01 Genere par PcbNew le 2012-09-24 22:02:08
 
 BeginCmp
 TimeStamp = /4F6A45BB/4E31B88E;
@@ -309,6 +309,48 @@ IdModule  = SIL-3"1/2-5-D;
 EndCmp
 
 BeginCmp
+TimeStamp = /5060B3DA;
+Reference = P10;
+ValeurCmp = CONN_2;
+IdModule  = SIL-3"1/2-2-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /5060B495;
+Reference = P11;
+ValeurCmp = CONN_2;
+IdModule  = SIL-3"1/2-2-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6A4679/5060B245;
+Reference = P12;
+ValeurCmp = CAVALIER;
+IdModule  = CAVALIER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6A4679/5060B238;
+Reference = P13;
+ValeurCmp = CAVALIER;
+IdModule  = CAVALIER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6A4679/5060B2B7;
+Reference = P14;
+ValeurCmp = CAVALIER;
+IdModule  = CAVALIER;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6A4679/5060B2BC;
+Reference = P15;
+ValeurCmp = CAVALIER;
+IdModule  = CAVALIER;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F6A4679/504BBD9B;
 Reference = Q1;
 ValeurCmp = BSS123;
@@ -592,7 +634,7 @@ BeginCmp
 TimeStamp = /4F6A4679/500C5D55;
 Reference = R38;
 ValeurCmp = 220k;
-IdModule  = SM1206;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
