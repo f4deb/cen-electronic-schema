@@ -1,0 +1,73 @@
+Cmp-Mod V01 Genere par PcbNew le ven. 28 janv. 2011 23:54:03 CET
+
+BeginCmp
+TimeStamp = /45918FE9;
+Reference = C1;
+ValeurCmp = 100n+1n;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /45918FDE;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /45918FE7;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /45918FE5;
+Reference = C4;
+ValeurCmp = 10u;
+IdModule  = SM1812L;
+EndCmp
+
+BeginCmp
+TimeStamp = /45918FE2;
+Reference = C5;
+ValeurCmp = 10u;
+IdModule  = SM1812L;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CA8FF56;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4591912A;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9FD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4597CAA7;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-3"1/2-4-D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CA8FF5E;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /45918FC0;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = TSSOP16;
+EndCmp
+
+EndListe
