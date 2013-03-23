@@ -1,4 +1,4 @@
-update=lun. 19 sept. 2011 22:31:15 CEST
+update=2013-02-09 17:43:52
 last_client=pcbnew
 [general]
 version=1
@@ -47,7 +47,6 @@ PadDrlX=1181
 PadDimH=2363
 PadDimV=2363
 BoardThickness=630
-SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
@@ -61,6 +60,4 @@ MSegLar=150
 LastNetListRead=Motor Board.net
 [pcbnew/libraries]
 LibDir=
-LibName1=/travail/electronique/Schema Kicad/f4debpcb
-LibName2=connect
-LibName3=F:/electronique/Schema KICAD/f4debpcb
+LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB

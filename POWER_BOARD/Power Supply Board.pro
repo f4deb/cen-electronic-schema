@@ -1,5 +1,5 @@
-update=31/07/2011 23:13:27
-last_client=eeschema
+update=2013-02-13 21:48:50
+last_client=pcbnew
 [general]
 version=1
 RootSch=EIDE.sch
@@ -14,33 +14,6 @@ NetType=0
 EquName1=devcms
 [common]
 NetDir=
-[pcbnew]
-version=1
-PadDrlX=512
-PadDimH=1260
-PadDimV=1260
-BoardThickness=630
-SgPcb45=1
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=Power Supply Board.net
-[pcbnew/libraries]
-LibDir=
-LibName1=/travail/electronique/Schema Kicad/f4debpcb
-LibName2=discret
-LibName3=pin_array
-LibName4=divers
-LibName5=libcms
-LibName6=display
-LibName7=valves
 [eeschema]
 version=1
 LibDir=
@@ -100,3 +73,23 @@ LibName24=siliconi
 LibName25=contrib
 LibName26=valves
 LibName27=F:/electronique/Schema KICAD/f4deb
+[pcbnew]
+version=1
+PadDrlX=512
+PadDimH=1260
+PadDimV=1260
+BoardThickness=630
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+LastNetListRead=Power Supply Board.net
+[pcbnew/libraries]
+LibDir=
+LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB

@@ -1,10 +1,13 @@
-update=2013-02-12 22:40:53
+update=2013-02-19 22:06:19
 last_client=pcbnew
-[general]
+[cvpcb]
 version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
-LibDir=../../../Schema Kicad
+LibDir=
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -34,19 +37,13 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=conn
-LibName2=power
-LibName3=F:/electronique/git-f4deb-cen-electronic-schema/LIBRARY/CEN-SCHEMA
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName1=power
+LibName2=F:/electronique/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=160
+PadDimV=591
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -58,8 +55,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=ELECTRONICAL_MAIN_BOARD_32.net
+LastNetListRead=RS232 Adapter JN5139.net
 [pcbnew/libraries]
 LibDir=
 LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
-LibName2=dip_sockets
