@@ -1,14 +1,14 @@
-EESchema Schematic File Version 2  date 2013-03-19 22:20:08
+EESchema Schematic File Version 2  date 2013-04-06 16:04:40
 LIBS:power
 LIBS:CEN-SCHEMA
 LIBS:Motor Board-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "MOTOR_BOARD"
-Date "19 mar 2013"
+Date "6 apr 2013"
 Rev "V3.00"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
@@ -22,8 +22,6 @@ Text HLabel 3850 4800 0    60   Input ~ 0
 IO1
 Wire Wire Line
 	4600 4800 3850 4800
-Wire Wire Line
-	7900 2100 7150 2100
 Connection ~ 2750 5000
 Wire Wire Line
 	4600 5000 2750 5000
@@ -46,61 +44,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 5650 3200 5750
 Wire Wire Line
-	7900 3350 7150 3350
-Wire Wire Line
-	4600 4200 3850 4200
-Wire Wire Line
-	4600 2800 4300 2800
-Wire Wire Line
-	7900 2950 7150 2950
-Wire Wire Line
-	4600 2100 4300 2100
-Wire Wire Line
-	7900 4200 7150 4200
-Wire Wire Line
-	7900 4000 7150 4000
-Wire Wire Line
-	3850 2600 4600 2600
-Wire Wire Line
-	7150 3800 7900 3800
-Wire Wire Line
-	7150 3500 7900 3500
-Wire Wire Line
-	3850 2500 4600 2500
-Wire Wire Line
-	3850 2300 4600 2300
-Wire Wire Line
 	4600 5500 3850 5500
 Wire Wire Line
 	4600 5400 3850 5400
-Wire Wire Line
-	7900 3600 7150 3600
-Wire Wire Line
-	3850 4100 4600 4100
-Wire Wire Line
-	7150 5500 7950 5500
-Wire Wire Line
-	3850 2400 4600 2400
-Wire Wire Line
-	7150 3700 7900 3700
-Wire Wire Line
-	4600 4000 3850 4000
-Wire Wire Line
-	7900 3900 7150 3900
-Wire Wire Line
-	7900 4100 7150 4100
-Wire Wire Line
-	7900 3250 7150 3250
-Wire Wire Line
-	7150 3150 7900 3150
-Wire Wire Line
-	4600 2200 4300 2200
-Wire Wire Line
-	7150 3050 7900 3050
-Wire Wire Line
-	4600 2900 4300 2900
-Wire Wire Line
-	4600 4300 3850 4300
 Wire Wire Line
 	2900 5350 2900 4850
 Wire Wire Line
@@ -117,19 +63,15 @@ Connection ~ 3050 5200
 Wire Wire Line
 	3200 4850 3200 5350
 Wire Wire Line
-	7900 2000 7150 2000
-Wire Wire Line
 	4600 4900 3850 4900
-Text HLabel 7900 2100 2    60   Input ~ 0
-SEL2
-Text HLabel 7900 2000 2    60   Input ~ 0
-SEL1
 $Comp
 L GND #PWR011
 U 1 1 51463872
 P 3200 5750
 F 0 "#PWR011" H 3200 5750 30  0001 C CNN
 F 1 "GND" H 3200 5680 30  0001 C CNN
+F 2 "" H 3200 5750 60  0001 C CNN
+F 3 "" H 3200 5750 60  0001 C CNN
 	1    3200 5750
 	1    0    0    -1  
 $EndComp
@@ -139,6 +81,8 @@ U 1 1 5146386A
 P 3050 5750
 F 0 "#PWR012" H 3050 5750 30  0001 C CNN
 F 1 "GND" H 3050 5680 30  0001 C CNN
+F 2 "" H 3050 5750 60  0001 C CNN
+F 3 "" H 3050 5750 60  0001 C CNN
 	1    3050 5750
 	1    0    0    -1  
 $EndComp
@@ -148,6 +92,8 @@ U 1 1 51463868
 P 2900 5750
 F 0 "#PWR013" H 2900 5750 30  0001 C CNN
 F 1 "GND" H 2900 5680 30  0001 C CNN
+F 2 "" H 2900 5750 60  0001 C CNN
+F 3 "" H 2900 5750 60  0001 C CNN
 	1    2900 5750
 	1    0    0    -1  
 $EndComp
@@ -157,6 +103,8 @@ U 1 1 51463865
 P 2750 5750
 F 0 "#PWR014" H 2750 5750 30  0001 C CNN
 F 1 "GND" H 2750 5680 30  0001 C CNN
+F 2 "" H 2750 5750 60  0001 C CNN
+F 3 "" H 2750 5750 60  0001 C CNN
 	1    2750 5750
 	1    0    0    -1  
 $EndComp
@@ -166,6 +114,8 @@ U 1 1 51463836
 P 3200 5400
 F 0 "R42" V 3150 5500 50  0000 C CNN
 F 1 "R" V 3250 5500 50  0000 C CNN
+F 2 "" H 3200 5400 60  0001 C CNN
+F 3 "" H 3200 5400 60  0001 C CNN
 	1    3200 5400
 	1    0    0    -1  
 $EndComp
@@ -175,6 +125,8 @@ U 1 1 51463830
 P 3050 5400
 F 0 "R41" V 3000 5500 50  0000 C CNN
 F 1 "R" V 3100 5500 50  0000 C CNN
+F 2 "" H 3050 5400 60  0001 C CNN
+F 3 "" H 3050 5400 60  0001 C CNN
 	1    3050 5400
 	1    0    0    -1  
 $EndComp
@@ -184,6 +136,8 @@ U 1 1 5146382A
 P 2750 5400
 F 0 "R39" V 2700 5500 50  0000 C CNN
 F 1 "R" V 2800 5500 50  0000 C CNN
+F 2 "" H 2750 5400 60  0001 C CNN
+F 3 "" H 2750 5400 60  0001 C CNN
 	1    2750 5400
 	1    0    0    -1  
 $EndComp
@@ -193,6 +147,8 @@ U 1 1 51463820
 P 2900 5400
 F 0 "R40" V 2850 5500 50  0000 C CNN
 F 1 "R" V 2950 5500 50  0000 C CNN
+F 2 "" H 2900 5400 60  0001 C CNN
+F 3 "" H 2900 5400 60  0001 C CNN
 	1    2900 5400
 	1    0    0    -1  
 $EndComp
@@ -202,6 +158,8 @@ U 1 1 5146381E
 P 3200 4600
 F 0 "R38" V 3150 4700 50  0000 C CNN
 F 1 "R" V 3250 4700 50  0000 C CNN
+F 2 "" H 3200 4600 60  0001 C CNN
+F 3 "" H 3200 4600 60  0001 C CNN
 	1    3200 4600
 	1    0    0    -1  
 $EndComp
@@ -211,6 +169,8 @@ U 1 1 5146381A
 P 3050 4600
 F 0 "R37" V 3000 4700 50  0000 C CNN
 F 1 "R" V 3100 4700 50  0000 C CNN
+F 2 "" H 3050 4600 60  0001 C CNN
+F 3 "" H 3050 4600 60  0001 C CNN
 	1    3050 4600
 	1    0    0    -1  
 $EndComp
@@ -220,6 +180,8 @@ U 1 1 51463816
 P 2900 4600
 F 0 "R36" V 2850 4700 50  0000 C CNN
 F 1 "R" V 2950 4700 50  0000 C CNN
+F 2 "" H 2900 4600 60  0001 C CNN
+F 3 "" H 2900 4600 60  0001 C CNN
 	1    2900 4600
 	1    0    0    -1  
 $EndComp
@@ -229,6 +191,8 @@ U 1 1 51463811
 P 2750 4600
 F 0 "R35" V 2700 4700 50  0000 C CNN
 F 1 "R" V 2800 4700 50  0000 C CNN
+F 2 "" H 2750 4600 60  0001 C CNN
+F 3 "" H 2750 4600 60  0001 C CNN
 	1    2750 4600
 	1    0    0    -1  
 $EndComp
@@ -238,6 +202,8 @@ U 1 1 514637CF
 P 3200 4500
 F 0 "#PWR015" H 3200 4450 20  0001 C CNN
 F 1 "+15V" H 3200 4600 30  0000 C CNN
+F 2 "" H 3200 4500 60  0001 C CNN
+F 3 "" H 3200 4500 60  0001 C CNN
 	1    3200 4500
 	1    0    0    -1  
 $EndComp
@@ -247,6 +213,8 @@ U 1 1 51463797
 P 2900 4500
 F 0 "#PWR016" H 2900 4450 20  0001 C CNN
 F 1 "+5VD" H 2900 4600 30  0000 C CNN
+F 2 "" H 2900 4500 60  0001 C CNN
+F 3 "" H 2900 4500 60  0001 C CNN
 	1    2900 4500
 	1    0    0    -1  
 $EndComp
@@ -256,6 +224,8 @@ U 1 1 5146376F
 P 2750 4500
 F 0 "#PWR017" H 2750 4460 30  0001 C CNN
 F 1 "+3.3V" H 2750 4610 30  0000 C CNN
+F 2 "" H 2750 4500 60  0001 C CNN
+F 3 "" H 2750 4500 60  0001 C CNN
 	1    2750 4500
 	1    0    0    -1  
 $EndComp
@@ -265,72 +235,24 @@ U 1 1 5146374F
 P 3050 4500
 F 0 "#PWR018" H 3050 4450 20  0001 C CNN
 F 1 "+12V" H 3050 4600 30  0000 C CNN
+F 2 "" H 3050 4500 60  0001 C CNN
+F 3 "" H 3050 4500 60  0001 C CNN
 	1    3050 4500
 	1    0    0    -1  
 $EndComp
-Text HLabel 7900 3350 2    60   Input ~ 0
-RSTxy
-Text HLabel 7900 3150 2    60   Input ~ 0
-X/Y
-Text HLabel 7900 3250 2    60   Input ~ 0
-OE
-Text HLabel 7900 3500 2    60   Input ~ 0
-D7
-Text HLabel 7900 3600 2    60   Input ~ 0
-D6
-Text HLabel 7900 3700 2    60   Input ~ 0
-D5
-Text HLabel 7900 3800 2    60   Input ~ 0
-D4
-Text HLabel 7900 3900 2    60   Input ~ 0
-D3
-Text HLabel 7900 4000 2    60   Input ~ 0
-D2
-Text HLabel 7900 4100 2    60   Input ~ 0
-D1
-Text HLabel 7900 4200 2    60   Input ~ 0
-D0
-Text HLabel 7950 5500 2    60   Input ~ 0
-RST
 Text HLabel 3850 5500 0    60   Input ~ 0
 PGD
 Text HLabel 3850 5400 0    60   Input ~ 0
 PGC
-Text HLabel 3850 4300 0    60   Input ~ 0
-CODEUR2
-Text HLabel 3850 4200 0    60   Input ~ 0
-CODEUR1
-Text HLabel 4300 2900 0    60   Input ~ 0
-U1RX
-Text HLabel 4300 2800 0    60   Input ~ 0
-U1TX
-Text HLabel 7900 3050 2    60   Input ~ 0
-U2RX
-Text HLabel 7900 2950 2    60   Input ~ 0
-U2TX
-Text HLabel 4300 2100 0    60   Input ~ 0
-SCL1
-Text HLabel 4300 2200 0    60   Input ~ 0
-SDA1
 $Comp
 L PIC32_64 U10
 U 1 1 51462B26
 P 4700 5700
 F 0 "U10" H 4750 5700 60  0000 C CNN
 F 1 "PIC32_64" H 6600 5700 60  0000 C CNN
+F 2 "" H 4700 5700 60  0001 C CNN
+F 3 "" H 4700 5700 60  0001 C CNN
 	1    4700 5700
 	1    0    0    1   
 $EndComp
-Text HLabel 3850 4100 0    60   Input ~ 0
-ADC1
-Text HLabel 3850 4000 0    60   Input ~ 0
-ADC2
-Text HLabel 3850 2400 0    60   Input ~ 0
-DIR2
-Text HLabel 3850 2600 0    60   Input ~ 0
-DIR1
-Text HLabel 3850 2300 0    60   Input ~ 0
-PWM2
-Text HLabel 3850 2500 0    60   Input ~ 0
-PWM1
 $EndSCHEMATC
