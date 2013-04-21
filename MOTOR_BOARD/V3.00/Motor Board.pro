@@ -1,5 +1,5 @@
-update=2013-03-17 21:41:41
-last_client=eeschema
+update=2013-04-08 21:31:27
+last_client=pcbnew
 [general]
 version=1
 [cvpcb]
@@ -7,26 +7,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PadDrlX=1181
-PadDimH=2363
-PadDimV=2363
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=Motor Board.net
-[pcbnew/libraries]
-LibDir=
-LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
 [eeschema]
 version=1
 LibDir=
@@ -61,3 +41,25 @@ LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=F:/electronique/git-f4deb-cen-electronic-library/CEN-SCHEMA
+[pcbnew]
+version=1
+LastNetListRead=Motor Board.net
+UseCmpFile=1
+PadDrill=2.99974
+PadSizeH=6.00202
+PadSizeV=6.00202
+PcbTextSizeV=2.032
+PcbTextSizeH=1.524
+PcbTextThickness=0.3048
+ModuleTextSizeV=1.524
+ModuleTextSizeH=1.524
+ModuleTextSizeThickness=0.3048
+SolderMaskClearance=0.254
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.381
+BoardOutlineThickness=0.381
+ModuleOutlineThickness=0.381
+[pcbnew/libraries]
+LibDir=
+LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
+LibName2=libcms
