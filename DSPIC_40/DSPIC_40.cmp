@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by PcbNew date = 2013-04-22 22:23:25
+
+BeginCmp
+TimeStamp = /517449C9;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /517449D8;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51759562;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5175956F;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51759575;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5175957B;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /517447EE;
+Reference = P1;
+ValeurCmp = HE10-20;
+IdModule  = HE10_20;
+EndCmp
+
+BeginCmp
+TimeStamp = /517447FD;
+Reference = P2;
+ValeurCmp = HE10-20;
+IdModule  = HE10_20;
+EndCmp
+
+BeginCmp
+TimeStamp = /51744950;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51744881;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /517449BA;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5174480C;
+Reference = U1;
+ValeurCmp = DSPIC30F4013;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /517449E7;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = QTZ;
+EndCmp
+
+EndListe
