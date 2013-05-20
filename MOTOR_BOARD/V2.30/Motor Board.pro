@@ -1,4 +1,4 @@
-update=2013-02-09 17:43:52
+update=02/05/2013 19:48:49
 last_client=pcbnew
 [general]
 version=1
@@ -43,21 +43,24 @@ LibName1=power
 LibName2=F:/electronique/Schema KICAD/f4deb
 [pcbnew]
 version=1
-PadDrlX=1181
-PadDimH=2363
-PadDimV=2363
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
 LastNetListRead=Motor Board.net
+UseCmpFile=1
+PadDrill=2.999740000000
+PadDrillOvalY=2.999740000000
+PadSizeH=6.002020000000
+PadSizeV=6.002020000000
+PcbTextSizeV=2.032000000000
+PcbTextSizeH=1.524000000000
+PcbTextThickness=0.304800000000
+ModuleTextSizeV=1.524000000000
+ModuleTextSizeH=1.524000000000
+ModuleTextSizeThickness=0.304800000000
+SolderMaskClearance=0.254000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.381000000000
+BoardOutlineThickness=0.381000000000
+ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
 LibDir=
 LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
+LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
