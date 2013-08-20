@@ -1,5 +1,5 @@
-update=19/08/2013 22:55:45
-last_client=eeschema
+update=20/08/2013 22:29:31
+last_client=pcbnew
 [general]
 version=1
 [cvpcb]
@@ -7,28 +7,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=Motor Board.net
-UseCmpFile=1
-PadDrill=2.99974
-PadSizeH=6.00202
-PadSizeV=6.00202
-PcbTextSizeV=2.032
-PcbTextSizeH=1.524
-PcbTextThickness=0.3048
-ModuleTextSizeV=1.524
-ModuleTextSizeH=1.524
-ModuleTextSizeThickness=0.3048
-SolderMaskClearance=0.254
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.381
-BoardOutlineThickness=0.381
-ModuleOutlineThickness=0.381
-[pcbnew/libraries]
-LibDir=
-LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
-LibName2=libcms
 [eeschema]
 version=1
 LibDir=
@@ -40,3 +18,26 @@ LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+[pcbnew]
+version=1
+LastNetListRead=Motor Board.net
+UseCmpFile=1
+PadDrill=1.000760000000
+PadDrillOvalY=1.000760000000
+PadSizeH=1.998980000000
+PadSizeV=1.998980000000
+PcbTextSizeV=2.032000000000
+PcbTextSizeH=1.524000000000
+PcbTextThickness=0.304800000000
+ModuleTextSizeV=1.524000000000
+ModuleTextSizeH=1.524000000000
+ModuleTextSizeThickness=0.304800000000
+SolderMaskClearance=0.254000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.381000000000
+BoardOutlineThickness=0.381000000000
+ModuleOutlineThickness=0.381000000000
+[pcbnew/libraries]
+LibDir=
+LibName1=libcms
+LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB

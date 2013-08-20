@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2013-04-13 18:34:27
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:CEN-SCHEMA
 LIBS:Motor Board-cache
@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "MOTOR_BOARD"
-Date "13 apr 2013"
+Date "20 aug 2013"
 Rev "V3.00"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
