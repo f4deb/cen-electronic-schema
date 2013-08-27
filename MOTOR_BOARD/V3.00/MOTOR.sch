@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "MOTOR_BOARD"
-Date "20 aug 2013"
+Date "27 aug 2013"
 Rev "V3.00"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
