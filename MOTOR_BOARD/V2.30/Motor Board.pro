@@ -1,5 +1,5 @@
-update=2013-02-09 17:43:52
-last_client=pcbnew
+update=31/08/2013 12:12:57
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
@@ -7,40 +7,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=F:/electronique/Schema KICAD/f4deb
 [pcbnew]
 version=1
 PadDrlX=1181
@@ -61,3 +27,14 @@ LastNetListRead=Motor Board.net
 [pcbnew/libraries]
 LibDir=
 LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
+[eeschema]
+version=1
+LibDir=
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=power
+LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
