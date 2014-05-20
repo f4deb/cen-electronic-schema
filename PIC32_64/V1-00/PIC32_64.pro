@@ -1,4 +1,5 @@
-update=31/08/2013 12:12:57
+update=27/08/2013 22:18:56
+version=1
 last_client=eeschema
 [general]
 version=1
@@ -9,9 +10,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=1181
-PadDimH=2363
-PadDimV=2363
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -23,10 +24,10 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=Motor Board.net
+LastNetListRead=SO64.net
 [pcbnew/libraries]
 LibDir=
-LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
+LibName1=F:/electronique/git-f4deb-cen-electronic-schema/LIBRARY/CEN-PCB
 [eeschema]
 version=1
 LibDir=

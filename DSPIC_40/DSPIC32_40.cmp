@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 31/08/2013 12:49:56
+
+BeginCmp
+TimeStamp = /4E6BC2D4;
+Reference = C1001;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6BC2D7;
+Reference = C1002;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6BC2DA;
+Reference = C1003;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6FB3DC;
+Reference = C1004;
+ValeurCmp = 10u/10V;
+IdModule  = SM1812E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6FB01F;
+Reference = C1005;
+ValeurCmp = 22p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6BC2D0;
+Reference = C1006;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6FB01D;
+Reference = C1007;
+ValeurCmp = 22p;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6BC2AC;
+Reference = D1001;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5221BC68;
+Reference = L1001;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5221C8E8;
+Reference = P1001;
+ValeurCmp = CONN_10X2;
+IdModule  = HE10_20D;
+EndCmp
+
+BeginCmp
+TimeStamp = /5221C8F7;
+Reference = P1002;
+ValeurCmp = CONN_10X2;
+IdModule  = HE10_20D;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6BC2A0;
+Reference = R1001;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6BC402;
+Reference = R1002;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /521D0B3E;
+Reference = U1001;
+ValeurCmp = DSPIC30F4013;
+IdModule  = DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E6FB4E0;
+Reference = X1001;
+ValeurCmp = 8Mhz;
+IdModule  = QTZ;
+EndCmp
+
+EndListe

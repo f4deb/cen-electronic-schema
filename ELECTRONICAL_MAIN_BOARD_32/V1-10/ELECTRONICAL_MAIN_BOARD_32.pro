@@ -1,4 +1,4 @@
-update=31/08/2013 12:12:57
+update=2013-04-06 16:52:08
 last_client=eeschema
 [general]
 version=1
@@ -9,9 +9,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=1181
-PadDimH=2363
-PadDimV=2363
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -23,18 +23,20 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=Motor Board.net
+LastNetListRead=ELECTRONICAL_MAIN_BOARD_32.net
 [pcbnew/libraries]
 LibDir=
 LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
+LibName2=dip_sockets
 [eeschema]
 version=1
-LibDir=
+LibDir=../../../Schema Kicad
 NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=power
-LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName1=conn
+LibName2=power
+LibName3=F:/electronique/git-f4deb-cen-electronic-schema/LIBRARY/CEN-SCHEMA
