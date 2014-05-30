@@ -9,7 +9,7 @@ encoding utf-8
 Sheet 4 4
 Title "MOTOR_BOARD"
 Date "29 may 2014"
-Rev "V3.10"
+Rev "V3.20"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
 Comment2 ""
@@ -17,7 +17,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 8800 4650 0    60   ~ 0
-OSC
+BOSC
 $Comp
 L +5VD #PWR054
 U 1 1 4CF57D4C
@@ -1856,12 +1856,10 @@ Wire Wire Line
 Text HLabel 4800 2150 2    60   Input ~ 0
 RST
 NoConn ~ 8800 6250
-NoConn ~ 8800 6350
 NoConn ~ 8800 6450
 NoConn ~ 8800 6550
 NoConn ~ 8000 6450
 NoConn ~ 8000 6350
-NoConn ~ 8000 6250
 NoConn ~ 8000 6150
 NoConn ~ 8800 5650
 NoConn ~ 1650 4350
@@ -1937,4 +1935,12 @@ Text Label 5100 5250 0    60   ~ 0
 RF1
 Text Label 5100 5350 0    60   ~ 0
 RF0
+Wire Wire Line
+	8000 6250 7750 6250
+Wire Wire Line
+	8800 6350 8950 6350
+Text Label 7750 6250 0    60   ~ 0
+OSC
+Text Label 8850 6350 0    60   ~ 0
+BOSC
 $EndSCHEMATC

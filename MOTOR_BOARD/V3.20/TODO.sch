@@ -9,7 +9,7 @@ encoding utf-8
 Sheet 3 4
 Title ""
 Date "29 may 2014"
-Rev "V3.10"
+Rev "V3.20"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -17,5 +17,5 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 600  700  0    60   ~ 0
-** HCTL 2032 **\nAdapter le niveau de l'horloge\n\n** Connectique **\necarter les connecteurs I2C et les UART\n
+** Simplifier la connection **\nAjouter Connecteur Alim +12V/+5V/+3.3V/GND\n
 $EndSCHEMATC

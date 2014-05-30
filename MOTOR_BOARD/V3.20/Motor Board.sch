@@ -9,7 +9,7 @@ encoding utf-8
 Sheet 1 4
 Title "MOTOR_BOARD"
 Date "29 may 2014"
-Rev "V3.10"
+Rev "V3.20"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 "F4DEB"
 Comment2 ""
