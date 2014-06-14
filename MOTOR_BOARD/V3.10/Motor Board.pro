@@ -1,5 +1,5 @@
-update=ven. 09 mai 2014 22:28:09 CEST
-last_client=cvpcb
+update=jeu. 05 juin 2014 23:19:27 CEST
+last_client=eeschema
 [general]
 version=1
 [pcbnew]
@@ -26,6 +26,11 @@ LibName1=libcms
 LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
 LibName3=/media/f4deb/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -38,8 +43,3 @@ LabSize=60
 LibName1=power
 LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 LibName3=/media/f4deb/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
