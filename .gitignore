@@ -7,3 +7,6 @@
 *.bak
 *-cache.lib
 *.000
+*.svg
+*.png
+*.jpg

@@ -1,4 +1,4 @@
-update=26/08/2012 22:06:56
+update=sam. 21 juin 2014 17:16:31 CEST
 version=1
 last_client=eeschema
 [general]
@@ -31,34 +31,11 @@ LibName1=F:/electronique/git-f4deb-cen-electronic-schema/LIBRARY/CEN-PCB
 [eeschema]
 version=1
 LibDir=
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
+NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=power
-LibName2=F:/electronique/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName2=/media/f4deb/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
