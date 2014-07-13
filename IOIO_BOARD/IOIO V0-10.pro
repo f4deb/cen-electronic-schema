@@ -1,11 +1,6 @@
-update=ven. 11 juil. 2014 22:14:44 CEST
+update=dim. 13 juil. 2014 20:56:07 CEST
 version=1
 last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,8 +37,15 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=../../git-f4deb-cen-electronic-library/CEN-PCB
+LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -55,7 +56,4 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=power
-LibName2=/media/f4deb/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
-LibName3=microcontrollers
-LibName4=device
-LibName5=linear
+LibName2=../../git-f4deb-cen-electronic-library/CEN-SCHEMA
