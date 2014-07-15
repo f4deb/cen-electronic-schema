@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = dim. 13 juil. 2014 22:16:04 CEST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = mar. 15 juil. 2014 21:15:11 CEST
 
 BeginCmp
 TimeStamp = /53BF19DE;
@@ -52,21 +52,21 @@ EndCmp
 BeginCmp
 TimeStamp = /53C2DC94;
 Reference = C8;
-ValeurCmp = CP;
+ValeurCmp = 10U/10V;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2DC6C;
 Reference = C9;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2DC7B;
 Reference = C10;
-ValeurCmp = C;
+ValeurCmp = 100n;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -110,328 +110,6 @@ TimeStamp = /53BF1922;
 Reference = J1;
 ValeurCmp = RJ12;
 IdModule  = RJ12_CMS;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CD0;
-Reference = K2;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CDD;
-Reference = K3;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CE3;
-Reference = K4;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CE9;
-Reference = K5;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CEF;
-Reference = K6;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CF5;
-Reference = K7;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07CFB;
-Reference = K8;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D01;
-Reference = K9;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D07;
-Reference = K10;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D0D;
-Reference = K11;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D13;
-Reference = K12;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D19;
-Reference = K13;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D1F;
-Reference = K14;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D25;
-Reference = K15;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D2B;
-Reference = K16;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D33;
-Reference = K17;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D51;
-Reference = K18;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D63;
-Reference = K19;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D69;
-Reference = K20;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D6F;
-Reference = K21;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D75;
-Reference = K22;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D7B;
-Reference = K23;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D87;
-Reference = K25;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D8D;
-Reference = K26;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D93;
-Reference = K27;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D99;
-Reference = K28;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07D9F;
-Reference = K29;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DA5;
-Reference = K30;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DAB;
-Reference = K31;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DB1;
-Reference = K32;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DB7;
-Reference = K33;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DBD;
-Reference = K34;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DC3;
-Reference = K35;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DC9;
-Reference = K36;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DCF;
-Reference = K37;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DD5;
-Reference = K38;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DDB;
-Reference = K39;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DE1;
-Reference = K40;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DE7;
-Reference = K41;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DED;
-Reference = K42;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DF9;
-Reference = K44;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07DFF;
-Reference = K45;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07E05;
-Reference = K46;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07E0B;
-Reference = K47;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07E11;
-Reference = K48;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C07E17;
-Reference = K49;
-ValeurCmp = CONN_1;
-IdModule  = 1pad;
 EndCmp
 
 BeginCmp
@@ -481,6 +159,328 @@ TimeStamp = /53C2E882;
 Reference = P5;
 ValeurCmp = CONN_4;
 IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D7B;
+Reference = PIN1;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D75;
+Reference = PIN2;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D19;
+Reference = PIN3;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D13;
+Reference = PIN4;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D0D;
+Reference = PIN5;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D07;
+Reference = PIN6;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D6F;
+Reference = PIN7;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DFF;
+Reference = PIN8;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DF9;
+Reference = PIN9;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D69;
+Reference = PIN10;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D63;
+Reference = PIN11;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D51;
+Reference = PIN12;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D33;
+Reference = PIN13;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D2B;
+Reference = PIN14;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D25;
+Reference = PIN15;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D1F;
+Reference = PIN16;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D8D;
+Reference = PIN17;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D87;
+Reference = PIN18;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D01;
+Reference = PIN19;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CFB;
+Reference = PIN20;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CF5;
+Reference = PIN21;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CEF;
+Reference = PIN22;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CE9;
+Reference = PIN23;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CE3;
+Reference = PIN24;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CDD;
+Reference = PIN25;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07CD0;
+Reference = PIN26;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07E17;
+Reference = PIN27;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07E11;
+Reference = PIN28;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07E0B;
+Reference = PIN29;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07E05;
+Reference = PIN30;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DCF;
+Reference = PIN31;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DD5;
+Reference = PIN32;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DDB;
+Reference = PIN33;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DE1;
+Reference = PIN34;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DE7;
+Reference = PIN35;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DED;
+Reference = PIN36;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DC9;
+Reference = PIN37;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DC3;
+Reference = PIN38;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DBD;
+Reference = PIN39;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DB7;
+Reference = PIN40;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DB1;
+Reference = PIN41;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DAB;
+Reference = PIN42;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07DA5;
+Reference = PIN43;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D9F;
+Reference = PIN44;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D99;
+Reference = PIN45;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C07D93;
+Reference = PIN46;
+ValeurCmp = CONN_1;
+IdModule  = 1pad;
 EndCmp
 
 BeginCmp
