@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by PcbNew date = jeu. 17 juil. 2014 23:36:19 CEST
+
+BeginCmp
+TimeStamp = /53C83743;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83668;
+Reference = D1;
+ValeurCmp = VERT;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83A1A;
+Reference = K1;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83A38;
+Reference = K2;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83A29;
+Reference = K3;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83A47;
+Reference = K4;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C834FF;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83AE7;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83659;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C8332F;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83302;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83311;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C83320;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C832E9;
+Reference = SW1;
+ValeurCmp = SWITCH_X_4;
+IdModule  = SWCMS4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C832AF;
+Reference = U1;
+ValeurCmp = 24C16;
+IdModule  = SO8E;
+EndCmp
+
+EndListe
