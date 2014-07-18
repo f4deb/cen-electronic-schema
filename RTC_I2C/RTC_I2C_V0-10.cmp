@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = ven. 18 juil. 2014 20:02:04 CEST
+
+BeginCmp
+TimeStamp = /53C95865;
+Reference = C1;
+ValeurCmp = 10F/2.7V;
+IdModule  = C-10F;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95722;
+Reference = C2;
+ValeurCmp = 10p;
+IdModule  = CAJCMS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C9587E;
+Reference = C3;
+ValeurCmp = 10F/2.7V;
+IdModule  = C-10F;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95A9E;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C9582F;
+Reference = D1;
+ValeurCmp = DIODESCH;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95AB7;
+Reference = D2;
+ValeurCmp = VERT;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95A80;
+Reference = K1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95EA0;
+Reference = K2;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95E82;
+Reference = K3;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95EAF;
+Reference = K4;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95E91;
+Reference = K5;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95FD2;
+Reference = K6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C957B2;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95981;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C95A8F;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C956EB;
+Reference = U1;
+ValeurCmp = PCF8563;
+IdModule  = VSSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C956FA;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = QTZ32KHZ;
+EndCmp
+
+EndListe
