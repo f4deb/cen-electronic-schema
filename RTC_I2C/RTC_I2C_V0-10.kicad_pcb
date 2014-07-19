@@ -512,7 +512,7 @@
     )
   )
 
-  (module C-10F (layer Dessus.Cu) (tedit 53C95958) (tstamp 53CF795F)
+  (module C-10F (layer Dessus.Cu) (tedit 53C95958) (tstamp 53CA9D83)
     (at 248.285 93.345 180)
     (path /53C95865)
     (fp_text reference C1 (at 5.08 2.54 180) (layer Dessus.SilkS)
@@ -537,6 +537,11 @@
     (pad 2 thru_hole circle (at 9.525 -3.81 180) (size 1.5 1.5) (drill 0.6)
       (layers *.Cu *.Mask Dessus.SilkS)
       (net 11 N-000004)
+    )
+    (model ../../git-f4deb-cen-electronic-library/wings/C-10F.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -565,6 +570,11 @@
     (pad 2 thru_hole circle (at 9.525 -3.81 180) (size 2 2) (drill 0.6)
       (layers *.Cu *.Mask Dessus.SilkS)
       (net 10 N-000003)
+    )
+    (model ../../git-f4deb-cen-electronic-library/wings/C-10F.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
     )
   )
 
