@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = ven. 18 juil. 2014 20:02:04 CEST
+Cmp-Mod V01 Created by PcbNew date = sam. 19 juil. 2014 22:25:52 CEST
 
 BeginCmp
 TimeStamp = /53C95865;
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /53C956EB;
 Reference = U1;
 ValeurCmp = PCF8563;
-IdModule  = VSSOP-8;
+IdModule  = SSOP8;
 EndCmp
 
 BeginCmp
