@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = lun. 29 sept. 2014 22:20:00 CEST
+
+BeginCmp
+TimeStamp = /5429BEF6;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BD8B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BEDA;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BEB0;
+Reference = K1;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BEC9;
+Reference = K2;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BED8;
+Reference = K3;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BEE7;
+Reference = K4;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429C0D8;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BC2F;
+Reference = Q1;
+ValeurCmp = BSS123;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BE13;
+Reference = Q2;
+ValeurCmp = BSS123;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BC48;
+Reference = R1;
+ValeurCmp = 470k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BD72;
+Reference = R2;
+ValeurCmp = 3k3;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BE36;
+Reference = R3;
+ValeurCmp = 470k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BEBC;
+Reference = R4;
+ValeurCmp = 3k3;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BB40;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BB59;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BB76;
+Reference = SW1;
+ValeurCmp = SWITCH_X_4;
+IdModule  = SWCMS4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5429BB5D;
+Reference = U1;
+ValeurCmp = LM75A;
+IdModule  = SSOP8;
+EndCmp
+
+EndListe
