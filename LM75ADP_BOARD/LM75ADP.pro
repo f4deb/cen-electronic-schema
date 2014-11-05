@@ -1,6 +1,6 @@
-update=lun. 29 sept. 2014 21:54:09 CEST
+update=lun. 20 oct. 2014 22:11:11 CEST
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -34,6 +34,11 @@ LibName10=/travail/electronique/kicad/share/modules/smd_transistors
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -72,8 +77,3 @@ LibName26=atmel
 LibName27=contrib
 LibName28=valves
 LibName29=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

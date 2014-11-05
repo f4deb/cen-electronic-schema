@@ -23,8 +23,7 @@ BoardOutlineThickness=0.381000000000
 ModuleOutlineThickness=0.381000000000
 [pcbnew/libraries]
 LibName1=libcms
-LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
-LibName3=/media/f4deb/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
+LibName2=../../../git-f4deb-cen-electronic-library/CEN-PCB
 LibDir=
 [cvpcb]
 version=1
@@ -41,5 +40,4 @@ RptLab=1
 LabSize=60
 [eeschema/libraries]
 LibName1=power
-LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
-LibName3=/media/f4deb/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName2=../../../git-f4deb-cen-electronic-library/CEN-SCHEMA

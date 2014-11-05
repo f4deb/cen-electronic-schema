@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:power
-LIBS:CEN-SCHEMA
 LIBS:Motor Board-cache
 EELAYER 27 0
 EELAYER END

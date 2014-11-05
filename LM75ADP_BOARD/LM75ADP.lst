@@ -1,0 +1,52 @@
+eeschema (2013-jul-07)-stable  >> Creation date: lun. 20 oct. 2014 22:30:28 CEST
+#Cmp ( order = Reference )
+| C1         100n        
+| D1         LED         
+| D2         LED         
+| K1         COLONETTE   
+| K2         COLONETTE   
+| K3         COLONETTE   
+| K4         COLONETTE   
+| P1         CONN_4      
+| Q1         BSS123      
+| Q2         BSS123      
+| R1         470k        
+| R2         3k3         
+| R3         470k        
+| R4         3k3         
+| R5         10k         
+| R6         10k         
+| R7         10k         
+| R8         10k         
+| R9         10k         
+| R10        10k         
+| SW1        SWITCH_X_4  
+| U1         LM75A       
+#End Cmp
+
+#Cmp ( order = Value )
+| 100n         C1        
+| LED          D1        
+| LED          D2        
+| COLONETTE    K1        
+| COLONETTE    K2        
+| COLONETTE    K3        
+| COLONETTE    K4        
+| CONN_4       P1        
+| BSS123       Q1        
+| BSS123       Q2        
+| 3k3          R2        
+| 3k3          R4        
+| 10k          R5        
+| 10k          R6        
+| 10k          R7        
+| 10k          R8        
+| 10k          R9        
+| 10k          R10       
+| 470k         R1        
+| 470k         R3        
+| SWITCH_X_4   SW1       
+| LM75A        U1        
+#End Cmp
+
+#End List

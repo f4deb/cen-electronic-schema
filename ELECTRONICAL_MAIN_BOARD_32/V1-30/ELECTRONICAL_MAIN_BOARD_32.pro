@@ -1,55 +1,11 @@
-update=2012-08-29 22:03:27
-last_client=cvpcb
+update=lun. 03 nov. 2014 22:10:04 CET
+last_client=pcbnew
 [general]
 version=1
-[pcbnew]
-version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=ELECTRONICAL_MAIN_BOARD_32.net
-[pcbnew/libraries]
-LibName1=dip_sockets
-LibName2=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
-LibDir=
 [eeschema]
 version=1
 LibDir=../../../Schema Kicad
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
+NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -57,9 +13,32 @@ LabSize=60
 [eeschema/libraries]
 LibName1=conn
 LibName2=power
-LibName3=F:/electronique/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=ELECTRONICAL_MAIN_BOARD_32.net
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    2,000000"
+PadSizeV="    1,524000"
+PcbTextSizeV="    2,032000"
+PcbTextSizeH="    1,524000"
+PcbTextThickness="    0,304800"
+ModuleTextSizeV="    1,524000"
+ModuleTextSizeH="    1,524000"
+ModuleTextSizeThickness="    0,304800"
+SolderMaskClearance="    0,254000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,381000"
+BoardOutlineThickness="    0,381000"
+ModuleOutlineThickness="    0,381000"
+[pcbnew/libraries]
+LibDir=
+LibName1=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
+LibName2=/travail/electronique/kicad/share/modules/libcms

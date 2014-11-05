@@ -1,4 +1,4 @@
-update=25/11/2013 20:46:50
+update=dim. 02 nov. 2014 18:14:32 CET
 last_client=eeschema
 [general]
 version=1
@@ -39,4 +39,4 @@ LabSize=60
 [eeschema/libraries]
 LibName1=conn
 LibName2=power
-LibName3=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
