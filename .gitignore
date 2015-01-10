@@ -8,7 +8,6 @@
 *-cache.lib
 *.000
 *.svg
-*.png
 *.jpg
 .gitignore~
 *bak
