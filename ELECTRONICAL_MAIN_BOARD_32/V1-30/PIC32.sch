@@ -10,7 +10,7 @@ encoding utf-8
 Sheet 2 3
 Title "ELECTRONICAL_MAIN_BOARD_32"
 Date "3 nov 2014"
-Rev "V1-20"
+Rev "V1-30"
 Comp "CYBERNETIQUE EN NORD"
 Comment1 ""
 Comment2 ""

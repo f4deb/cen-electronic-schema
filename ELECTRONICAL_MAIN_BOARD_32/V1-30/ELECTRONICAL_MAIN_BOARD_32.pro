@@ -1,19 +1,7 @@
-update=lun. 03 nov. 2014 22:10:04 CET
-last_client=pcbnew
+update=mer. 05 nov. 2014 22:55:07 CET
+last_client=eeschema
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../../../Schema Kicad
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=conn
-LibName2=power
-LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [cvpcb]
 version=1
 NetIExt=net
@@ -42,3 +30,15 @@ ModuleOutlineThickness="    0,381000"
 LibDir=
 LibName1=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
 LibName2=/travail/electronique/kicad/share/modules/libcms
+[eeschema]
+version=1
+LibDir=../../../Schema Kicad
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=conn
+LibName2=power
+LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
