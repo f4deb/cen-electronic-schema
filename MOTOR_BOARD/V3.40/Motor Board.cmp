@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dim. 11 janv. 2015 15:38:33 CET
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = dim. 11 janv. 2015 21:39:58 CET
 
 BeginCmp
 TimeStamp = /4BF30498/536AFEA5;
@@ -134,9 +134,30 @@ IdModule  = C_14x16;
 EndCmp
 
 BeginCmp
+TimeStamp = /4BF30482/54B2E865;
+Reference = C20;
+ValeurCmp = CP;
+IdModule  = C-10F;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BF30482/51611718;
 Reference = C21;
 ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF30482/54B2E874;
+Reference = C22;
+ValeurCmp = CP;
+IdModule  = C-10F;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF30482/54B2E0C2;
+Reference = C23;
+ValeurCmp = C;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -295,6 +316,13 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /4BF30482/54B2F2EF;
+Reference = D23;
+ValeurCmp = DIODESCH;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /536AC6A2;
 Reference = J1;
 ValeurCmp = RJ12;
@@ -361,7 +389,7 @@ BeginCmp
 TimeStamp = /536D5F78;
 Reference = K10;
 ValeurCmp = CONN_2;
-IdModule  = SIL-3"1/2-2-D;
+IdModule  = KK-2;
 EndCmp
 
 BeginCmp
@@ -995,6 +1023,13 @@ IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
+TimeStamp = /4BF30482/54B2E856;
+Reference = R69;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
 TimeStamp = /4BF30482/51603BAC;
 Reference = SW2;
 ValeurCmp = SW_PUSH_SMALL;
@@ -1097,6 +1132,20 @@ TimeStamp = /4BF30482/516132B2;
 Reference = U14;
 ValeurCmp = PCA9306;
 IdModule  = VSSOP-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF30482/54B2E08B;
+Reference = U15;
+ValeurCmp = PCF8563;
+IdModule  = SSOP8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BF30482/54B2E0A9;
+Reference = X1;
+ValeurCmp = CRYSTAL1;
+IdModule  = LFXTAL003000;
 EndCmp
 
 EndListe
