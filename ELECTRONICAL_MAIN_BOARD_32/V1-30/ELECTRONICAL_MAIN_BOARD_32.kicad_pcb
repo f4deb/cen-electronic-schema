@@ -22,7 +22,7 @@
 
   (layers
     (15 Dessus signal)
-    (0 Dessous signal)
+    (0 Dessous signal hide)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
@@ -71,7 +71,7 @@
     (pad_drill 0.8001)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFBF)
+    (visible_elements FFFFFBBF)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
