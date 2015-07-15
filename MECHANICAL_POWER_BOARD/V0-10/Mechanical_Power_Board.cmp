@@ -1,0 +1,262 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mar. 14 juil. 2015 22:47:52 CEST
+
+BeginCmp
+TimeStamp = /4C5F06FF;
+Reference = D1;
+ValeurCmp = Led Verte;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0738;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0742;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F073D;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0747;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A43292;
+Reference = K1;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432CC;
+Reference = K2;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432A1;
+Reference = K3;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432D2;
+Reference = K4;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432B0;
+Reference = K5;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432D8;
+Reference = K6;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432BF;
+Reference = K7;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A432DE;
+Reference = K8;
+ValeurCmp = COLONETTE;
+IdModule  = COLONETTE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4920970D;
+Reference = P1;
+ValeurCmp = CONN_12;
+IdModule  = WEIDMULLER-SL-3.5-12-90G;
+EndCmp
+
+BeginCmp
+TimeStamp = /49207E20;
+Reference = P2;
+ValeurCmp = HE10-40;
+IdModule  = vasch_strip_20x2_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C00ECE4;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C00ECDC;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C00ECF2;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C00ECF3;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /49209955;
+Reference = P7;
+ValeurCmp = CONN_4;
+IdModule  = KK-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A5755B;
+Reference = P8;
+ValeurCmp = CONN_6;
+IdModule  = WEIDMULLER-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /49209FB8;
+Reference = P9;
+ValeurCmp = CONN_6;
+IdModule  = WEIDMULLER-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /492876C8;
+Reference = P10;
+ValeurCmp = CONN_4;
+IdModule  = WEIDMULLER-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /492876C4;
+Reference = P11;
+ValeurCmp = CONN_4;
+IdModule  = WEIDMULLER-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDC6BF;
+Reference = P12;
+ValeurCmp = CONN_6;
+IdModule  = WEIDMULLER6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDC811;
+Reference = P13;
+ValeurCmp = CONN_6;
+IdModule  = WEIDMULLER-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4920978B;
+Reference = P14;
+ValeurCmp = CONN_8;
+IdModule  = WEIDMULLER-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A42713;
+Reference = P15;
+ValeurCmp = CONN_8X2;
+IdModule  = vasch_strip_8x2_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /4BEDC85F;
+Reference = P16;
+ValeurCmp = CONN_6;
+IdModule  = WEIDMULLER6;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A4341D;
+Reference = P17;
+ValeurCmp = CONN_8X2;
+IdModule  = vasch_strip_8x2_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A4F089;
+Reference = P18;
+ValeurCmp = CONN_5X2;
+IdModule  = vasch_strip_5x2_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A4F8E6;
+Reference = P19;
+ValeurCmp = CONN_5X2;
+IdModule  = vasch_strip_5x2_90;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0707;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0737;
+Reference = R2;
+ValeurCmp = 820;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0741;
+Reference = R3;
+ValeurCmp = 680;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F073E;
+Reference = R4;
+ValeurCmp = 330;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C5F0746;
+Reference = R5;
+ValeurCmp = 220;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+EndListe
