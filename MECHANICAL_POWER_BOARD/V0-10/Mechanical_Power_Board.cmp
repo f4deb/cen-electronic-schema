@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mar. 14 juil. 2015 22:47:52 CEST
+Cmp-Mod V01 Created by PcbNew date = lun. 20 juil. 2015 22:10:11 CEST
 
 BeginCmp
 TimeStamp = /4C5F06FF;
@@ -92,6 +92,90 @@ IdModule  = COLONETTE;
 EndCmp
 
 BeginCmp
+TimeStamp = /55ABBE98;
+Reference = K9;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABBEB6;
+Reference = K10;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABBEA7;
+Reference = K11;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABBED4;
+Reference = K12;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABBEC5;
+Reference = K13;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABBEE3;
+Reference = K14;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABC1BB;
+Reference = K15;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABC816;
+Reference = K16;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABC1C1;
+Reference = K17;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABC81C;
+Reference = K18;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABC1C7;
+Reference = K19;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55ABC822;
+Reference = K20;
+ValeurCmp = CONN_3;
+IdModule  = KK-3;
+EndCmp
+
+BeginCmp
 TimeStamp = /4920970D;
 Reference = P1;
 ValeurCmp = CONN_12;
@@ -134,38 +218,17 @@ IdModule  = KK-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /49209955;
-Reference = P7;
-ValeurCmp = CONN_4;
-IdModule  = KK-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /55A5755B;
-Reference = P8;
-ValeurCmp = CONN_6;
-IdModule  = WEIDMULLER-6;
-EndCmp
-
-BeginCmp
-TimeStamp = /49209FB8;
-Reference = P9;
-ValeurCmp = CONN_6;
-IdModule  = WEIDMULLER-6;
-EndCmp
-
-BeginCmp
 TimeStamp = /492876C8;
 Reference = P10;
 ValeurCmp = CONN_4;
-IdModule  = WEIDMULLER-2;
+IdModule  = WEIDMULLER-SL-3.5-2-90G;
 EndCmp
 
 BeginCmp
 TimeStamp = /492876C4;
 Reference = P11;
 ValeurCmp = CONN_4;
-IdModule  = WEIDMULLER-4;
+IdModule  = WEIDMULLER-SL-3.5-4-90G;
 EndCmp
 
 BeginCmp
@@ -186,7 +249,7 @@ BeginCmp
 TimeStamp = /4920978B;
 Reference = P14;
 ValeurCmp = CONN_8;
-IdModule  = WEIDMULLER-8;
+IdModule  = KK-8-H;
 EndCmp
 
 BeginCmp
