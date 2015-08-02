@@ -1,19 +1,8 @@
-update=sam. 25 juil. 2015 18:56:52 CEST
+update=dim. 02 août 2015 11:03:37 CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [cvpcb]
 version=1
 NetIExt=net
@@ -44,3 +33,9 @@ LibName1=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PC
 LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_conn_strip
 LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_pin_strip
 LibName4=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_crystal
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=power
+LibName2=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA

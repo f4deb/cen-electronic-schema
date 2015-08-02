@@ -1,19 +1,8 @@
-update=mar. 14 juil. 2015 17:35:25 CEST
+update=dim. 02 août 2015 13:46:38 CEST
 version=1
-last_client=cvpcb
+last_client=kicad
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [pcbnew]
 version=1
 LastNetListRead=Mechanical_Power_Board.net
@@ -43,3 +32,9 @@ LibDir=
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=power
+LibName2=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
