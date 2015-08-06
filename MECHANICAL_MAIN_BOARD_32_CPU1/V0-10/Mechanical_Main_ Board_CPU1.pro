@@ -1,4 +1,4 @@
-update=dim. 02 août 2015 11:03:37 CEST
+update=mer. 05 août 2015 14:51:47 CEST
 version=1
 last_client=kicad
 [general]
@@ -33,9 +33,20 @@ LibName1=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PC
 LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_conn_strip
 LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_pin_strip
 LibName4=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_crystal
+[schematic_editor]
+version=1
+PageLayoutDescrFile=/media/f4deb/travail/electronique/git-f4deb/cen-electronic-schema/cartouche1.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName1=Mechanical_Main_ Board_CPU1-rescue
+LibName2=power
+LibName3=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA

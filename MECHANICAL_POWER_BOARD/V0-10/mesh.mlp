@@ -1,0 +1,22 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh label="Mechanical_Main_ Board_CPU1.wrl" filename="../../MECHANICAL_MAIN_BOARD_32_CPU1/V0-10/Mechanical_Main_ Board_CPU1.wrl">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+  <MLMesh label="Mechanical_Power_Board.wrl" filename="Mechanical_Power_Board.wrl">
+   <MLMatrix44>
+1 0 0 -26.9578 
+0 1 0 -68.6553 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>

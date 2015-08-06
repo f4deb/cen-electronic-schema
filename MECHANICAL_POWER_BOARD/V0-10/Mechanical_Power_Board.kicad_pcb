@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 0.201507300901+6016~28~ubuntu15.04.1-product)
+(kicad_pcb (version 4) (host pcbnew "(2015-07-29 BZR 6016, Git 07ad6cb)-product")
 
   (general
     (links 166)
@@ -70,7 +70,7 @@
     (pad_drill 1.00076)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFBF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions true)
