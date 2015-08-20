@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Mechanical_Main_ Board_CPU1-rescue
 LIBS:power
 LIBS:CEN-SCHEMA
 LIBS:Mechanical_Main_ Board_CPU1-cache
@@ -86,7 +87,7 @@ F 3 "~" H 3600 1400 60  0000 C CNN
 	1    3600 1400
 	-1   0    0    -1  
 $EndComp
-Text Label 2850 1500 2    60   ~ 0
+Text Label 2850 1450 2    60   ~ 0
 RST
 $Comp
 L RJ12 J1
@@ -196,7 +197,7 @@ F 3 "" H 1250 3000 60  0000 C CNN
 	1    1250 3000
 	0    1    1    0   
 $EndComp
-Text Label 1750 2850 0    60   ~ 0
+Text Label 1750 2800 0    60   ~ 0
 OC1
 $Comp
 L GND #PWR07
@@ -242,7 +243,7 @@ F 3 "" H 1250 3750 60  0000 C CNN
 	1    1250 3750
 	0    1    1    0   
 $EndComp
-Text Label 1750 3600 0    60   ~ 0
+Text Label 1750 3550 0    60   ~ 0
 OC2
 $Comp
 L GND #PWR09
@@ -288,7 +289,7 @@ F 3 "" H 1250 4500 60  0000 C CNN
 	1    1250 4500
 	0    1    1    0   
 $EndComp
-Text Label 1750 4350 0    60   ~ 0
+Text Label 1750 4300 0    60   ~ 0
 OC3
 $Comp
 L GND #PWR011
@@ -334,7 +335,7 @@ F 3 "" H 1250 5250 60  0000 C CNN
 	1    1250 5250
 	0    1    1    0   
 $EndComp
-Text Label 1750 5100 0    60   ~ 0
+Text Label 1750 5050 0    60   ~ 0
 OC4
 $Comp
 L GND #PWR013
@@ -380,7 +381,7 @@ F 3 "" H 1250 6000 60  0000 C CNN
 	1    1250 6000
 	0    1    1    0   
 $EndComp
-Text Label 1750 5850 0    60   ~ 0
+Text Label 1750 5800 0    60   ~ 0
 OC5
 $Comp
 L GND #PWR015
@@ -657,7 +658,7 @@ F 3 "" H 8775 4125 60  0000 C CNN
 	1    8775 4125
 	1    0    0    -1  
 $EndComp
-Text Label 7475 3925 0    61   ~ 0
+Text Label 7475 3875 0    61   ~ 0
 TX2
 Text Label 8875 3575 0    61   ~ 0
 TX2-5V
@@ -790,7 +791,7 @@ F 3 "" H 8775 6125 60  0000 C CNN
 	1    8775 6125
 	1    0    0    -1  
 $EndComp
-Text Label 7475 5925 0    61   ~ 0
+Text Label 7475 5875 0    61   ~ 0
 TX6
 Text Label 8875 5575 0    61   ~ 0
 TX6-5V
@@ -2096,7 +2097,7 @@ F 3 "" H 8775 5125 60  0000 C CNN
 	1    8775 5125
 	1    0    0    -1  
 $EndComp
-Text Label 7475 4925 0    61   ~ 0
+Text Label 7475 4875 0    61   ~ 0
 TX5
 Text Label 8875 4575 0    61   ~ 0
 TX5-5V
@@ -2401,7 +2402,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 1100 3950 1100
 Wire Wire Line
-	2950 1500 2700 1500
+	2950 1450 2700 1450
 Wire Wire Line
 	3250 1600 3250 1700
 Wire Wire Line
@@ -2523,7 +2524,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 5500 6050 5500
 Wire Wire Line
-	1700 2850 1900 2850
+	1700 2800 1900 2800
 Wire Wire Line
 	1700 2500 1800 2500
 Wire Wire Line
@@ -2534,7 +2535,7 @@ Connection ~ 1400 2500
 Wire Wire Line
 	1400 2500 1400 2550
 Wire Wire Line
-	1700 3600 1900 3600
+	1700 3550 1900 3550
 Wire Wire Line
 	1700 3250 1800 3250
 Wire Wire Line
@@ -2545,7 +2546,7 @@ Connection ~ 1400 3250
 Wire Wire Line
 	1400 3250 1400 3300
 Wire Wire Line
-	1700 4350 1900 4350
+	1700 4300 1900 4300
 Wire Wire Line
 	1700 4000 1800 4000
 Wire Wire Line
@@ -2556,7 +2557,7 @@ Connection ~ 1400 4000
 Wire Wire Line
 	1400 4000 1400 4050
 Wire Wire Line
-	1700 5100 1900 5100
+	1700 5050 1900 5050
 Wire Wire Line
 	1700 4750 1800 4750
 Wire Wire Line
@@ -2567,7 +2568,7 @@ Connection ~ 1400 4750
 Wire Wire Line
 	1400 4750 1400 4800
 Wire Wire Line
-	1700 5850 1900 5850
+	1700 5800 1900 5800
 Wire Wire Line
 	1700 5500 1800 5500
 Wire Wire Line
@@ -2654,11 +2655,11 @@ Connection ~ 7075 3775
 Wire Wire Line
 	7075 3375 7275 3375
 Wire Wire Line
-	7725 3925 7475 3925
+	7725 3875 7475 3875
 Wire Wire Line
 	8025 3575 8475 3575
 Wire Wire Line
-	8475 3575 8475 3925
+	8475 3575 8475 3875
 Wire Wire Line
 	8025 3475 8025 3625
 Connection ~ 8025 3575
@@ -2696,11 +2697,11 @@ Connection ~ 7075 5775
 Wire Wire Line
 	7075 5375 7275 5375
 Wire Wire Line
-	7725 5925 7475 5925
+	7725 5875 7475 5875
 Wire Wire Line
 	8025 5575 8475 5575
 Wire Wire Line
-	8475 5575 8475 5925
+	8475 5575 8475 5875
 Wire Wire Line
 	8025 5475 8025 5625
 Connection ~ 8025 5575
@@ -2871,14 +2872,14 @@ Wire Wire Line
 Wire Wire Line
 	2800 5100 2800 5150
 Wire Wire Line
-	1800 3000 1800 2850
-Connection ~ 1800 2850
+	1800 3000 1800 2800
+Connection ~ 1800 2800
 Wire Wire Line
 	1250 3000 1500 3000
 Connection ~ 1400 3000
 Wire Wire Line
-	1800 3600 1800 3750
-Connection ~ 1800 3600
+	1800 3550 1800 3750
+Connection ~ 1800 3550
 Wire Wire Line
 	1250 3750 1500 3750
 Connection ~ 1400 3750
@@ -2886,17 +2887,17 @@ Wire Wire Line
 	1250 4500 1500 4500
 Connection ~ 1400 4500
 Wire Wire Line
-	1800 4500 1800 4350
-Connection ~ 1800 4350
+	1800 4500 1800 4300
+Connection ~ 1800 4300
 Wire Wire Line
-	1800 5250 1800 5100
-Connection ~ 1800 5100
+	1800 5250 1800 5050
+Connection ~ 1800 5050
 Wire Wire Line
 	1250 5250 1500 5250
 Connection ~ 1400 5250
 Wire Wire Line
-	1800 5850 1800 6000
-Connection ~ 1800 5850
+	1800 5800 1800 6000
+Connection ~ 1800 5800
 Wire Wire Line
 	1250 6000 1500 6000
 Connection ~ 1400 6000
@@ -3121,11 +3122,11 @@ Connection ~ 7075 4775
 Wire Wire Line
 	7075 4375 7275 4375
 Wire Wire Line
-	7725 4925 7475 4925
+	7725 4875 7475 4875
 Wire Wire Line
 	8025 4575 8475 4575
 Wire Wire Line
-	8475 4575 8475 4925
+	8475 4575 8475 4875
 Wire Wire Line
 	8025 4475 8025 4675
 Connection ~ 8025 4575

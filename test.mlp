@@ -25,6 +25,22 @@
 0 0 0 1 
 </MLMatrix44>
   </MLMesh>
+  <MLMesh label="Mechanical_Motor_Board.wrl" filename="MECHANICAL_MOTOR_BOARD/Mechanical_Motor_Board.wrl">
+   <MLMatrix44>
+1 0 0 -33.2552 
+0 1 0 72.6333 
+0 0 1 0.923281 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+  <MLMesh label="Mechanical_Motor_Board(1).wrl" filename="MECHANICAL_MOTOR_BOARD/Mechanical_Motor_Board.wrl">
+   <MLMatrix44>
+1 0 0 58.0281 
+0 1 0 70.9685 
+0 0 1 0.732975 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
  </MeshGroup>
  <RasterGroup/>
 </MeshLabProject>
