@@ -1,5 +1,5 @@
-update=mer. 05 nov. 2014 22:55:07 CET
-last_client=eeschema
+update=mar. 29 sept. 2015 21:48:12 CEST
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -33,12 +33,9 @@ LibName2=/travail/electronique/kicad/share/modules/libcms
 [eeschema]
 version=1
 LibDir=../../../Schema Kicad
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
-LibName1=conn
-LibName2=power
-LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName1=ELECTRONICAL_MAIN_BOARD_32-rescue
+LibName2=conn
+LibName3=power
+LibName4=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName5=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA

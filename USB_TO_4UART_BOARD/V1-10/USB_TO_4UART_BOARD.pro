@@ -1,6 +1,6 @@
-update=dim. 17 mai 2015 23:31:13 CEST
+update=lun. 14 sept. 2015 21:28:31 CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -8,18 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
-LibName3=/mnt/64F86963F8693488/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [pcbnew]
 version=1
 LastNetListRead=
@@ -57,3 +45,11 @@ LibName13=pga_sockets
 LibName14=valves
 LibName15=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
 LibName16=/mnt/64F86963F8693488/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=power
+LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=/mnt/64F86963F8693488/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName4=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
