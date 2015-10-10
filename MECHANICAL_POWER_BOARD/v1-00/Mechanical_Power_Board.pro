@@ -1,4 +1,4 @@
-update=dim. 02 août 2015 13:46:38 CEST
+update=10/10/2015 19:56:34
 version=1
 last_client=kicad
 [general]
@@ -22,19 +22,13 @@ SolderMaskMinWidth="    0,000000"
 DrawSegmentWidth="    0,200000"
 BoardOutlineThickness="    0,150000"
 ModuleOutlineThickness="    0,150000"
-[pcbnew/libraries]
-LibName1=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
-LibName2=led
-LibName3=connect
-LibName4=divers
-LibName5=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/w_conn_strip
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=C:/Program Files (x86)/KiCad/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+[cvpcb]
+version=1
+NetIExt=net
