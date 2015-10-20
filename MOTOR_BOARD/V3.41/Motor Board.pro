@@ -1,5 +1,5 @@
-update=ven. 30 mai 2014 12:03:30 CEST
-last_client=eeschema
+update=11/10/2015 22:40:06
+last_client=kicad
 [general]
 version=1
 [pcbnew]
@@ -33,11 +33,7 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=../../../git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=C:/Program Files (x86)/KiCad/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA

@@ -1,6 +1,6 @@
-update=sam. 11 juil. 2015 22:59:57 CEST
+update=mer. 14 oct. 2015 22:23:33 CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -8,17 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 [pcbnew]
 version=1
 LastNetListRead=
@@ -41,3 +30,10 @@ ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
 LibDir=
 LibName1=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-PCB
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=USB_TO_4UART_BOARD-rescue
+LibName2=power
+LibName3=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
