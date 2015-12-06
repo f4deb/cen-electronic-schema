@@ -2599,4 +2599,6 @@ F 3 "" H 2350 6050 60  0000 C CNN
 	1    2350 6050
 	1    0    0    -1  
 $EndComp
+Text Label -2675 3000 0    500  ~ 100
+ATTENTION->>>8-DE-HE10-40>>>>>>>A2
 $EndSCHEMATC

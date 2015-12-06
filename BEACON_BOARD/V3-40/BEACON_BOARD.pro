@@ -1,5 +1,5 @@
-update=mar. 01 mai 2012 17:34:58 CEST
-last_client=eeschema
+update=dim. 06 déc. 2015 15:03:48 CET
+last_client=kicad
 [general]
 version=1
 RootSch=balise laser.sch
@@ -37,34 +37,16 @@ LibName4=libcms
 [eeschema]
 version=1
 LibDir=
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
-LibName1=power
-LibName2=F:/electronique/Schema KICAD/f4deb
+LibName1=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName2=power
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
