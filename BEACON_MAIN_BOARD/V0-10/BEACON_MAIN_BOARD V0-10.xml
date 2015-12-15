@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/f4deb/travail/electronique/git-f4deb/cen-electronic-schema/BEACON_MAIN_BOARD/V0-10/BEACON_MAIN_BOARD V0-10.sch</source>
+    <date>mer. 09 déc. 2015 22:42:35 CET</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BEACON_MAIN_BOARD</title>
+        <company>F4DEB</company>
+        <rev>V0-10</rev>
+        <date>2015-12-06</date>
+        <source>BEACON_MAIN_BOARD V0-10.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/IOIO/" tstamps="/5664693A/">
+      <title_block>
+        <title>BEACON_MAIN_BOARD</title>
+        <company>F4DEB</company>
+        <rev>V0-10</rev>
+        <date>2015-12-06</date>
+        <source>IOIO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PIC32MX795F512H/" tstamps="/56648AE6/">
+      <title_block>
+        <title>BEACON_MAIN_BOARD</title>
+        <company>F4DEB</company>
+        <rev>V0-10</rev>
+        <date>2015-12-06</date>
+        <source>PIC32_64.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="K1009">
+      <value>USBAB</value>
+      <footprint>Connect:USB_Mini-B</footprint>
+      <libsource lib="CEN-SCHEMA" part="USBAB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5664B818</tstamp>
+    </comp>
+    <comp ref="J1002">
+      <value>RJ12</value>
+      <footprint>4deb-mod-library:RJ12</footprint>
+      <libsource lib="CEN-SCHEMA" part="RJ12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5664CDE7</tstamp>
+    </comp>
+    <comp ref="D1005">
+      <value>BLEU</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566526F1</tstamp>
+    </comp>
+    <comp ref="D1006">
+      <value>ROUGE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566527E8</tstamp>
+    </comp>
+    <comp ref="D1007">
+      <value>JAUNE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566528B1</tstamp>
+    </comp>
+    <comp ref="D1008">
+      <value>VERT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56652914</tstamp>
+    </comp>
+    <comp ref="P1005">
+      <value>CONN_4</value>
+      <footprint>4deb-mod-library:KK-4</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566560EB</tstamp>
+    </comp>
+    <comp ref="D1010">
+      <value>VERT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56657A30</tstamp>
+    </comp>
+    <comp ref="J1001">
+      <value>RJ12</value>
+      <footprint>4deb-mod-library:RJ12</footprint>
+      <libsource lib="CEN-SCHEMA" part="RJ12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667642C</tstamp>
+    </comp>
+    <comp ref="P1004">
+      <value>CONN_4</value>
+      <footprint>4deb-mod-library:KK-4</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667A106</tstamp>
+    </comp>
+    <comp ref="P1003">
+      <value>CONN_4</value>
+      <footprint>4deb-mod-library:KK-4</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667AE20</tstamp>
+    </comp>
+    <comp ref="P1002">
+      <value>CONN_4</value>
+      <footprint>4deb-mod-library:KK-4</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667B13D</tstamp>
+    </comp>
+    <comp ref="K1005">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F5B5</tstamp>
+    </comp>
+    <comp ref="K1006">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566800E7</tstamp>
+    </comp>
+    <comp ref="K1007">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566803F9</tstamp>
+    </comp>
+    <comp ref="K1008">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56680410</tstamp>
+    </comp>
+    <comp ref="K1001">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685C93</tstamp>
+    </comp>
+    <comp ref="K1002">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685CA4</tstamp>
+    </comp>
+    <comp ref="K1003">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685CB5</tstamp>
+    </comp>
+    <comp ref="K1004">
+      <value>CONN_3</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_3pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685CC6</tstamp>
+    </comp>
+    <comp ref="D1009">
+      <value>VERT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56674606</tstamp>
+    </comp>
+    <comp ref="R1001">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667448B</tstamp>
+    </comp>
+    <comp ref="P1001">
+      <value>CONN_5</value>
+      <footprint>Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight</footprint>
+      <libsource lib="CEN-SCHEMA" part="CONN_5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5668CC74</tstamp>
+    </comp>
+    <comp ref="D1001">
+      <value>BLEU</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56697F27</tstamp>
+    </comp>
+    <comp ref="D1002">
+      <value>ROUGE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56697F2D</tstamp>
+    </comp>
+    <comp ref="D1003">
+      <value>JAUNE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56697F33</tstamp>
+    </comp>
+    <comp ref="D1004">
+      <value>VERT</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56697F39</tstamp>
+    </comp>
+    <comp ref="L2001">
+      <value>30Ohms</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="INDUCTOR"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53BF1864</tstamp>
+    </comp>
+    <comp ref="C2003">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53BF19DE</tstamp>
+    </comp>
+    <comp ref="C2004">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53BF19ED</tstamp>
+    </comp>
+    <comp ref="C2005">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53BF19FC</tstamp>
+    </comp>
+    <comp ref="C2006">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53BF1A0B</tstamp>
+    </comp>
+    <comp ref="C2007">
+      <value>10U/10V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <libsource lib="CEN-SCHEMA" part="CP"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53BF1A29</tstamp>
+    </comp>
+    <comp ref="U2001">
+      <value>PIC24FJ256GB206</value>
+      <footprint>Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <libsource lib="CEN-SCHEMA" part="PIC24FJ256GB206"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C05407</tstamp>
+    </comp>
+    <comp ref="C2002">
+      <value>10U/10V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <libsource lib="CEN-SCHEMA" part="CP"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C05589</tstamp>
+    </comp>
+    <comp ref="R2011">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C056E9</tstamp>
+    </comp>
+    <comp ref="C2001">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C064E0</tstamp>
+    </comp>
+    <comp ref="SW2002">
+      <value>SWITCH_INV</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_DIP_x3_Slide</footprint>
+      <libsource lib="CEN-SCHEMA" part="SWITCH_INV"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C068BC</tstamp>
+    </comp>
+    <comp ref="R2003">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C06B39</tstamp>
+    </comp>
+    <comp ref="R2004">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C06B5C</tstamp>
+    </comp>
+    <comp ref="SW2001">
+      <value>SW_PUSH_SMALL</value>
+      <footprint>Buttons_Switches_SMD:SW_SP3T_PCM13</footprint>
+      <libsource lib="CEN-SCHEMA" part="SW_PUSH_SMALL"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C06D23</tstamp>
+    </comp>
+    <comp ref="Q2002">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C0E81F</tstamp>
+    </comp>
+    <comp ref="R2014">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C0E923</tstamp>
+    </comp>
+    <comp ref="RVAR2001">
+      <value>5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="RVAR"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C0EB9C</tstamp>
+    </comp>
+    <comp ref="Q2001">
+      <value>BSH202</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="BSH202"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C0F253</tstamp>
+    </comp>
+    <comp ref="D2001">
+      <value>B340A</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="CEN-SCHEMA" part="B340A"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C0FC49</tstamp>
+    </comp>
+    <comp ref="F2001">
+      <value>FUSE</value>
+      <footprint>Resistors_SMD:R_2010</footprint>
+      <libsource lib="CEN-SCHEMA" part="FUSE"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>53C1061E</tstamp>
+    </comp>
+    <comp ref="R2009">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>5664E732</tstamp>
+    </comp>
+    <comp ref="R2008">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>5664E877</tstamp>
+    </comp>
+    <comp ref="R2007">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>5664E8F6</tstamp>
+    </comp>
+    <comp ref="R2006">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>5664E981</tstamp>
+    </comp>
+    <comp ref="R2002">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>56658125</tstamp>
+    </comp>
+    <comp ref="R2005">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>56658188</tstamp>
+    </comp>
+    <comp ref="R2001">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>5669F43E</tstamp>
+    </comp>
+    <comp ref="R2012">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>566A00D1</tstamp>
+    </comp>
+    <comp ref="R2010">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>566A00D7</tstamp>
+    </comp>
+    <comp ref="R2013">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/IOIO/" tstamps="/5664693A/"/>
+      <tstamp>566A00F0</tstamp>
+    </comp>
+    <comp ref="U3001">
+      <value>PIC32MX795F512H</value>
+      <footprint>Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <libsource lib="CEN-SCHEMA" part="PIC32MX795F512H"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E706F39</tstamp>
+    </comp>
+    <comp ref="X3001">
+      <value>8Mhz</value>
+      <footprint>Crystals:HC-18UH</footprint>
+      <libsource lib="CEN-SCHEMA" part="CRYSTAL1"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6FB4E0</tstamp>
+    </comp>
+    <comp ref="C3005">
+      <value>10u/10V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <libsource lib="CEN-SCHEMA" part="CP"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6FB3DC</tstamp>
+    </comp>
+    <comp ref="C3008">
+      <value>22p</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6FB01F</tstamp>
+    </comp>
+    <comp ref="C3009">
+      <value>22p</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6FB01D</tstamp>
+    </comp>
+    <comp ref="C3007">
+      <value>10u/10V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering</footprint>
+      <libsource lib="CEN-SCHEMA" part="CP"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC694</tstamp>
+    </comp>
+    <comp ref="R3015">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC603</tstamp>
+    </comp>
+    <comp ref="R3007">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC402</tstamp>
+    </comp>
+    <comp ref="R3008">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC2E9</tstamp>
+    </comp>
+    <comp ref="C3006">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC2E0</tstamp>
+    </comp>
+    <comp ref="C3004">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC2DA</tstamp>
+    </comp>
+    <comp ref="C3003">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC2D7</tstamp>
+    </comp>
+    <comp ref="C3002">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC2D4</tstamp>
+    </comp>
+    <comp ref="C3001">
+      <value>100n</value>
+      <footprint>CEN-PCB:SM0603_Capa</footprint>
+      <libsource lib="CEN-SCHEMA" part="C"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>4E6BC2D0</tstamp>
+    </comp>
+    <comp ref="R3009">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56659598</tstamp>
+    </comp>
+    <comp ref="R3012">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56659623</tstamp>
+    </comp>
+    <comp ref="Q3001">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665A11F</tstamp>
+    </comp>
+    <comp ref="Q3004">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665A1CC</tstamp>
+    </comp>
+    <comp ref="R3004">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665A7E6</tstamp>
+    </comp>
+    <comp ref="R3001">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665A873</tstamp>
+    </comp>
+    <comp ref="R3010">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665C120</tstamp>
+    </comp>
+    <comp ref="R3013">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665C126</tstamp>
+    </comp>
+    <comp ref="Q3002">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665C137</tstamp>
+    </comp>
+    <comp ref="Q3005">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665C13D</tstamp>
+    </comp>
+    <comp ref="R3005">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665C143</tstamp>
+    </comp>
+    <comp ref="R3002">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665C149</tstamp>
+    </comp>
+    <comp ref="R3011">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665CDCB</tstamp>
+    </comp>
+    <comp ref="R3014">
+      <value>22k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665CDD1</tstamp>
+    </comp>
+    <comp ref="Q3003">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665CDE2</tstamp>
+    </comp>
+    <comp ref="Q3006">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665CDE8</tstamp>
+    </comp>
+    <comp ref="R3006">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665CDEE</tstamp>
+    </comp>
+    <comp ref="R3003">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5665CDF4</tstamp>
+    </comp>
+    <comp ref="Q3007">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667C5F7</tstamp>
+    </comp>
+    <comp ref="R3020">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667CF92</tstamp>
+    </comp>
+    <comp ref="Q3008">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667DC69</tstamp>
+    </comp>
+    <comp ref="R3021">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667DC71</tstamp>
+    </comp>
+    <comp ref="Q3009">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667E529</tstamp>
+    </comp>
+    <comp ref="R3022">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667E531</tstamp>
+    </comp>
+    <comp ref="Q3010">
+      <value>2N7002</value>
+      <footprint>4deb-mod-library:SOT23GDS</footprint>
+      <libsource lib="CEN-SCHEMA" part="2N7002"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667E549</tstamp>
+    </comp>
+    <comp ref="R3023">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5667E551</tstamp>
+    </comp>
+    <comp ref="R3025">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>566871EA</tstamp>
+    </comp>
+    <comp ref="R3027">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56687345</tstamp>
+    </comp>
+    <comp ref="R3029">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>566873C6</tstamp>
+    </comp>
+    <comp ref="R3031">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5668743B</tstamp>
+    </comp>
+    <comp ref="R3024">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>566876EC</tstamp>
+    </comp>
+    <comp ref="R3026">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>566876F2</tstamp>
+    </comp>
+    <comp ref="R3028">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>566876F8</tstamp>
+    </comp>
+    <comp ref="R3030">
+      <value>1.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>566876FE</tstamp>
+    </comp>
+    <comp ref="D3001">
+      <value>JAUNE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56688734</tstamp>
+    </comp>
+    <comp ref="D3002">
+      <value>JAUNE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56688A8F</tstamp>
+    </comp>
+    <comp ref="D3003">
+      <value>JAUNE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56688B40</tstamp>
+    </comp>
+    <comp ref="D3004">
+      <value>JAUNE</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="LED"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56688B47</tstamp>
+    </comp>
+    <comp ref="R3016">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56690752</tstamp>
+    </comp>
+    <comp ref="R3017">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>5669080F</tstamp>
+    </comp>
+    <comp ref="R3018">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56690896</tstamp>
+    </comp>
+    <comp ref="R3019">
+      <value>680</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="CEN-SCHEMA" part="R"/>
+      <sheetpath names="/PIC32MX795F512H/" tstamps="/56648AE6/"/>
+      <tstamp>56690923</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CEN-SCHEMA" part="2N7002">
+      <aliases>
+        <alias>BSS123</alias>
+      </aliases>
+      <description>2N7002, 60V Vds, 0.3A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.nxp.com/documents/data_sheet/2N7002.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="B340A">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B340A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="BSH202">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSH202</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="CONN_4">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="CONN_5">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="CP">
+      <aliases>
+        <alias>CAPAPOL</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="CRYSTAL1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="PIC24FJ256GB206">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC24FJ256GB206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSYNC/CN63/RE5" type="input"/>
+        <pin num="2" name="GD12/SCL3/CN64/RE6" type="input"/>
+        <pin num="3" name="GD13/SDA3/CN65/RE7" type="input"/>
+        <pin num="4" name="C1IND/RP21/CN8/RG6" type="input"/>
+        <pin num="5" name="C1INC/RP26/CN9/RG7" type="input"/>
+        <pin num="6" name="C2IND/RP19/GD14/CN10/RG8" type="input"/>
+        <pin num="7" name="MCLR" type="input"/>
+        <pin num="8" name="C2INC/RP27/GD15/CN11/RG9" type="input"/>
+        <pin num="9" name="VSS" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+        <pin num="11" name="PGEC3/AN5/C1INA/VBUSON/RP18/CN7/RB5" type="input"/>
+        <pin num="12" name="PGED3/AN4/C1INB/USBOEN/RP28/CN6/RB4" type="input"/>
+        <pin num="13" name="AN3/C2INA/VPIO/CN5/RB3" type="input"/>
+        <pin num="14" name="AN2/C2INB/VMIO/RP13/CN4/RB2" type="input"/>
+        <pin num="15" name="PGEC1/AN1/VREF-/RP1/CN3/RB1" type="input"/>
+        <pin num="16" name="PGED1/AN0/VREF+/RP0/CN2/RB0" type="input"/>
+        <pin num="17" name="PGEC2/AN6/RP6/CN24/RB6" type="input"/>
+        <pin num="18" name="PGED2/AN7/RP7/RCV/CN25/RB7" type="input"/>
+        <pin num="19" name="AVDD" type="input"/>
+        <pin num="20" name="AVSS" type="input"/>
+        <pin num="21" name="AN8/RP8/CN26/RB8" type="input"/>
+        <pin num="22" name="AN9/RP9/CN27/RB9" type="input"/>
+        <pin num="23" name="TMS/CVREF/AN10/CN28/RB10" type="input"/>
+        <pin num="24" name="TDO/AN11/CN29/RB11" type="input"/>
+        <pin num="25" name="VSS" type="input"/>
+        <pin num="26" name="VDD" type="input"/>
+        <pin num="27" name="TCK/AN12/CTEGDG2/CN30/RB12" type="input"/>
+        <pin num="28" name="TDI/AN13/CTEDG1/CN31/RB13" type="input"/>
+        <pin num="29" name="AN14/CTPLS/RP14/CN32/RB14" type="input"/>
+        <pin num="30" name="AN15/RP29/CN12/RB15" type="input"/>
+        <pin num="31" name="SDA2/RP10/GD4/CN17/RF4" type="input"/>
+        <pin num="32" name="SCL2/RP17/GD5/CN18/RF5" type="input"/>
+        <pin num="33" name="RP16/USBID/CN71/RF3" type="input"/>
+        <pin num="34" name="VBUS/RF7" type="input"/>
+        <pin num="35" name="VUSB" type="input"/>
+        <pin num="36" name="D-/CN84/RG3" type="input"/>
+        <pin num="37" name="D+/CN83/RG2" type="input"/>
+        <pin num="38" name="VDD" type="input"/>
+        <pin num="39" name="OSCI/CLKI/CN23/RC12" type="input"/>
+        <pin num="40" name="OSCO/CLKO/CN22/RC15" type="input"/>
+        <pin num="41" name="VSS" type="input"/>
+        <pin num="42" name="RTCC/DMLN/RP2/CN53/RD8" type="input"/>
+        <pin num="43" name="DPLN/SDA1/RP4/GD8/CN54/RD9" type="input"/>
+        <pin num="44" name="SCL1/RP3/GD6/CN55/RD10" type="input"/>
+        <pin num="45" name="RP12/GD7/CN56/RD11" type="input"/>
+        <pin num="46" name="DMH/RP11/INT0/CN49/RD0" type="input"/>
+        <pin num="47" name="SOSCI/C3IND/CN1/RC13" type="input"/>
+        <pin num="48" name="SOSCO/SCLKI/T1CK/C3INC/RPI37/CN0/RC14" type="input"/>
+        <pin num="49" name="VCPCON/RP24/GD9/VBUSCHG/CN50/RD1" type="input"/>
+        <pin num="50" name="DPH/RP23/CN51/RD2" type="input"/>
+        <pin num="51" name="RP22/GEN/CN52/RD3" type="input"/>
+        <pin num="52" name="RP25/GCLK/CN13/RD4" type="input"/>
+        <pin num="53" name="RP20/GPWR/CN14/RD5" type="input"/>
+        <pin num="54" name="C3INB/CN15/RD6" type="input"/>
+        <pin num="55" name="C3INA/SESSEND/CN16/RD7" type="input"/>
+        <pin num="56" name="VCAP" type="input"/>
+        <pin num="57" name="ENVREG" type="input"/>
+        <pin num="58" name="GD10/VBUSST/VCMPST1/VBUSVLD/CN68/RF0" type="input"/>
+        <pin num="59" name="GD11/VCMPST2/SESSVLD/CN69/RF1" type="input"/>
+        <pin num="60" name="GD0/CN58/RE0" type="input"/>
+        <pin num="61" name="GD1/CN59/RE1" type="input"/>
+        <pin num="62" name="GD2/CN60/RE2" type="input"/>
+        <pin num="63" name="GD3/CN61/RE3" type="input"/>
+        <pin num="64" name="HSYNC/CN62/RE4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="PIC32MX795F512H">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC32MX795F512H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ETXEN/PMD5/RE5" type="input"/>
+        <pin num="2" name="ETXD0/PMD6/RE6" type="input"/>
+        <pin num="3" name="ETXD1/PMD7/RE7" type="input"/>
+        <pin num="4" name="SCK2/U6TX/U3RTS/PMA5/CN8/RG6" type="input"/>
+        <pin num="5" name="SDA4/SDI2/U3RX/PMA4/CN9/RG7" type="input"/>
+        <pin num="6" name="SCL4/SDO2/U3TX/PMA3/CN10/RG8" type="input"/>
+        <pin num="7" name="MCLR" type="input"/>
+        <pin num="8" name="SS2/U6RX/U3CTS/PMA2/CN11/RG9" type="input"/>
+        <pin num="9" name="VSS" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+        <pin num="11" name="AN5/C1IN+/Vbuson/CN7/RB5" type="input"/>
+        <pin num="12" name="AN4/C1IN-/CN6/RB4" type="input"/>
+        <pin num="13" name="AN3/C2IN+/CN5/RB3" type="input"/>
+        <pin num="14" name="AN2/C2IN-/CN4/RB2" type="input"/>
+        <pin num="15" name="PGEC1/AN1/VREF1/CVREF-/CN3/RB1" type="input"/>
+        <pin num="16" name="PGED1/AN0/VREF+/CVREF+/PMA6/CN2/RB0" type="input"/>
+        <pin num="17" name="PGEC2/AN6/OCFA/RB6" type="input"/>
+        <pin num="18" name="PGED2/AN7/RB7" type="input"/>
+        <pin num="19" name="AVDD" type="input"/>
+        <pin num="20" name="AVSS" type="input"/>
+        <pin num="21" name="AN8/C2TX/SS4/U5RX/U2CTS/C1OUT/RB8" type="input"/>
+        <pin num="22" name="AN9/C2OUT/PMA7/RB9" type="input"/>
+        <pin num="23" name="TMS/AN10/CVREFOUT/PMA13/RB10" type="input"/>
+        <pin num="24" name="TDO/AN11/PMA12/RB11" type="input"/>
+        <pin num="25" name="VSS" type="input"/>
+        <pin num="26" name="VDD" type="input"/>
+        <pin num="27" name="TCK/AN12/PMA11/RB12" type="input"/>
+        <pin num="28" name="TDI/AN13/PMA10/RB13" type="input"/>
+        <pin num="29" name="AN14/C2RX/SCK4/U5TX/U2RTS/PMALH/PMA1/RB14" type="input"/>
+        <pin num="30" name="AN15/EMDC/AEMDC/OCFB/PMALL/PMA0/CN12/RB15" type="input"/>
+        <pin num="31" name="AC1TX/SDA5/SDI4/U2RX/PMA9/CN17/RF4" type="input"/>
+        <pin num="32" name="AC1RX/SCL5/SDO4/U2TX/PMA8/CN18/RF5" type="input"/>
+        <pin num="33" name="USBID/RF3" type="input"/>
+        <pin num="34" name="VBUS" type="input"/>
+        <pin num="35" name="VUSB" type="input"/>
+        <pin num="36" name="D-/RG3" type="input"/>
+        <pin num="37" name="D+/RG2" type="input"/>
+        <pin num="38" name="VDD" type="input"/>
+        <pin num="39" name="OSC1/CLKI/RC12" type="input"/>
+        <pin num="40" name="OSC2/CLKO/RC15" type="input"/>
+        <pin num="41" name="VSS" type="input"/>
+        <pin num="42" name="RTCC/AERXD1/ETXD3/IC1/INT1/RD8" type="input"/>
+        <pin num="43" name="AERXD0/ETXD2/SS3/U4RX/U1CTS/SDA1/IC2/INT2/RD9" type="input"/>
+        <pin num="44" name="ECOL/AECRSDV/SCL1/IC3/PMCS2/PMA/INT3/RD10" type="input"/>
+        <pin num="45" name="ECRS/AEREFCLK/IC4/PMCS1/PMA14/INT4/RD11" type="input"/>
+        <pin num="46" name="OC1/INT0/RD0" type="input"/>
+        <pin num="47" name="SOSCI/CN1/RC13" type="input"/>
+        <pin num="48" name="SOSCO/T1CK/CN0/RC14" type="input"/>
+        <pin num="49" name="EMDIO/AEMDIO/SCK3/U4TX/U1RTS/OC2/RD1" type="input"/>
+        <pin num="50" name="SDA3/SDI3/U1RX/OC3/RD2" type="input"/>
+        <pin num="51" name="SCL3/SDO3/U1TX/OC4/RD3" type="input"/>
+        <pin num="52" name="OC5/IC5/PMWR/CN13/RD4" type="input"/>
+        <pin num="53" name="PMRD/CN14/RD5" type="input"/>
+        <pin num="54" name="AETXEN/ETXERR/CN15/RD6" type="input"/>
+        <pin num="55" name="ETXCLK/AERXERR/CN16/RD7" type="input"/>
+        <pin num="56" name="VCAP/VDDCORE" type="input"/>
+        <pin num="57" name="VDD" type="input"/>
+        <pin num="58" name="C1RX/AETXD1/ERXD3/RF0" type="input"/>
+        <pin num="59" name="C1TX/AETXD0/ERXD2/RF1" type="input"/>
+        <pin num="60" name="ERXD1/PMD0/RE0" type="input"/>
+        <pin num="61" name="ERXD0/PMD1/RE1" type="input"/>
+        <pin num="62" name="ERXDV/ECRSDV/PMD2/RE2" type="input"/>
+        <pin num="63" name="ERXCLK/EREFCLK/PMD3/RE3" type="input"/>
+        <pin num="64" name="ERXERR/PMD4/RE4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="RJ12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="SHIELD_1" type="passive"/>
+        <pin num="8" name="SHIELD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="RVAR">
+      <fields>
+        <field name="Reference">RVAR</field>
+        <field name="Value">RVAR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="SWITCH_INV">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_INV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="SW_PUSH_SMALL">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CEN-SCHEMA" part="USBAB">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">USBAB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="input"/>
+        <pin num="2" name="D-" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="ID" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CEN-SCHEMA">
+      <uri>/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="K1008" pin="2"/>
+      <node ref="K1005" pin="2"/>
+      <node ref="D1010" pin="1"/>
+      <node ref="K1006" pin="2"/>
+      <node ref="R3023" pin="2"/>
+      <node ref="P1001" pin="3"/>
+      <node ref="R3021" pin="2"/>
+      <node ref="R3020" pin="2"/>
+      <node ref="K1007" pin="2"/>
+      <node ref="D1005" pin="1"/>
+      <node ref="R3022" pin="2"/>
+      <node ref="D1007" pin="1"/>
+      <node ref="D1008" pin="1"/>
+      <node ref="D1006" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="Q3005" pin="2"/>
+      <node ref="Q3002" pin="2"/>
+      <node ref="P1003" pin="1"/>
+      <node ref="Q3008" pin="2"/>
+      <node ref="Q3009" pin="2"/>
+      <node ref="P1004" pin="1"/>
+      <node ref="Q3010" pin="2"/>
+      <node ref="R3027" pin="2"/>
+      <node ref="R3025" pin="2"/>
+      <node ref="Q3006" pin="2"/>
+      <node ref="R3013" pin="2"/>
+      <node ref="Q3003" pin="2"/>
+      <node ref="R3014" pin="2"/>
+      <node ref="K1009" pin="5"/>
+      <node ref="C2007" pin="2"/>
+      <node ref="C2006" pin="2"/>
+      <node ref="C2005" pin="2"/>
+      <node ref="C2004" pin="2"/>
+      <node ref="C2003" pin="2"/>
+      <node ref="U2001" pin="25"/>
+      <node ref="R2014" pin="2"/>
+      <node ref="Q2002" pin="2"/>
+      <node ref="J1001" pin="3"/>
+      <node ref="R2012" pin="1"/>
+      <node ref="R2002" pin="1"/>
+      <node ref="U2001" pin="41"/>
+      <node ref="U2001" pin="20"/>
+      <node ref="U2001" pin="9"/>
+      <node ref="P1002" pin="1"/>
+      <node ref="C2002" pin="2"/>
+      <node ref="Q3007" pin="2"/>
+      <node ref="SW2002" pin="1"/>
+      <node ref="C2001" pin="2"/>
+      <node ref="P1005" pin="1"/>
+      <node ref="SW2001" pin="2"/>
+      <node ref="C3003" pin="2"/>
+      <node ref="C3008" pin="2"/>
+      <node ref="C3004" pin="2"/>
+      <node ref="C3006" pin="2"/>
+      <node ref="C3009" pin="2"/>
+      <node ref="K1003" pin="3"/>
+      <node ref="R3012" pin="2"/>
+      <node ref="Q3001" pin="2"/>
+      <node ref="C3001" pin="2"/>
+      <node ref="C3002" pin="2"/>
+      <node ref="K1002" pin="3"/>
+      <node ref="C3007" pin="2"/>
+      <node ref="K1005" pin="3"/>
+      <node ref="K1006" pin="3"/>
+      <node ref="K1008" pin="3"/>
+      <node ref="U3001" pin="25"/>
+      <node ref="K1007" pin="3"/>
+      <node ref="Q3004" pin="2"/>
+      <node ref="J1002" pin="3"/>
+      <node ref="C3005" pin="2"/>
+      <node ref="K1001" pin="3"/>
+      <node ref="R1001" pin="2"/>
+      <node ref="P1001" pin="1"/>
+      <node ref="U3001" pin="41"/>
+      <node ref="R3029" pin="2"/>
+      <node ref="R3031" pin="2"/>
+      <node ref="K1004" pin="3"/>
+      <node ref="U3001" pin="9"/>
+      <node ref="U3001" pin="20"/>
+    </net>
+    <net code="3" name="/PIC32MX795F512H/LASER1">
+      <node ref="K1001" pin="1"/>
+      <node ref="D3001" pin="1"/>
+    </net>
+    <net code="4" name="+3V3">
+      <node ref="U2001" pin="10"/>
+      <node ref="U2001" pin="35"/>
+      <node ref="U2001" pin="26"/>
+      <node ref="L2001" pin="1"/>
+      <node ref="C3005" pin="1"/>
+      <node ref="C2003" pin="1"/>
+      <node ref="C2004" pin="1"/>
+      <node ref="C2005" pin="1"/>
+      <node ref="C2006" pin="1"/>
+      <node ref="C2007" pin="1"/>
+      <node ref="R3008" pin="1"/>
+      <node ref="C3004" pin="1"/>
+      <node ref="C3003" pin="1"/>
+      <node ref="C3002" pin="1"/>
+      <node ref="C3001" pin="1"/>
+      <node ref="U3001" pin="10"/>
+      <node ref="R3007" pin="2"/>
+      <node ref="U3001" pin="26"/>
+      <node ref="U3001" pin="57"/>
+      <node ref="U3001" pin="38"/>
+      <node ref="U2001" pin="38"/>
+      <node ref="U2001" pin="57"/>
+      <node ref="C2001" pin="1"/>
+      <node ref="D1003" pin="1"/>
+      <node ref="D1002" pin="1"/>
+      <node ref="D1001" pin="1"/>
+      <node ref="J1001" pin="2"/>
+      <node ref="D1004" pin="1"/>
+      <node ref="P1001" pin="2"/>
+      <node ref="D1009" pin="1"/>
+    </net>
+    <net code="5" name="/PIC32MX795F512H/LASER3">
+      <node ref="D3003" pin="1"/>
+      <node ref="K1003" pin="1"/>
+    </net>
+    <net code="6" name="/PIC32MX795F512H/LASER2">
+      <node ref="K1002" pin="1"/>
+      <node ref="D3002" pin="1"/>
+    </net>
+    <net code="7" name="/PIC32MX795F512H/OC3-5V">
+      <node ref="R3022" pin="1"/>
+      <node ref="Q3009" pin="3"/>
+      <node ref="K1006" pin="1"/>
+    </net>
+    <net code="8" name="/PIC32MX795F512H/OC1-5V">
+      <node ref="R3020" pin="1"/>
+      <node ref="Q3007" pin="3"/>
+      <node ref="K1005" pin="1"/>
+    </net>
+    <net code="9" name="+5VD">
+      <node ref="J1002" pin="2"/>
+      <node ref="R3001" pin="2"/>
+      <node ref="R3004" pin="1"/>
+      <node ref="P1001" pin="4"/>
+      <node ref="D2001" pin="2"/>
+      <node ref="R3006" pin="1"/>
+      <node ref="R3003" pin="2"/>
+      <node ref="RVAR2001" pin="1"/>
+      <node ref="R3005" pin="1"/>
+      <node ref="R3002" pin="2"/>
+      <node ref="P1004" pin="3"/>
+      <node ref="R2003" pin="1"/>
+      <node ref="Q2001" pin="S"/>
+      <node ref="R2013" pin="2"/>
+      <node ref="P1005" pin="3"/>
+      <node ref="R2001" pin="2"/>
+      <node ref="P1002" pin="3"/>
+      <node ref="P1003" pin="3"/>
+    </net>
+    <net code="10" name="/PIC32MX795F512H/OC5-5V">
+      <node ref="R3023" pin="1"/>
+      <node ref="Q3010" pin="3"/>
+      <node ref="K1008" pin="1"/>
+    </net>
+    <net code="11" name="/PIC32MX795F512H/LASER4">
+      <node ref="D3004" pin="1"/>
+      <node ref="K1004" pin="1"/>
+    </net>
+    <net code="12" name="/PIC32MX795F512H/OC4-5V">
+      <node ref="K1007" pin="1"/>
+      <node ref="R3021" pin="1"/>
+      <node ref="Q3008" pin="3"/>
+    </net>
+    <net code="13" name="/PIC32MX795F512H/ROUGE32">
+      <node ref="R3017" pin="1"/>
+      <node ref="D1002" pin="2"/>
+    </net>
+    <net code="14" name="/PIC32MX795F512H/JAUNE32">
+      <node ref="R3018" pin="1"/>
+      <node ref="D1003" pin="2"/>
+    </net>
+    <net code="15" name="+12V">
+      <node ref="K1001" pin="2"/>
+      <node ref="K1003" pin="2"/>
+      <node ref="K1002" pin="2"/>
+      <node ref="P1001" pin="5"/>
+      <node ref="K1004" pin="2"/>
+    </net>
+    <net code="16" name="/PIC32MX795F512H/BLEU32">
+      <node ref="R3016" pin="1"/>
+      <node ref="D1001" pin="2"/>
+    </net>
+    <net code="17" name="/IOIO/VBUS">
+      <node ref="F2001" pin="1"/>
+      <node ref="U2001" pin="34"/>
+      <node ref="K1009" pin="1"/>
+    </net>
+    <net code="18" name="/PIC32MX795F512H/VERT32">
+      <node ref="R3019" pin="1"/>
+      <node ref="D1004" pin="2"/>
+    </net>
+    <net code="19" name="/IOIO/D-">
+      <node ref="U2001" pin="36"/>
+      <node ref="K1009" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D1009-Pad2)">
+      <node ref="D1009" pin="2"/>
+      <node ref="R1001" pin="1"/>
+    </net>
+    <net code="21" name="/IOIO/PGC24">
+      <node ref="J1002" pin="5"/>
+      <node ref="U2001" pin="15"/>
+    </net>
+    <net code="22" name="/IOIO/PGD24">
+      <node ref="U2001" pin="16"/>
+      <node ref="J1002" pin="4"/>
+    </net>
+    <net code="23" name="/IOIO/RST24">
+      <node ref="R2004" pin="1"/>
+      <node ref="R2003" pin="2"/>
+      <node ref="SW2001" pin="1"/>
+      <node ref="J1002" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J1002-Pad8)">
+      <node ref="J1002" pin="8"/>
+    </net>
+    <net code="25" name="Net-(J1002-Pad7)">
+      <node ref="J1002" pin="7"/>
+    </net>
+    <net code="26" name="Net-(J1002-Pad6)">
+      <node ref="J1002" pin="6"/>
+    </net>
+    <net code="27" name="/IOIO/USBID">
+      <node ref="U2001" pin="33"/>
+      <node ref="K1009" pin="4"/>
+      <node ref="SW2002" pin="2"/>
+    </net>
+    <net code="28" name="/IOIO/D+">
+      <node ref="U2001" pin="37"/>
+      <node ref="K1009" pin="3"/>
+    </net>
+    <net code="29" name="/IOIO/ROUGE24">
+      <node ref="R2007" pin="2"/>
+      <node ref="D1006" pin="2"/>
+    </net>
+    <net code="30" name="/IOIO/VERT24">
+      <node ref="R2009" pin="2"/>
+      <node ref="D1008" pin="2"/>
+    </net>
+    <net code="31" name="/IOIO/JAUNE24">
+      <node ref="D1007" pin="2"/>
+      <node ref="R2008" pin="2"/>
+    </net>
+    <net code="32" name="/PIC32MX795F512H/RX332">
+      <node ref="R3010" pin="2"/>
+      <node ref="P1003" pin="4"/>
+    </net>
+    <net code="33" name="/IOIO/RX124">
+      <node ref="U3001" pin="4"/>
+      <node ref="R2001" pin="1"/>
+      <node ref="U2001" pin="45"/>
+    </net>
+    <net code="34" name="/PIC32MX795F512H/TX232">
+      <node ref="R3001" pin="1"/>
+      <node ref="P1002" pin="2"/>
+      <node ref="Q3001" pin="3"/>
+    </net>
+    <net code="35" name="/PIC32MX795F512H/RX232">
+      <node ref="R3009" pin="2"/>
+      <node ref="P1002" pin="4"/>
+    </net>
+    <net code="36" name="/IOIO/RX424">
+      <node ref="U2001" pin="27"/>
+      <node ref="P1005" pin="4"/>
+      <node ref="R2013" pin="1"/>
+    </net>
+    <net code="37" name="/IOIO/TX424">
+      <node ref="R2012" pin="2"/>
+      <node ref="R2010" pin="2"/>
+      <node ref="P1005" pin="2"/>
+    </net>
+    <net code="38" name="/PIC32MX795F512H/RX632">
+      <node ref="U3001" pin="8"/>
+      <node ref="R2005" pin="2"/>
+      <node ref="R2002" pin="2"/>
+    </net>
+    <net code="39" name="/PIC32MX795F512H/RX432">
+      <node ref="R3011" pin="2"/>
+      <node ref="P1004" pin="4"/>
+    </net>
+    <net code="40" name="/IOIO/BLEU24">
+      <node ref="R2006" pin="2"/>
+      <node ref="D1005" pin="2"/>
+    </net>
+    <net code="41" name="/PIC32MX795F512H/PGD32">
+      <node ref="U3001" pin="16"/>
+      <node ref="J1001" pin="4"/>
+    </net>
+    <net code="42" name="/PIC32MX795F512H/PGC32">
+      <node ref="U3001" pin="15"/>
+      <node ref="J1001" pin="5"/>
+    </net>
+    <net code="43" name="/PIC32MX795F512H/PIC32RST">
+      <node ref="R3007" pin="1"/>
+      <node ref="J1001" pin="1"/>
+      <node ref="R3015" pin="2"/>
+    </net>
+    <net code="44" name="/PIC32MX795F512H/TX432">
+      <node ref="R3003" pin="1"/>
+      <node ref="P1004" pin="2"/>
+      <node ref="Q3003" pin="3"/>
+    </net>
+    <net code="45" name="/PIC32MX795F512H/TX332">
+      <node ref="P1003" pin="2"/>
+      <node ref="Q3002" pin="3"/>
+      <node ref="R3002" pin="1"/>
+    </net>
+    <net code="46" name="Net-(J1001-Pad6)">
+      <node ref="J1001" pin="6"/>
+    </net>
+    <net code="47" name="Net-(J1001-Pad8)">
+      <node ref="J1001" pin="8"/>
+    </net>
+    <net code="48" name="Net-(J1001-Pad7)">
+      <node ref="J1001" pin="7"/>
+    </net>
+    <net code="49" name="/IOIO/STATUS24">
+      <node ref="R2011" pin="2"/>
+      <node ref="D1010" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D2001-Pad1)">
+      <node ref="Q2001" pin="D"/>
+      <node ref="D2001" pin="1"/>
+      <node ref="F2001" pin="2"/>
+    </net>
+    <net code="51" name="Net-(Q2002-Pad3)">
+      <node ref="Q2002" pin="3"/>
+      <node ref="RVAR2001" pin="2"/>
+    </net>
+    <net code="52" name="Net-(Q2001-PadG)">
+      <node ref="Q2001" pin="G"/>
+      <node ref="RVAR2001" pin="3"/>
+    </net>
+    <net code="53" name="/IOIO/TX3">
+      <node ref="U2001" pin="52"/>
+    </net>
+    <net code="54" name="/IOIO/TX4">
+      <node ref="R2010" pin="1"/>
+      <node ref="U2001" pin="28"/>
+    </net>
+    <net code="55" name="/IOIO/RX3">
+      <node ref="U2001" pin="51"/>
+    </net>
+    <net code="56" name="/IOIO/TX2">
+      <node ref="U2001" pin="50"/>
+    </net>
+    <net code="57" name="/IOIO/RX2">
+      <node ref="U2001" pin="49"/>
+    </net>
+    <net code="58" name="Net-(U2001-Pad14)">
+      <node ref="U2001" pin="14"/>
+    </net>
+    <net code="59" name="Net-(U2001-Pad13)">
+      <node ref="U2001" pin="13"/>
+    </net>
+    <net code="60" name="Net-(U2001-Pad12)">
+      <node ref="U2001" pin="12"/>
+    </net>
+    <net code="61" name="Net-(U2001-Pad11)">
+      <node ref="U2001" pin="11"/>
+    </net>
+    <net code="62" name="Net-(U2001-Pad17)">
+      <node ref="U2001" pin="17"/>
+    </net>
+    <net code="63" name="Net-(U2001-Pad18)">
+      <node ref="U2001" pin="18"/>
+    </net>
+    <net code="64" name="Net-(U2001-Pad21)">
+      <node ref="U2001" pin="21"/>
+    </net>
+    <net code="65" name="Net-(U2001-Pad22)">
+      <node ref="U2001" pin="22"/>
+    </net>
+    <net code="66" name="Net-(U2001-Pad23)">
+      <node ref="U2001" pin="23"/>
+    </net>
+    <net code="67" name="Net-(U2001-Pad24)">
+      <node ref="U2001" pin="24"/>
+    </net>
+    <net code="68" name="Net-(U2001-Pad29)">
+      <node ref="U2001" pin="29"/>
+    </net>
+    <net code="69" name="Net-(U2001-Pad30)">
+      <node ref="U2001" pin="30"/>
+    </net>
+    <net code="70" name="Net-(U2001-Pad58)">
+      <node ref="U2001" pin="58"/>
+    </net>
+    <net code="71" name="Net-(U2001-Pad59)">
+      <node ref="U2001" pin="59"/>
+    </net>
+    <net code="72" name="Net-(U2001-Pad31)">
+      <node ref="U2001" pin="31"/>
+    </net>
+    <net code="73" name="Net-(U2001-Pad32)">
+      <node ref="U2001" pin="32"/>
+    </net>
+    <net code="74" name="/IOIO/HOST">
+      <node ref="Q2002" pin="1"/>
+      <node ref="R2014" pin="1"/>
+      <node ref="U2001" pin="40"/>
+    </net>
+    <net code="75" name="Net-(U2001-Pad4)">
+      <node ref="U2001" pin="4"/>
+    </net>
+    <net code="76" name="Net-(U2001-Pad5)">
+      <node ref="U2001" pin="5"/>
+    </net>
+    <net code="77" name="Net-(U2001-Pad6)">
+      <node ref="U2001" pin="6"/>
+    </net>
+    <net code="78" name="Net-(U2001-Pad8)">
+      <node ref="U2001" pin="8"/>
+    </net>
+    <net code="79" name="Net-(U2001-Pad47)">
+      <node ref="U2001" pin="47"/>
+    </net>
+    <net code="80" name="Net-(U2001-Pad48)">
+      <node ref="U2001" pin="48"/>
+    </net>
+    <net code="81" name="/IOIO/TX1">
+      <node ref="U2001" pin="46"/>
+      <node ref="R2005" pin="1"/>
+    </net>
+    <net code="82" name="Net-(SW2002-Pad3)">
+      <node ref="SW2002" pin="3"/>
+    </net>
+    <net code="83" name="Net-(R2008-Pad1)">
+      <node ref="U2001" pin="61"/>
+      <node ref="R2008" pin="1"/>
+    </net>
+    <net code="84" name="Net-(R2009-Pad1)">
+      <node ref="R2009" pin="1"/>
+      <node ref="U2001" pin="60"/>
+    </net>
+    <net code="85" name="Net-(U2001-Pad3)">
+      <node ref="U2001" pin="3"/>
+    </net>
+    <net code="86" name="Net-(U2001-Pad2)">
+      <node ref="U2001" pin="2"/>
+    </net>
+    <net code="87" name="Net-(U2001-Pad1)">
+      <node ref="U2001" pin="1"/>
+    </net>
+    <net code="88" name="Net-(U2001-Pad55)">
+      <node ref="U2001" pin="55"/>
+    </net>
+    <net code="89" name="Net-(U2001-Pad64)">
+      <node ref="U2001" pin="64"/>
+    </net>
+    <net code="90" name="Net-(U2001-Pad54)">
+      <node ref="U2001" pin="54"/>
+    </net>
+    <net code="91" name="Net-(U2001-Pad44)">
+      <node ref="U2001" pin="44"/>
+    </net>
+    <net code="92" name="Net-(R2006-Pad1)">
+      <node ref="R2006" pin="1"/>
+      <node ref="U2001" pin="63"/>
+    </net>
+    <net code="93" name="Net-(U2001-Pad53)">
+      <node ref="U2001" pin="53"/>
+    </net>
+    <net code="94" name="Net-(U2001-Pad43)">
+      <node ref="U2001" pin="43"/>
+    </net>
+    <net code="95" name="Net-(R2007-Pad1)">
+      <node ref="R2007" pin="1"/>
+      <node ref="U2001" pin="62"/>
+    </net>
+    <net code="96" name="Net-(U2001-Pad42)">
+      <node ref="U2001" pin="42"/>
+    </net>
+    <net code="97" name="Net-(L2001-Pad2)">
+      <node ref="U2001" pin="19"/>
+      <node ref="L2001" pin="2"/>
+    </net>
+    <net code="98" name="Net-(R2004-Pad2)">
+      <node ref="R2004" pin="2"/>
+      <node ref="U2001" pin="7"/>
+    </net>
+    <net code="99" name="Net-(R2011-Pad1)">
+      <node ref="R2011" pin="1"/>
+      <node ref="U2001" pin="39"/>
+    </net>
+    <net code="100" name="Net-(C2002-Pad1)">
+      <node ref="C2002" pin="1"/>
+      <node ref="U2001" pin="56"/>
+    </net>
+    <net code="101" name="/PIC32MX795F512H/OC1">
+      <node ref="Q3007" pin="1"/>
+      <node ref="U3001" pin="46"/>
+    </net>
+    <net code="102" name="/PIC32MX795F512H/OC3">
+      <node ref="Q3009" pin="1"/>
+      <node ref="U3001" pin="50"/>
+    </net>
+    <net code="103" name="Net-(Q3003-Pad1)">
+      <node ref="R3006" pin="2"/>
+      <node ref="Q3006" pin="3"/>
+      <node ref="Q3003" pin="1"/>
+    </net>
+    <net code="104" name="Net-(Q3005-Pad1)">
+      <node ref="U3001" pin="6"/>
+      <node ref="Q3005" pin="1"/>
+    </net>
+    <net code="105" name="Net-(Q3002-Pad1)">
+      <node ref="Q3002" pin="1"/>
+      <node ref="R3005" pin="2"/>
+      <node ref="Q3005" pin="3"/>
+    </net>
+    <net code="106" name="Net-(U3001-Pad1)">
+      <node ref="U3001" pin="1"/>
+    </net>
+    <net code="107" name="Net-(Q3006-Pad1)">
+      <node ref="Q3006" pin="1"/>
+      <node ref="U3001" pin="49"/>
+    </net>
+    <net code="108" name="Net-(R3030-Pad2)">
+      <node ref="R3031" pin="1"/>
+      <node ref="R3030" pin="2"/>
+      <node ref="U3001" pin="11"/>
+    </net>
+    <net code="109" name="Net-(R3016-Pad2)">
+      <node ref="U3001" pin="17"/>
+      <node ref="R3016" pin="2"/>
+    </net>
+    <net code="110" name="Net-(R3017-Pad2)">
+      <node ref="U3001" pin="18"/>
+      <node ref="R3017" pin="2"/>
+    </net>
+    <net code="111" name="Net-(U3001-Pad63)">
+      <node ref="U3001" pin="63"/>
+    </net>
+    <net code="112" name="Net-(D3004-Pad2)">
+      <node ref="D3004" pin="2"/>
+      <node ref="R3030" pin="1"/>
+    </net>
+    <net code="113" name="Net-(D3003-Pad2)">
+      <node ref="R3028" pin="1"/>
+      <node ref="D3003" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D3002-Pad2)">
+      <node ref="R3026" pin="1"/>
+      <node ref="D3002" pin="2"/>
+    </net>
+    <net code="115" name="Net-(D3001-Pad2)">
+      <node ref="D3001" pin="2"/>
+      <node ref="R3024" pin="1"/>
+    </net>
+    <net code="116" name="Net-(U3001-Pad45)">
+      <node ref="U3001" pin="45"/>
+    </net>
+    <net code="117" name="Net-(U3001-Pad44)">
+      <node ref="U3001" pin="44"/>
+    </net>
+    <net code="118" name="Net-(U3001-Pad55)">
+      <node ref="U3001" pin="55"/>
+    </net>
+    <net code="119" name="Net-(U3001-Pad54)">
+      <node ref="U3001" pin="54"/>
+    </net>
+    <net code="120" name="Net-(U3001-Pad53)">
+      <node ref="U3001" pin="53"/>
+    </net>
+    <net code="121" name="Net-(U3001-Pad48)">
+      <node ref="U3001" pin="48"/>
+    </net>
+    <net code="122" name="Net-(U3001-Pad47)">
+      <node ref="U3001" pin="47"/>
+    </net>
+    <net code="123" name="Net-(U3001-Pad29)">
+      <node ref="U3001" pin="29"/>
+    </net>
+    <net code="124" name="Net-(U3001-Pad28)">
+      <node ref="U3001" pin="28"/>
+    </net>
+    <net code="125" name="Net-(U3001-Pad27)">
+      <node ref="U3001" pin="27"/>
+    </net>
+    <net code="126" name="Net-(U3001-Pad24)">
+      <node ref="U3001" pin="24"/>
+    </net>
+    <net code="127" name="Net-(U3001-Pad59)">
+      <node ref="U3001" pin="59"/>
+    </net>
+    <net code="128" name="Net-(U3001-Pad58)">
+      <node ref="U3001" pin="58"/>
+    </net>
+    <net code="129" name="Net-(U3001-Pad64)">
+      <node ref="U3001" pin="64"/>
+    </net>
+    <net code="130" name="Net-(R3024-Pad2)">
+      <node ref="U3001" pin="14"/>
+      <node ref="R3024" pin="2"/>
+      <node ref="R3025" pin="1"/>
+    </net>
+    <net code="131" name="Net-(R3026-Pad2)">
+      <node ref="R3027" pin="1"/>
+      <node ref="R3026" pin="2"/>
+      <node ref="U3001" pin="13"/>
+    </net>
+    <net code="132" name="Net-(C3008-Pad1)">
+      <node ref="X3001" pin="2"/>
+      <node ref="C3008" pin="1"/>
+      <node ref="U3001" pin="40"/>
+    </net>
+    <net code="133" name="Net-(C3009-Pad1)">
+      <node ref="C3009" pin="1"/>
+      <node ref="U3001" pin="39"/>
+      <node ref="X3001" pin="1"/>
+    </net>
+    <net code="134" name="Net-(C3006-Pad1)">
+      <node ref="U3001" pin="19"/>
+      <node ref="R3008" pin="2"/>
+      <node ref="C3006" pin="1"/>
+    </net>
+    <net code="135" name="Net-(C3007-Pad1)">
+      <node ref="C3007" pin="1"/>
+      <node ref="U3001" pin="56"/>
+    </net>
+    <net code="136" name="Net-(R3015-Pad1)">
+      <node ref="R3015" pin="1"/>
+      <node ref="U3001" pin="7"/>
+    </net>
+    <net code="137" name="Net-(Q3004-Pad1)">
+      <node ref="Q3004" pin="1"/>
+      <node ref="U3001" pin="32"/>
+    </net>
+    <net code="138" name="Net-(R3018-Pad2)">
+      <node ref="R3018" pin="2"/>
+      <node ref="U3001" pin="21"/>
+    </net>
+    <net code="139" name="/PIC32MX795F512H/OC4">
+      <node ref="Q3008" pin="1"/>
+      <node ref="U3001" pin="51"/>
+    </net>
+    <net code="140" name="Net-(U3001-Pad61)">
+      <node ref="U3001" pin="61"/>
+    </net>
+    <net code="141" name="Net-(R3028-Pad2)">
+      <node ref="R3028" pin="2"/>
+      <node ref="R3029" pin="1"/>
+      <node ref="U3001" pin="12"/>
+    </net>
+    <net code="142" name="Net-(R3019-Pad2)">
+      <node ref="R3019" pin="2"/>
+      <node ref="U3001" pin="22"/>
+    </net>
+    <net code="143" name="Net-(U3001-Pad60)">
+      <node ref="U3001" pin="60"/>
+    </net>
+    <net code="144" name="Net-(U3001-Pad42)">
+      <node ref="U3001" pin="42"/>
+    </net>
+    <net code="145" name="/PIC32MX795F512H/OC5">
+      <node ref="Q3010" pin="1"/>
+      <node ref="U3001" pin="52"/>
+    </net>
+    <net code="146" name="Net-(U3001-Pad62)">
+      <node ref="U3001" pin="62"/>
+    </net>
+    <net code="147" name="Net-(U3001-Pad23)">
+      <node ref="U3001" pin="23"/>
+    </net>
+    <net code="148" name="Net-(U3001-Pad33)">
+      <node ref="U3001" pin="33"/>
+    </net>
+    <net code="149" name="Net-(R3011-Pad1)">
+      <node ref="U3001" pin="43"/>
+      <node ref="R3014" pin="1"/>
+      <node ref="R3011" pin="1"/>
+    </net>
+    <net code="150" name="Net-(U3001-Pad30)">
+      <node ref="U3001" pin="30"/>
+    </net>
+    <net code="151" name="Net-(R3010-Pad1)">
+      <node ref="U3001" pin="5"/>
+      <node ref="R3010" pin="1"/>
+      <node ref="R3013" pin="1"/>
+    </net>
+    <net code="152" name="Net-(U3001-Pad3)">
+      <node ref="U3001" pin="3"/>
+    </net>
+    <net code="153" name="Net-(U3001-Pad2)">
+      <node ref="U3001" pin="2"/>
+    </net>
+    <net code="154" name="Net-(U3001-Pad37)">
+      <node ref="U3001" pin="37"/>
+    </net>
+    <net code="155" name="Net-(U3001-Pad34)">
+      <node ref="U3001" pin="34"/>
+    </net>
+    <net code="156" name="Net-(U3001-Pad35)">
+      <node ref="U3001" pin="35"/>
+    </net>
+    <net code="157" name="Net-(U3001-Pad36)">
+      <node ref="U3001" pin="36"/>
+    </net>
+    <net code="158" name="Net-(R3009-Pad1)">
+      <node ref="R3009" pin="1"/>
+      <node ref="R3012" pin="1"/>
+      <node ref="U3001" pin="31"/>
+    </net>
+    <net code="159" name="Net-(Q3001-Pad1)">
+      <node ref="R3004" pin="2"/>
+      <node ref="Q3004" pin="3"/>
+      <node ref="Q3001" pin="1"/>
+    </net>
+  </nets>
+</export>
