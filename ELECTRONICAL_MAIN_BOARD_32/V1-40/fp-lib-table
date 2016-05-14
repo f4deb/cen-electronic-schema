@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name f4deb-mod-library)(type KiCad)(uri D:\electronique\git-f4deb\git-f4deb-cen-electronic-library\f4deb-mod-library.pretty)(options "")(descr ""))
+  (lib (name CEN-PCB)(type Legacy)(uri D:\electronique\git-f4deb\git-f4deb-cen-electronic-library\CEN-PCB.mod)(options "")(descr ""))
+)

@@ -1,4 +1,4 @@
-update=sam. 12 déc. 2015 18:08:29 CET
+update=sam. 26 déc. 2015 22:32:35 CET
 version=1
 last_client=kicad
 [general]
@@ -36,7 +36,7 @@ ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/media/f4deb/travail/electronique/git-f4deb/wiki-img/Beacon_Main_Board/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
