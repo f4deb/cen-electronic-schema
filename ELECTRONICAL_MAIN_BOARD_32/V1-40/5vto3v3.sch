@@ -2,7 +2,7 @@ EESchema Schematic File Version 2
 LIBS:power
 LIBS:CEN-SCHEMA
 LIBS:conn
-LIBS:ELECTRONICAL_MAIN_BOARD_32-cache
+LIBS:transistors
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

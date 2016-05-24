@@ -1,4 +1,4 @@
-update=10/05/2016 20:05:20
+update=24/05/2016 21:37:13
 last_client=kicad
 [general]
 version=1
@@ -37,3 +37,4 @@ LibDir=../../../Schema Kicad
 LibName1=power
 LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
 LibName3=C:/Program Files/KiCad/share/kicad/library/conn
+LibName4=C:/Program Files/KiCad/share/kicad/library/transistors
