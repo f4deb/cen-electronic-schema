@@ -1,4 +1,4 @@
-update=mer. 14 oct. 2015 22:58:55 CEST
+update=dim. 05 mars 2017 00:23:18 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -41,5 +41,3 @@ LibDir=
 [eeschema/libraries]
 LibName1=Mechanical_Motor_Board-rescue
 LibName2=power
-LibName3=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
-LibName4=C:/Program Files (x86)/KiCad/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
