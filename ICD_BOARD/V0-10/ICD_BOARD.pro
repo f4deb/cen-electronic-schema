@@ -1,4 +1,4 @@
-update=mer. 03 févr. 2016 22:33:07 CET
+﻿update=mer. 03 févr. 2016 22:33:07 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,7 +58,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName30=../../../git-f4deb-cen-electronic-library/CEN-SCHEMA
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

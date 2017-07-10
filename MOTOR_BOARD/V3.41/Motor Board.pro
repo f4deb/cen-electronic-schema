@@ -1,4 +1,4 @@
-update=11/10/2015 22:40:06
+update=08/07/2017 13:52:39
 last_client=kicad
 [general]
 version=1
@@ -37,3 +37,13 @@ LibDir=
 LibName1=power
 LibName2=../../../git-f4deb-cen-electronic-library/CEN-SCHEMA
 LibName3=C:/Program Files (x86)/KiCad/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

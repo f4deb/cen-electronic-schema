@@ -1,5 +1,5 @@
-update=ven. 30 mai 2014 12:03:30 CEST
-last_client=eeschema
+update=08/07/2017 13:55:46
+last_client=kicad
 [general]
 version=1
 [pcbnew]
@@ -41,3 +41,13 @@ LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=../../../git-f4deb-cen-electronic-library/CEN-SCHEMA
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
