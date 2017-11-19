@@ -1,5 +1,5 @@
-update=lun. 09 juin 2014 21:18:12 CEST
-last_client=eeschema
+update=15/10/2017 22:29:30
+last_client=kicad
 [general]
 version=1
 RootSch=EIDE.sch
@@ -37,11 +37,6 @@ LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,4 +64,15 @@ LibName23=cypress
 LibName24=siliconi
 LibName25=contrib
 LibName26=valves
-LibName27=F:/electronique/Schema KICAD/f4deb
+LibName27=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName28=F:/electronique/Schema KICAD/f4deb
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

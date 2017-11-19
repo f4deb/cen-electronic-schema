@@ -1,12 +1,13 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
+LIBS:transistors
+LIBS:conn
 LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
-LIBS:conn
 LIBS:memory
 LIBS:xilinx
 LIBS:microcontrollers
@@ -23,34 +24,23 @@ LIBS:philips
 LIBS:display
 LIBS:cypress
 LIBS:siliconi
+LIBS:opto
+LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:CEN-SCHEMA
-LIBS:Power Supply Board-cache
+LIBS:CONNECTORS_BOARD-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
-Title "POWER"
+Sheet 2 2
+Title ""
 Date ""
-Rev "V2-00"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 6275 2500 1575 2250
-U 578145DA
-F0 "Regulation" 60
-F1 "Regulation.sch" 60
-$EndSheet
-$Sheet
-S 3150 2500 1575 2250
-U 578145DF
-F0 "Connection" 60
-F1 "Connection.sch" 60
-$EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=sam. 30 avril 2016 10:59:47 CEST
+update=24/07/2017 22:16:50
 last_client=kicad
 [general]
 version=1
@@ -37,4 +37,4 @@ LibDir=../../../Schema Kicad
 LibName1=ELECTRONICAL_MAIN_BOARD_32-rescue
 LibName2=conn
 LibName3=power
-LibName4=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName4=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
