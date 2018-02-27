@@ -3,7 +3,7 @@
   (general
     (links 61)
     (no_connects 0)
-    (area 15.773399 35.3568 116.436756 173.329601)
+    (area 128.930399 74.2188 181.457602 125.243661)
     (thickness 1.6002)
     (drawings 14)
     (tracks 232)
@@ -22,7 +22,7 @@
 
   (layers
     (0 Composant signal)
-    (31 Cuivre signal hide)
+    (31 Cuivre signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -73,7 +73,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFEF3FF)
+    (visible_elements 7FFEFFFF)
     (pcbplotparams
       (layerselection 0x01030_80000001)
       (usegerberextensions false)

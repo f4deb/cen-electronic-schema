@@ -1,4 +1,4 @@
-update=dim. 05 mars 2017 00:23:18 CET
+update=21/02/2018 20:26:34
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,12 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=Mechanical_Motor_Board-rescue
+LibName2=power
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,9 +41,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=Mechanical_Motor_Board-rescue
-LibName2=power

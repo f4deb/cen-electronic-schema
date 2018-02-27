@@ -1,6 +1,6 @@
-update=ven. 12 nov. 2010 00:05:23 CET
+update=27/12/2017 20:44:01
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -8,44 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-SimCmd=
-UseNetN=0
-LabSize=60
-PrintMonochrome=0
-ShowSheetReferenceAndTitleBlock=1
-[eeschema/libraries]
-LibName1=/travail/electronique/Schema Kicad/f4deb
-LibName2=power
 [pcbnew]
 version=1
 PadDrlX=360
@@ -71,3 +33,20 @@ LibName2=divers
 LibName3=libcms
 LibName4=connect
 LibName5=supports
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=Mechanical Main Board-rescue
+LibName2=/travail/electronique/Schema Kicad/f4deb
+LibName3=power
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

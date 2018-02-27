@@ -1,0 +1,203 @@
+Cmp-Mod V01 Created by PcbNew   date = 08/11/2017 20:45:29
+
+BeginCmp
+TimeStamp = 59C95183
+Path = /59C2FDE6
+Reference = U1;
+ValeurCmp = TRACO-THN-15-1211;
+IdModule  = f4deb-mod-library:TRACO-THN-15-1211;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020EC5
+Path = /5A010E65
+Reference = Q1;
+ValeurCmp = IRLL3303;
+IdModule  = TO_SOT_Packages_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 59C95142
+Path = /59C95904
+Reference = R3;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 59C95153
+Path = /59C95A65
+Reference = R4;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 59C95164
+Path = /59C95ABA
+Reference = R5;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 59C95175
+Path = /59C95ADD
+Reference = R6;
+ValeurCmp = 0;
+IdModule  = Resistors_SMD:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 59D172B0
+Path = /59C9573E
+Reference = P1;
+ValeurCmp = CONN_8X2;
+IdModule  = f4deb-mod-library:HE10-16-F-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020DE2
+Path = /5A0102AB
+Reference = C1;
+ValeurCmp = 22µ/35V;
+IdModule  = Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020DF3
+Path = /5A010392
+Reference = C2;
+ValeurCmp = 47n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E04
+Path = /5A010472
+Reference = C3;
+ValeurCmp = 220p;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E15
+Path = /5A0104D1
+Reference = C4;
+ValeurCmp = 22n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E29
+Path = /5A01141F
+Reference = C5;
+ValeurCmp = 100µ/16V;
+IdModule  = Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E3D
+Path = /5A01224A
+Reference = C6;
+ValeurCmp = 22µ/35V;
+IdModule  = Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E51
+Path = /5A0123DC
+Reference = C7;
+ValeurCmp = 22µ/35V;
+IdModule  = Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E65
+Path = /5A0125A7
+Reference = C8;
+ValeurCmp = 22µ/35V;
+IdModule  = Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E76
+Path = /5A01247C
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E87
+Path = /5A012423
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020E9F
+Path = /5A010D7C
+Reference = D1;
+ValeurCmp = MBRS130LT3G;
+IdModule  = Diodes_SMD:D_SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020EB7
+Path = /5A010D37
+Reference = D2;
+ValeurCmp = MBRS130LT3G;
+IdModule  = Diodes_SMD:D_SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020EBD
+Path = /5A010DCB
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = Inductors:self_cms_we-pd3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020ED6
+Path = /5A010504
+Reference = R7;
+ValeurCmp = 4.7k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020EE7
+Path = /5A0119C2
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020EF8
+Path = /5A01188F
+Reference = R9;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020F09
+Path = /5A01194C
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A020FF7
+Path = /5A0103C5
+Reference = U2;
+ValeurCmp = L5973D;
+IdModule  = Housings_SOIC:Diodes_PSOP-8;
+EndCmp
+
+EndListe

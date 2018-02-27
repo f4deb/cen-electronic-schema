@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 329)
     (no_connects 0)
     (area 35.496499 53.911499 124.269501 153.987501)
     (thickness 1.6002)
-    (drawings 36)
+    (drawings 37)
     (tracks 2464)
     (zones 0)
     (modules 124)
@@ -70,13 +70,13 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 6 8.5)
-    (pad_drill 4)
+    (pad_size 3.2512 3.2512)
+    (pad_drill 3.2512)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
     (visible_elements 7FFEF7FF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -441,8 +441,8 @@
       (net 103 "Net-(Q5-Pad1)"))
     (model TO_SOT_Packages_SMD.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.4 0.4 0.4))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 270))
     )
   )
 
@@ -771,8 +771,8 @@
     )
   )
 
-  (module COLONETTE (layer Dessus) (tedit 5A147FD1) (tstamp 5745B5A4)
-    (at 120.61952 57.30748 270)
+  (module COLONETTE (layer Dessus) (tedit 5A47AE93) (tstamp 5745B5A4)
+    (at 120.7262 57.0484 270)
     (path /4FCFB462)
     (fp_text reference J4 (at 0 0 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -780,7 +780,7 @@
     (fp_text value SIL1 (at 0 -6.985 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 thru_hole rect (at 0 0 270) (size 7 7) (drill 4.0005 (offset 1 1)) (layers *.Cu)
+    (pad 1 thru_hole rect (at 0 0 270) (size 7.6 7.6) (drill 4.0005 (offset 1 1)) (layers *.Cu)
       (net 92 "Net-(J4-Pad1)"))
     (model f4deb.3dshapes/Colonette1.wrl
       (at (xyz 0 0 0))
@@ -917,7 +917,7 @@
     )
   )
 
-  (module RJ12_E (layer Dessus) (tedit 5A147C09) (tstamp 5745B569)
+  (module RJ12_E (layer Dessus) (tedit 5A4D356E) (tstamp 5745B569)
     (at 51.08702 117.94998 270)
     (path /4FC53B65)
     (fp_text reference J5 (at -8.72998 0.54102 360) (layer F.SilkS)
@@ -942,9 +942,9 @@
       (net 74 GND))
     (pad 5 thru_hole circle (at 1.905 0 270) (size 1.7 1.7) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 57 /PIC32/PGEC1))
-    (pad 8 thru_hole circle (at 5.08 8.89 270) (size 3.2512 3.2512) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
+    (pad 8 thru_hole circle (at 5.08 8.89 270) (size 3.2512 3.2512) (drill 3.2512) (layers *.Cu *.Mask F.SilkS)
       (net 94 "Net-(J5-Pad8)"))
-    (pad 7 thru_hole circle (at -5.08 8.89 270) (size 3.2512 3.2512) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
+    (pad 7 thru_hole circle (at -5.08 8.89 270) (size 3.2512 3.2512) (drill 3.2512) (layers *.Cu *.Mask F.SilkS)
       (net 95 "Net-(J5-Pad7)"))
     (model f4deb.3dshapes/RJ12-COUDE.wrl
       (at (xyz 0 0 0))
@@ -1095,12 +1095,12 @@
     )
   )
 
-  (module KK-5 (layer Dessus) (tedit 5A146620) (tstamp 5745B51F)
+  (module KK-5 (layer Dessus) (tedit 5A833ED1) (tstamp 5745B51F)
     (at 102.96652 68.29298 180)
     (descr "Connecteur 4 pibs")
     (tags "CONN DEV")
     (path /500DAEA7)
-    (fp_text reference P9 (at 2.63652 4.66598 180) (layer F.SilkS)
+    (fp_text reference P9 (at -5.23748 2.50698 180) (layer F.SilkS)
       (effects (font (size 1.73482 1.08712) (thickness 0.27178)))
     )
     (fp_text value CONN_5 (at -5.08 -5.08 180) (layer F.SilkS) hide
@@ -1842,11 +1842,6 @@
       (at (xyz 0.06 -0.11 -0))
       (scale (xyz 0.5 0.75 0.5))
       (rotate (xyz 0 0 90))
-    )
-    (model Resistors_SMD.3dshapes/R_0603.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
     )
   )
 
@@ -4363,6 +4358,9 @@
     )
   )
 
+  (gr_text POWER_MB (at 100.584 61.595) (layer F.SilkS)
+    (effects (font (size 2.032 1.524) (thickness 0.3048)))
+  )
   (dimension 88.392 (width 0.3048) (layer Dwgs.User)
     (gr_text "88,392 mm" (at 79.883 44.9834) (layer Dwgs.User)
       (effects (font (size 2.032 1.524) (thickness 0.3048)))

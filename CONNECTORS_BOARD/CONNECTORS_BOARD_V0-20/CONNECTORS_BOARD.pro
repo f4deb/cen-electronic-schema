@@ -1,4 +1,4 @@
-update=18/10/2017 19:55:14
+update=08/01/2018 22:15:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
