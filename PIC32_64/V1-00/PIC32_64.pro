@@ -1,6 +1,6 @@
-update=27/08/2013 22:18:56
+update=mer. 20 juin 2018 21:58:07 CEST
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -31,11 +31,6 @@ LibName1=F:/electronique/git-f4deb-cen-electronic-schema/LIBRARY/CEN-PCB
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
-LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName2=/media/f4deb/5FA8E83012134053/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA

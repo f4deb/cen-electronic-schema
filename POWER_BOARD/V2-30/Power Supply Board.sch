@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:CEN-SCHEMA
+LIBS:Power Supply Board-rescue
 LIBS:power
 LIBS:device
 LIBS:linear
@@ -7,7 +7,6 @@ LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
 LIBS:adc-dac
-LIBS:conn
 LIBS:memory
 LIBS:xilinx
 LIBS:microcontrollers
@@ -26,7 +25,7 @@ LIBS:cypress
 LIBS:siliconi
 LIBS:contrib
 LIBS:valves
-LIBS:leds
+LIBS:CEN-SCHEMA
 LIBS:Power Supply Board-cache
 EELAYER 25 0
 EELAYER END
@@ -65,7 +64,7 @@ F 3 "" H 1650 3050 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-Power_Supply_Board R15
 U 1 1 578FC3C1
 P 5775 6650
 F 0 "R15" V 5700 6600 50  0000 C CNN
@@ -76,7 +75,7 @@ F 3 "~" H 5775 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-Power_Supply_Board R10
 U 1 1 578FC3C2
 P 5475 6650
 F 0 "R10" V 5400 6600 50  0000 C CNN
@@ -87,7 +86,7 @@ F 3 "~" H 5475 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L R-RESCUE-Power_Supply_Board R20
 U 1 1 578FC3C4
 P 6075 6650
 F 0 "R20" V 5975 6650 50  0000 C CNN
@@ -98,7 +97,7 @@ F 3 "~" H 6075 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L R-RESCUE-Power_Supply_Board R21
 U 1 1 578FC3C5
 P 6375 6650
 F 0 "R21" V 6275 6650 50  0000 C CNN
@@ -109,7 +108,7 @@ F 3 "~" H 6375 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D11
+L LED-RESCUE-Power_Supply_Board D11
 U 1 1 578FC3C6
 P 5475 6350
 F 0 "D11" H 5475 6450 50  0000 C CNN
@@ -120,7 +119,7 @@ F 3 "~" H 5475 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D12
+L LED-RESCUE-Power_Supply_Board D12
 U 1 1 578FC3C7
 P 5775 6350
 F 0 "D12" H 5775 6450 50  0000 C CNN
@@ -131,7 +130,7 @@ F 3 "~" H 5775 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D13
+L LED-RESCUE-Power_Supply_Board D13
 U 1 1 578FC3C9
 P 6075 6350
 F 0 "D13" H 6075 6450 50  0000 C CNN
@@ -142,7 +141,7 @@ F 3 "~" H 6075 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D14
+L LED-RESCUE-Power_Supply_Board D14
 U 1 1 578FC3CA
 P 6375 6350
 F 0 "D14" H 6375 6450 50  0000 C CNN
@@ -197,7 +196,7 @@ F 3 "" H 6375 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-Power_Supply_Board R5
 U 1 1 578FC3D6
 P 5125 6650
 F 0 "R5" V 5050 6600 50  0000 C CNN
@@ -208,7 +207,7 @@ F 3 "~" H 5125 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D10
+L LED-RESCUE-Power_Supply_Board D10
 U 1 1 578FC3D7
 P 5125 6350
 F 0 "D10" H 5125 6450 50  0000 C CNN

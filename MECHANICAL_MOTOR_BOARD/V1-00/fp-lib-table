@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name f4deb-pretty)(type Github)(uri https://github.com/f4deb/git-f4deb-cen-electronic-library/tree/master/f4deb-mod-library.pretty)(options "")(descr ""))
-)

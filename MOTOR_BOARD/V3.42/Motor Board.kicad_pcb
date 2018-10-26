@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 410)
     (no_connects 0)
-    (area 171.132499 43.497499 258.889501 161.480501)
+    (area 158.231114 38.6588 273.949888 173.425467)
     (thickness 1.6002)
     (drawings 41)
     (tracks 2632)
@@ -15,8 +15,9 @@
   (page A4)
   (title_block
     (title MOTOR_BOARD)
-    (rev V3-41)
-    (company "CYBERNETISUE EN NORD")
+    (date 2018-03-22)
+    (rev V3-42)
+    (company "CYBERNETIQUE EN NORD")
     (comment 1 F4DEB)
   )
 

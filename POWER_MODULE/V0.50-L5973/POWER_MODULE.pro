@@ -1,4 +1,4 @@
-update=13/12/2017 22:37:28
+update=dim. 07 oct. 2018 17:15:21 CEST
 last_client=kicad
 [general]
 version=1
@@ -34,38 +34,6 @@ LastNetListRead=Power Supply Board.net
 [pcbnew/libraries]
 LibDir=
 LibName1=F:/electronique/git-f4deb-cen-electronic-library/CEN-PCB
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
-LibName2=Power Supply Board-rescue
-LibName3=power
-LibName4=device
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=C:/Program Files/KiCad/share/kicad/library/conn
-LibName11=memory
-LibName12=xilinx
-LibName13=microcontrollers
-LibName14=dsp
-LibName15=microchip
-LibName16=analog_switches
-LibName17=motorola
-LibName18=texas
-LibName19=intel
-LibName20=audio
-LibName21=interface
-LibName22=digital-audio
-LibName23=philips
-LibName24=display
-LibName25=cypress
-LibName26=siliconi
-LibName27=contrib
-LibName28=valves
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -76,3 +44,36 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=POWER_MODULE-rescue
+LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=Power Supply Board-rescue
+LibName4=power
+LibName5=device
+LibName6=linear
+LibName7=regul
+LibName8=74xx
+LibName9=cmos4000
+LibName10=adc-dac
+LibName11=C:/Program Files/KiCad/share/kicad/library/conn
+LibName12=memory
+LibName13=xilinx
+LibName14=microcontrollers
+LibName15=dsp
+LibName16=microchip
+LibName17=analog_switches
+LibName18=motorola
+LibName19=texas
+LibName20=intel
+LibName21=audio
+LibName22=interface
+LibName23=digital-audio
+LibName24=philips
+LibName25=display
+LibName26=cypress
+LibName27=siliconi
+LibName28=contrib
+LibName29=valves
