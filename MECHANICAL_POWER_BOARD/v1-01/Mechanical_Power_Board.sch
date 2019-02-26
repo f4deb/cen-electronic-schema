@@ -411,7 +411,7 @@ Text HLabel 2550 1700 2    60   Input ~ 0
 SCL
 Text HLabel 1400 1700 0    60   Input ~ 0
 SDA
-Text Label 2500 2900 2    60   ~ 0
+Text Label 2450 2900 2    60   ~ 0
 RST
 $Comp
 L +5VD #PWR025
@@ -769,9 +769,7 @@ Text Label 4650 3850 0    60   ~ 0
 M1B
 Text Label 4650 3750 0    60   ~ 0
 M1A
-Text Label 1400 3100 0    60   ~ 0
-SERV6
-Text Label 1400 3000 0    60   ~ 0
+Text Label 1425 3100 0    60   ~ 0
 SERV5
 Text Label 1400 2900 0    60   ~ 0
 SERV4
@@ -779,16 +777,12 @@ Text Label 1400 2800 0    60   ~ 0
 SERV3
 Text Label 1400 2700 0    60   ~ 0
 SERV2
-Text Label 2200 2500 0    60   ~ 0
+Text Label 2300 2500 0    60   ~ 0
 SERV1
-Text Label 2300 2300 0    60   ~ 0
-TX2
 Text Label 2300 2200 0    60   ~ 0
 IO5
 Text Label 2300 2100 0    60   ~ 0
 IO3
-Text Label 1450 2300 0    60   ~ 0
-RX2
 Text Label 1450 2200 0    60   ~ 0
 IO4
 Text Label 1450 2100 0    60   ~ 0
@@ -807,7 +801,7 @@ Text Label 2300 3400 0    60   ~ 0
 Z1
 Text Label 2300 3300 0    60   ~ 0
 B1
-Text Label 2300 3200 0    60   ~ 0
+Text Label 2300 3100 0    60   ~ 0
 A1
 Text Label 2300 1800 0    60   ~ 0
 TX1
@@ -2318,8 +2312,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 6300 7700 6300
 NoConn ~ 1700 2600
-NoConn ~ 2200 1900
-NoConn ~ 1700 1900
 Text Notes 1125 2600 0    60   ~ 0
 FORBIDDEN
 $Comp
@@ -2542,7 +2534,7 @@ F 3 "" H 2350 6050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2200 3100 2550 3100
-Text Label 2300 3100 0    60   ~ 0
+Text Label 2300 2300 0    60   ~ 0
 IRQ2
 Text Notes 5150 2000 0    60   ~ 0
 I2C
@@ -2550,4 +2542,12 @@ Text Notes 1200 3000 0    60   ~ 0
 FORBIDDEN
 Text Notes 2300 3200 0    60   ~ 0
 FORBIDDEN
+Text Label 1400 1900 0    60   ~ 0
+RX2
+Wire Wire Line
+	1700 1900 1400 1900
+Text Label 2300 1900 0    60   ~ 0
+TX2
+Wire Wire Line
+	2550 1900 2200 1900
 $EndSCHEMATC
