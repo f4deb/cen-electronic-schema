@@ -1,4 +1,4 @@
-update=lun. 27 mai 2019 10:36:42 CEST
+update=dim. 07 oct. 2018 17:15:21 CEST
 last_client=kicad
 [general]
 version=1
@@ -47,3 +47,33 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=POWER_MODULE-rescue
+LibName2=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=Power Supply Board-rescue
+LibName4=power
+LibName5=device
+LibName6=linear
+LibName7=regul
+LibName8=74xx
+LibName9=cmos4000
+LibName10=adc-dac
+LibName11=C:/Program Files/KiCad/share/kicad/library/conn
+LibName12=memory
+LibName13=xilinx
+LibName14=microcontrollers
+LibName15=dsp
+LibName16=microchip
+LibName17=analog_switches
+LibName18=motorola
+LibName19=texas
+LibName20=intel
+LibName21=audio
+LibName22=interface
+LibName23=digital-audio
+LibName24=philips
+LibName25=display
+LibName26=cypress
+LibName27=siliconi
+LibName28=contrib
+LibName29=valves
