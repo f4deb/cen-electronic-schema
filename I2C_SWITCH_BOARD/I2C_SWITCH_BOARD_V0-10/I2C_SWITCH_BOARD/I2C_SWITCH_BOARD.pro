@@ -1,4 +1,4 @@
-update=ven. 31 mai 2019 10:11:35 CEST
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
 [general]
@@ -30,3 +30,4 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]

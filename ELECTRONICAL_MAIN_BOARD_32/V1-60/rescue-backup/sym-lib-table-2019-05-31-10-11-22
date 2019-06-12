@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ELECTRONICAL_MAIN_BOARD_32-rescue)(type Legacy)(uri ${KIPRJMOD}/ELECTRONICAL_MAIN_BOARD_32-rescue.lib)(options "")(descr ""))
+  (lib (name CEN-SCHEMA)(type Legacy)(uri /media/f4deb/travail/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA.lib)(options "")(descr ""))
 )
