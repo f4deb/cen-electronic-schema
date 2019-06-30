@@ -1,0 +1,1110 @@
+EESchema Schematic File Version 4
+LIBS:PCB_I2C-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_LED:PCA9685PW U601
+U 1 1 5D0BF761
+P 3550 5125
+F 0 "U601" H 3725 6050 50  0000 C CNN
+F 1 "PCA9685PW" H 3225 6050 50  0000 C CNN
+F 2 "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" H 3575 4150 50  0001 L CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCA9685.pdf" H 3150 5825 50  0001 C CNN
+	1    3550 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:ASMT-YTB7-0AA02 D601
+U 1 1 5D0BF98B
+P 5225 1775
+F 0 "D601" H 5225 2142 50  0000 C CNN
+F 1 "ASMT-YTB7-0AA02" H 5225 2051 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 5025 1455 50  0001 L CNN
+F 3 "https://docs.broadcom.com/docs/AV02-3793EN" H 5375 1775 50  0001 L CNN
+	1    5225 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q601
+U 1 1 5D0F6315
+P 5525 2525
+F 0 "Q601" H 5730 2571 50  0000 L CNN
+F 1 "BSS138" H 5730 2480 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5725 2450 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5525 2525 50  0001 L CNN
+	1    5525 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q603
+U 1 1 5D0F63A7
+P 6475 2550
+F 0 "Q603" H 6680 2596 50  0000 L CNN
+F 1 "BSS138" H 6680 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6675 2475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6475 2550 50  0001 L CNN
+	1    6475 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q605
+U 1 1 5D0F6A8A
+P 7400 2550
+F 0 "Q605" H 7605 2596 50  0000 L CNN
+F 1 "BSS138" H 7605 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 2475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7400 2550 50  0001 L CNN
+	1    7400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R611
+U 1 1 5D0F6B9F
+P 5625 2100
+F 0 "R611" H 5695 2146 50  0000 L CNN
+F 1 "R" H 5695 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5555 2100 50  0001 C CNN
+F 3 "~" H 5625 2100 50  0001 C CNN
+	1    5625 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R613
+U 1 1 5D0F6C78
+P 6575 2100
+F 0 "R613" H 6645 2146 50  0000 L CNN
+F 1 "R" H 6645 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6505 2100 50  0001 C CNN
+F 3 "~" H 6575 2100 50  0001 C CNN
+	1    6575 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R615
+U 1 1 5D0F6CF6
+P 7500 2100
+F 0 "R615" H 7570 2146 50  0000 L CNN
+F 1 "R" H 7570 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 2100 50  0001 C CNN
+F 3 "~" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2250 5625 2325
+Wire Wire Line
+	6575 2250 6575 2350
+Wire Wire Line
+	7500 2250 7500 2350
+Wire Wire Line
+	5525 1875 5625 1875
+Wire Wire Line
+	5625 1875 5625 1950
+Wire Wire Line
+	5525 1775 6575 1775
+Wire Wire Line
+	6575 1775 6575 1950
+Wire Wire Line
+	5525 1675 7500 1675
+Wire Wire Line
+	7500 1675 7500 1950
+Wire Wire Line
+	4925 1875 4800 1875
+Wire Wire Line
+	4800 1275 4800 1675
+Wire Wire Line
+	4925 1775 4800 1775
+Connection ~ 4800 1775
+Wire Wire Line
+	4800 1775 4800 1875
+Wire Wire Line
+	4925 1675 4800 1675
+Connection ~ 4800 1675
+Wire Wire Line
+	4800 1675 4800 1775
+Wire Wire Line
+	5175 2525 5325 2525
+Wire Wire Line
+	6125 2550 6275 2550
+Wire Wire Line
+	7050 2550 7200 2550
+Text Label 5200 2525 0    50   ~ 0
+B0
+Text Label 7100 2550 0    50   ~ 0
+R0
+Text Label 6175 2550 0    50   ~ 0
+V0
+Wire Wire Line
+	7500 2750 7500 2800
+Wire Wire Line
+	7500 2800 6575 2800
+Wire Wire Line
+	5625 2800 5625 2725
+Wire Wire Line
+	6575 2750 6575 2800
+Connection ~ 6575 2800
+Wire Wire Line
+	6575 2800 5625 2800
+$Comp
+L LED:ASMT-YTB7-0AA02 D603
+U 1 1 5D118B73
+P 8450 1775
+F 0 "D603" H 8450 2142 50  0000 C CNN
+F 1 "ASMT-YTB7-0AA02" H 8450 2051 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 8250 1455 50  0001 L CNN
+F 3 "https://docs.broadcom.com/docs/AV02-3793EN" H 8600 1775 50  0001 L CNN
+	1    8450 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q607
+U 1 1 5D118B79
+P 8750 2525
+F 0 "Q607" H 8955 2571 50  0000 L CNN
+F 1 "BSS138" H 8955 2480 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 2450 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8750 2525 50  0001 L CNN
+	1    8750 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q610
+U 1 1 5D118B7F
+P 9700 2550
+F 0 "Q610" H 9905 2596 50  0000 L CNN
+F 1 "BSS138" H 9905 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 2475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9700 2550 50  0001 L CNN
+	1    9700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q613
+U 1 1 5D118B85
+P 10625 2550
+F 0 "Q613" H 10830 2596 50  0000 L CNN
+F 1 "BSS138" H 10830 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10825 2475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10625 2550 50  0001 L CNN
+	1    10625 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R617
+U 1 1 5D118B8B
+P 8850 2100
+F 0 "R617" H 8920 2146 50  0000 L CNN
+F 1 "R" H 8920 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 2100 50  0001 C CNN
+F 3 "~" H 8850 2100 50  0001 C CNN
+	1    8850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R620
+U 1 1 5D118B91
+P 9800 2100
+F 0 "R620" H 9870 2146 50  0000 L CNN
+F 1 "R" H 9870 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9730 2100 50  0001 C CNN
+F 3 "~" H 9800 2100 50  0001 C CNN
+	1    9800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R623
+U 1 1 5D118B97
+P 10725 2100
+F 0 "R623" H 10795 2146 50  0000 L CNN
+F 1 "R" H 10795 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10655 2100 50  0001 C CNN
+F 3 "~" H 10725 2100 50  0001 C CNN
+	1    10725 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2250 8850 2325
+Wire Wire Line
+	9800 2250 9800 2350
+Wire Wire Line
+	10725 2250 10725 2350
+Wire Wire Line
+	8750 1875 8850 1875
+Wire Wire Line
+	8850 1875 8850 1950
+Wire Wire Line
+	8750 1775 9800 1775
+Wire Wire Line
+	9800 1775 9800 1950
+Wire Wire Line
+	8750 1675 10725 1675
+Wire Wire Line
+	10725 1675 10725 1950
+Wire Wire Line
+	8150 1875 8025 1875
+Wire Wire Line
+	8025 1275 8025 1675
+Wire Wire Line
+	8150 1775 8025 1775
+Connection ~ 8025 1775
+Wire Wire Line
+	8025 1775 8025 1875
+Wire Wire Line
+	8150 1675 8025 1675
+Connection ~ 8025 1675
+Wire Wire Line
+	8025 1675 8025 1775
+Wire Wire Line
+	8400 2525 8550 2525
+Wire Wire Line
+	9350 2550 9500 2550
+Wire Wire Line
+	10275 2550 10425 2550
+Text Label 8425 2525 0    50   ~ 0
+B1
+Text Label 10325 2550 0    50   ~ 0
+R1
+Text Label 9375 2550 0    50   ~ 0
+V1
+Wire Wire Line
+	10725 2750 10725 2800
+Wire Wire Line
+	10725 2800 9800 2800
+Wire Wire Line
+	8850 2800 8850 2725
+Wire Wire Line
+	9800 2750 9800 2800
+Connection ~ 9800 2800
+Wire Wire Line
+	9800 2800 8850 2800
+$Comp
+L LED:ASMT-YTB7-0AA02 D602
+U 1 1 5D1195D2
+P 5225 3600
+F 0 "D602" H 5225 3967 50  0000 C CNN
+F 1 "ASMT-YTB7-0AA02" H 5225 3876 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 5025 3280 50  0001 L CNN
+F 3 "https://docs.broadcom.com/docs/AV02-3793EN" H 5375 3600 50  0001 L CNN
+	1    5225 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q602
+U 1 1 5D1195D8
+P 5525 4350
+F 0 "Q602" H 5730 4396 50  0000 L CNN
+F 1 "BSS138" H 5730 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5725 4275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5525 4350 50  0001 L CNN
+	1    5525 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q604
+U 1 1 5D1195DE
+P 6475 4375
+F 0 "Q604" H 6680 4421 50  0000 L CNN
+F 1 "BSS138" H 6680 4330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6675 4300 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6475 4375 50  0001 L CNN
+	1    6475 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q606
+U 1 1 5D1195E4
+P 7400 4375
+F 0 "Q606" H 7605 4421 50  0000 L CNN
+F 1 "BSS138" H 7605 4330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 4300 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7400 4375 50  0001 L CNN
+	1    7400 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R612
+U 1 1 5D1195EA
+P 5625 3925
+F 0 "R612" H 5695 3971 50  0000 L CNN
+F 1 "R" H 5695 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5555 3925 50  0001 C CNN
+F 3 "~" H 5625 3925 50  0001 C CNN
+	1    5625 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R614
+U 1 1 5D1195F0
+P 6575 3925
+F 0 "R614" H 6645 3971 50  0000 L CNN
+F 1 "R" H 6645 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6505 3925 50  0001 C CNN
+F 3 "~" H 6575 3925 50  0001 C CNN
+	1    6575 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R616
+U 1 1 5D1195F6
+P 7500 3925
+F 0 "R616" H 7570 3971 50  0000 L CNN
+F 1 "R" H 7570 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 3925 50  0001 C CNN
+F 3 "~" H 7500 3925 50  0001 C CNN
+	1    7500 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 4075 5625 4150
+Wire Wire Line
+	6575 4075 6575 4175
+Wire Wire Line
+	7500 4075 7500 4175
+Wire Wire Line
+	5525 3700 5625 3700
+Wire Wire Line
+	5625 3700 5625 3775
+Wire Wire Line
+	5525 3600 6575 3600
+Wire Wire Line
+	6575 3600 6575 3775
+Wire Wire Line
+	5525 3500 7500 3500
+Wire Wire Line
+	7500 3500 7500 3775
+Wire Wire Line
+	4925 3700 4800 3700
+Wire Wire Line
+	4925 3600 4800 3600
+Connection ~ 4800 3600
+Wire Wire Line
+	4800 3600 4800 3700
+Wire Wire Line
+	4925 3500 4800 3500
+Connection ~ 4800 3500
+Wire Wire Line
+	4800 3500 4800 3600
+Wire Wire Line
+	5175 4350 5325 4350
+Wire Wire Line
+	6125 4375 6275 4375
+Wire Wire Line
+	7050 4375 7200 4375
+Text Label 5200 4350 0    50   ~ 0
+B2
+Text Label 7100 4375 0    50   ~ 0
+R2
+Text Label 6150 4375 0    50   ~ 0
+V2
+Wire Wire Line
+	7500 4575 7500 4625
+Wire Wire Line
+	7500 4625 6575 4625
+Wire Wire Line
+	5625 4625 5625 4550
+Wire Wire Line
+	6575 4575 6575 4625
+Connection ~ 6575 4625
+Wire Wire Line
+	6575 4625 5625 4625
+$Comp
+L LED:ASMT-YTB7-0AA02 D604
+U 1 1 5D119619
+P 8450 3600
+F 0 "D604" H 8450 3967 50  0000 C CNN
+F 1 "ASMT-YTB7-0AA02" H 8450 3876 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 8250 3280 50  0001 L CNN
+F 3 "https://docs.broadcom.com/docs/AV02-3793EN" H 8600 3600 50  0001 L CNN
+	1    8450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q608
+U 1 1 5D11961F
+P 8750 4350
+F 0 "Q608" H 8955 4396 50  0000 L CNN
+F 1 "BSS138" H 8955 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 4275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8750 4350 50  0001 L CNN
+	1    8750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q611
+U 1 1 5D119625
+P 9700 4375
+F 0 "Q611" H 9905 4421 50  0000 L CNN
+F 1 "BSS138" H 9905 4330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 4300 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9700 4375 50  0001 L CNN
+	1    9700 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q614
+U 1 1 5D11962B
+P 10625 4375
+F 0 "Q614" H 10830 4421 50  0000 L CNN
+F 1 "BSS138" H 10830 4330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10825 4300 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10625 4375 50  0001 L CNN
+	1    10625 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R618
+U 1 1 5D119631
+P 8850 3925
+F 0 "R618" H 8920 3971 50  0000 L CNN
+F 1 "R" H 8920 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 3925 50  0001 C CNN
+F 3 "~" H 8850 3925 50  0001 C CNN
+	1    8850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R621
+U 1 1 5D119637
+P 9800 3925
+F 0 "R621" H 9870 3971 50  0000 L CNN
+F 1 "R" H 9870 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9730 3925 50  0001 C CNN
+F 3 "~" H 9800 3925 50  0001 C CNN
+	1    9800 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R624
+U 1 1 5D11963D
+P 10725 3925
+F 0 "R624" H 10795 3971 50  0000 L CNN
+F 1 "R" H 10795 3880 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10655 3925 50  0001 C CNN
+F 3 "~" H 10725 3925 50  0001 C CNN
+	1    10725 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4075 8850 4150
+Wire Wire Line
+	9800 4075 9800 4175
+Wire Wire Line
+	10725 4075 10725 4175
+Wire Wire Line
+	8750 3700 8850 3700
+Wire Wire Line
+	8850 3700 8850 3775
+Wire Wire Line
+	8750 3600 9800 3600
+Wire Wire Line
+	9800 3600 9800 3775
+Wire Wire Line
+	8750 3500 10725 3500
+Wire Wire Line
+	10725 3500 10725 3775
+Wire Wire Line
+	8150 3700 8025 3700
+Wire Wire Line
+	8150 3600 8025 3600
+Connection ~ 8025 3600
+Wire Wire Line
+	8025 3600 8025 3700
+Wire Wire Line
+	8150 3500 8025 3500
+Connection ~ 8025 3500
+Wire Wire Line
+	8025 3500 8025 3600
+Wire Wire Line
+	8400 4350 8550 4350
+Wire Wire Line
+	9350 4375 9500 4375
+Wire Wire Line
+	10275 4375 10425 4375
+Text Label 8425 4350 0    50   ~ 0
+B3
+Text Label 10325 4375 0    50   ~ 0
+R3
+Text Label 9400 4375 0    50   ~ 0
+V3
+Wire Wire Line
+	10725 4575 10725 4625
+Wire Wire Line
+	10725 4625 9800 4625
+Wire Wire Line
+	8850 4625 8850 4550
+Wire Wire Line
+	9800 4575 9800 4625
+Connection ~ 9800 4625
+Wire Wire Line
+	9800 4625 8850 4625
+$Comp
+L LED:ASMT-YTB7-0AA02 D605
+U 1 1 5D11BECB
+P 8450 5250
+F 0 "D605" H 8450 5617 50  0000 C CNN
+F 1 "ASMT-YTB7-0AA02" H 8450 5526 50  0000 C CNN
+F 2 "LED_SMD:LED_Avago_PLCC6_3x2.8mm" H 8250 4930 50  0001 L CNN
+F 3 "https://docs.broadcom.com/docs/AV02-3793EN" H 8600 5250 50  0001 L CNN
+	1    8450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q609
+U 1 1 5D11BED1
+P 8750 6000
+F 0 "Q609" H 8955 6046 50  0000 L CNN
+F 1 "BSS138" H 8955 5955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 5925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8750 6000 50  0001 L CNN
+	1    8750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q612
+U 1 1 5D11BED7
+P 9700 6025
+F 0 "Q612" H 9905 6071 50  0000 L CNN
+F 1 "BSS138" H 9905 5980 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 5950 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9700 6025 50  0001 L CNN
+	1    9700 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q615
+U 1 1 5D11BEDD
+P 10625 6025
+F 0 "Q615" H 10830 6071 50  0000 L CNN
+F 1 "BSS138" H 10830 5980 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10825 5950 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10625 6025 50  0001 L CNN
+	1    10625 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R619
+U 1 1 5D11BEE3
+P 8850 5575
+F 0 "R619" H 8920 5621 50  0000 L CNN
+F 1 "R" H 8920 5530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8780 5575 50  0001 C CNN
+F 3 "~" H 8850 5575 50  0001 C CNN
+	1    8850 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R622
+U 1 1 5D11BEE9
+P 9800 5575
+F 0 "R622" H 9870 5621 50  0000 L CNN
+F 1 "R" H 9870 5530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9730 5575 50  0001 C CNN
+F 3 "~" H 9800 5575 50  0001 C CNN
+	1    9800 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R625
+U 1 1 5D11BEEF
+P 10725 5575
+F 0 "R625" H 10795 5621 50  0000 L CNN
+F 1 "R" H 10795 5530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10655 5575 50  0001 C CNN
+F 3 "~" H 10725 5575 50  0001 C CNN
+	1    10725 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5725 8850 5800
+Wire Wire Line
+	9800 5725 9800 5825
+Wire Wire Line
+	10725 5725 10725 5825
+Wire Wire Line
+	8750 5350 8850 5350
+Wire Wire Line
+	8850 5350 8850 5425
+Wire Wire Line
+	8750 5250 9800 5250
+Wire Wire Line
+	9800 5250 9800 5425
+Wire Wire Line
+	8750 5150 10725 5150
+Wire Wire Line
+	10725 5150 10725 5425
+Wire Wire Line
+	8150 5350 8025 5350
+Wire Wire Line
+	8150 5250 8025 5250
+Wire Wire Line
+	8150 5150 8025 5150
+Wire Wire Line
+	8400 6000 8550 6000
+Wire Wire Line
+	9350 6025 9500 6025
+Wire Wire Line
+	10275 6025 10425 6025
+Text Label 8425 6000 0    50   ~ 0
+B4
+Text Label 10325 6025 0    50   ~ 0
+R4
+Wire Wire Line
+	10725 6225 10725 6275
+Wire Wire Line
+	10725 6275 9800 6275
+Wire Wire Line
+	8850 6275 8850 6200
+Wire Wire Line
+	9800 6225 9800 6275
+Connection ~ 9800 6275
+Wire Wire Line
+	9800 6275 8850 6275
+Wire Wire Line
+	8850 2800 7950 2800
+Connection ~ 8850 2800
+Connection ~ 7500 2800
+Wire Wire Line
+	7500 4625 7950 4625
+Connection ~ 7500 4625
+Connection ~ 8850 4625
+Wire Wire Line
+	7950 2800 7950 4625
+Connection ~ 7950 2800
+Wire Wire Line
+	7950 2800 7500 2800
+Connection ~ 7950 4625
+Wire Wire Line
+	7950 4625 8850 4625
+Connection ~ 4800 1875
+Wire Wire Line
+	8025 1875 8025 3500
+Connection ~ 8025 1875
+Wire Wire Line
+	4800 1275 8025 1275
+Wire Wire Line
+	4250 4725 4500 4725
+Wire Wire Line
+	4250 4825 4500 4825
+Wire Wire Line
+	4250 4925 4500 4925
+Wire Wire Line
+	4250 4425 4500 4425
+Wire Wire Line
+	4250 4525 4500 4525
+Wire Wire Line
+	4250 4625 4500 4625
+Wire Wire Line
+	4250 5325 4500 5325
+Wire Wire Line
+	4250 5425 4500 5425
+Wire Wire Line
+	4250 5525 4500 5525
+Wire Wire Line
+	4250 5625 4500 5625
+Wire Wire Line
+	4250 5725 4500 5725
+Wire Wire Line
+	4250 5825 4500 5825
+Wire Wire Line
+	4250 5025 4500 5025
+Wire Wire Line
+	4250 5125 4500 5125
+Wire Wire Line
+	4250 5225 4500 5225
+$Comp
+L Connector_Generic:Conn_01x06 J601
+U 1 1 5D15D1C8
+P 1750 4425
+F 0 "J601" H 1750 4025 50  0000 C CNN
+F 1 "Conn_01x04" H 1670 4751 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 1750 4425 50  0001 C CNN
+F 3 "~" H 1750 4425 50  0001 C CNN
+	1    1750 4425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4425 2450 4425
+Wire Wire Line
+	2850 4525 2650 4525
+$Comp
+L Device:R R607
+U 1 1 5D178CAE
+P 2450 4125
+F 0 "R607" V 2375 4025 50  0000 L CNN
+F 1 "10k" V 2450 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2380 4125 50  0001 C CNN
+F 3 "~" H 2450 4125 50  0001 C CNN
+	1    2450 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R609
+U 1 1 5D178D54
+P 2650 4125
+F 0 "R609" V 2575 4025 50  0000 L CNN
+F 1 "10k" V 2650 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 4125 50  0001 C CNN
+F 3 "~" H 2650 4125 50  0001 C CNN
+	1    2650 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4275 2450 4425
+Connection ~ 2450 4425
+Wire Wire Line
+	2450 4425 2850 4425
+Wire Wire Line
+	2650 4275 2650 4525
+Connection ~ 2650 4525
+Wire Wire Line
+	2650 4525 1950 4525
+Wire Wire Line
+	2450 3975 2450 3700
+Wire Wire Line
+	2450 3700 2650 3700
+Wire Wire Line
+	2650 3700 2650 3975
+Wire Wire Line
+	2650 3700 3550 3700
+Wire Wire Line
+	3550 3700 3550 4125
+Connection ~ 2650 3700
+Wire Wire Line
+	3550 3700 4800 3700
+Connection ~ 3550 3700
+Wire Wire Line
+	2850 5325 2775 5325
+Wire Wire Line
+	2850 5425 2600 5425
+Wire Wire Line
+	2850 5525 2425 5525
+$Comp
+L Device:R R610
+U 1 1 5D1D3214
+P 2775 6025
+F 0 "R610" V 2700 5950 50  0000 L CNN
+F 1 "47k" V 2775 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2705 6025 50  0001 C CNN
+F 3 "~" H 2775 6025 50  0001 C CNN
+	1    2775 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R608
+U 1 1 5D1D329A
+P 2600 6025
+F 0 "R608" V 2525 5950 50  0000 L CNN
+F 1 "47k" V 2600 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 6025 50  0001 C CNN
+F 3 "~" H 2600 6025 50  0001 C CNN
+	1    2600 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R606
+U 1 1 5D1D3303
+P 2425 6025
+F 0 "R606" V 2350 5950 50  0000 L CNN
+F 1 "47k" V 2425 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2355 6025 50  0001 C CNN
+F 3 "~" H 2425 6025 50  0001 C CNN
+	1    2425 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R605
+U 1 1 5D1D3430
+P 2250 6025
+F 0 "R605" V 2175 5950 50  0000 L CNN
+F 1 "47k" V 2250 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2180 6025 50  0001 C CNN
+F 3 "~" H 2250 6025 50  0001 C CNN
+	1    2250 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R602
+U 1 1 5D1D349E
+P 2075 6025
+F 0 "R602" V 2000 5950 50  0000 L CNN
+F 1 "47k" V 2075 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2005 6025 50  0001 C CNN
+F 3 "~" H 2075 6025 50  0001 C CNN
+	1    2075 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R601
+U 1 1 5D1D350D
+P 1900 6025
+F 0 "R601" V 1825 5950 50  0000 L CNN
+F 1 "47k" V 1900 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1830 6025 50  0001 C CNN
+F 3 "~" H 1900 6025 50  0001 C CNN
+	1    1900 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x06 SW601
+U 1 1 5D1D36A9
+P 1200 5625
+F 0 "SW601" H 1200 6192 50  0000 C CNN
+F 1 "SW_DIP_x06" H 1200 6101 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin" H 1200 5625 50  0001 C CNN
+F 3 "" H 1200 5625 50  0001 C CNN
+	1    1200 5625
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5625 2250 5625
+Wire Wire Line
+	1500 5725 2075 5725
+Wire Wire Line
+	1500 5825 1900 5825
+Wire Wire Line
+	1900 5875 1900 5825
+Connection ~ 1900 5825
+Wire Wire Line
+	1900 5825 2850 5825
+Wire Wire Line
+	2075 5875 2075 5725
+Connection ~ 2075 5725
+Wire Wire Line
+	2075 5725 2850 5725
+Wire Wire Line
+	2250 5875 2250 5625
+Connection ~ 2250 5625
+Wire Wire Line
+	2250 5625 2850 5625
+Wire Wire Line
+	2425 5875 2425 5525
+Connection ~ 2425 5525
+Wire Wire Line
+	2425 5525 1500 5525
+Wire Wire Line
+	2600 5875 2600 5425
+Connection ~ 2600 5425
+Wire Wire Line
+	2600 5425 1500 5425
+Wire Wire Line
+	2775 5875 2775 5325
+Connection ~ 2775 5325
+Wire Wire Line
+	2775 5325 1500 5325
+Wire Wire Line
+	1900 6175 1900 6275
+Wire Wire Line
+	1900 6275 2075 6275
+Wire Wire Line
+	3550 6275 3550 6225
+Wire Wire Line
+	2075 6175 2075 6275
+Connection ~ 2075 6275
+Wire Wire Line
+	2075 6275 2250 6275
+Wire Wire Line
+	2250 6175 2250 6275
+Connection ~ 2250 6275
+Wire Wire Line
+	2250 6275 2425 6275
+Wire Wire Line
+	2425 6175 2425 6275
+Connection ~ 2425 6275
+Wire Wire Line
+	2425 6275 2600 6275
+Wire Wire Line
+	2600 6175 2600 6275
+Connection ~ 2600 6275
+Wire Wire Line
+	2600 6275 2775 6275
+Wire Wire Line
+	2775 6175 2775 6275
+Connection ~ 2775 6275
+Wire Wire Line
+	2775 6275 3550 6275
+Connection ~ 8850 6275
+Wire Wire Line
+	8025 3700 8025 5150
+Connection ~ 8025 3700
+Wire Wire Line
+	8025 5150 8025 5250
+Connection ~ 8025 5150
+Wire Wire Line
+	8025 5250 8025 5350
+Connection ~ 8025 5250
+Wire Wire Line
+	3550 6275 7950 6275
+Connection ~ 3550 6275
+Text Label 4300 4725 0    50   ~ 0
+R0
+Text Label 4300 4825 0    50   ~ 0
+V0
+Text Label 4300 4925 0    50   ~ 0
+B0
+Text Label 4300 4425 0    50   ~ 0
+R1
+Text Label 4300 4525 0    50   ~ 0
+V1
+Text Label 4300 4625 0    50   ~ 0
+B1
+Text Label 4300 5325 0    50   ~ 0
+R2
+Text Label 4300 5425 0    50   ~ 0
+V2
+Text Label 4300 5525 0    50   ~ 0
+B2
+Text Label 4300 5625 0    50   ~ 0
+R3
+Text Label 4300 5725 0    50   ~ 0
+V3
+Text Label 4300 5825 0    50   ~ 0
+B3
+Text Label 4300 5025 0    50   ~ 0
+R4
+Text Label 4300 5125 0    50   ~ 0
+V4
+Text Label 4300 5225 0    50   ~ 0
+B4
+Text Label 9400 6025 0    50   ~ 0
+V4
+Wire Wire Line
+	2450 3700 2225 3700
+Wire Wire Line
+	2050 3700 2050 4325
+Wire Wire Line
+	2050 4325 1950 4325
+Connection ~ 2450 3700
+Wire Wire Line
+	1950 4225 1950 4075
+Wire Wire Line
+	1950 4075 1575 4075
+Wire Wire Line
+	1575 6275 1900 6275
+Connection ~ 1900 6275
+Connection ~ 2050 3700
+Wire Wire Line
+	7950 4625 7950 6275
+Connection ~ 7950 6275
+Wire Wire Line
+	7950 6275 8850 6275
+Wire Wire Line
+	2850 4625 1950 4625
+Wire Wire Line
+	2850 4725 2225 4725
+$Comp
+L Device:R R603
+U 1 1 5D4283E8
+P 2225 4125
+F 0 "R603" V 2150 4025 50  0000 L CNN
+F 1 "10k" V 2225 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2155 4125 50  0001 C CNN
+F 3 "~" H 2225 4125 50  0001 C CNN
+	1    2225 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R604
+U 1 1 5D4284F3
+P 2225 4925
+F 0 "R604" V 2150 4825 50  0000 L CNN
+F 1 "10k" V 2225 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2155 4925 50  0001 C CNN
+F 3 "~" H 2225 4925 50  0001 C CNN
+	1    2225 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2225 4775 2225 4725
+Connection ~ 2225 4725
+Wire Wire Line
+	2225 4725 1950 4725
+Wire Wire Line
+	2225 4725 2225 4275
+Wire Wire Line
+	2225 3975 2225 3700
+Connection ~ 2225 3700
+Wire Wire Line
+	2225 3700 2050 3700
+Wire Wire Line
+	2225 5075 1575 5075
+Connection ~ 1575 5075
+Wire Wire Line
+	1575 5075 1575 6275
+Wire Wire Line
+	4800 1875 4800 3500
+Connection ~ 4800 3700
+$Comp
+L Device:C C601
+U 1 1 5D4FB25B
+P 1575 3875
+F 0 "C601" H 1625 3975 50  0000 L CNN
+F 1 "100n" H 1600 3800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1613 3725 50  0001 C CNN
+F 3 "~" H 1575 3875 50  0001 C CNN
+	1    1575 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3700 1575 3700
+Wire Wire Line
+	1575 4075 1575 5075
+Wire Wire Line
+	1575 3725 1575 3700
+Connection ~ 1575 3700
+Wire Wire Line
+	1575 3700 2050 3700
+Wire Wire Line
+	1575 4025 1575 4075
+Connection ~ 1575 4075
+$Comp
+L Connector:Conn_01x01_Female J602
+U 1 1 5D55D780
+P 2025 1400
+F 0 "J602" H 2053 1380 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2052 1335 50  0001 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat" H 2025 1400 50  0001 C CNN
+F 3 "~" H 2025 1400 50  0001 C CNN
+	1    2025 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J603
+U 1 1 5D55D8FA
+P 2025 1600
+F 0 "J603" H 2053 1580 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2052 1535 50  0001 L CNN
+F 2 "Connector_Pin:Pin_D1.3mm_L10.0mm_W3.5mm_Flat" H 2025 1600 50  0001 C CNN
+F 3 "~" H 2025 1600 50  0001 C CNN
+	1    2025 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3700 900  5325
+Wire Wire Line
+	900  5325 900  5425
+Connection ~ 900  5325
+Wire Wire Line
+	900  5525 900  5425
+Wire Wire Line
+	900  5525 900  5625
+Connection ~ 900  5425
+Connection ~ 900  5525
+Wire Wire Line
+	900  5625 900  5725
+Wire Wire Line
+	900  5725 900  5825
+Connection ~ 900  5625
+Connection ~ 900  5725
+$EndSCHEMATC

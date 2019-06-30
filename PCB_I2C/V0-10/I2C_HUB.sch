@@ -1,12 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:I2C_BUFFER_BOARD-cache
-LIBS:I2C_SWITCH_BOARD-cache
-LIBS:I2C_HUB-cache
+LIBS:PCB_I2C-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -314,13 +312,13 @@ Connection ~ 8350 3225
 $Comp
 L Switch:SW_DIP_x04 SW401
 U 1 1 5D0633E8
-P 3125 5050
-F 0 "SW401" H 3125 5425 50  0000 C CNN
-F 1 "SW_DIP_x04" H 3125 5426 50  0001 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_SMDSocket_SmallPads" H 3125 5050 50  0001 C CNN
-F 3 "" H 3125 5050 50  0001 C CNN
-	1    3125 5050
-	1    0    0    -1  
+P 3125 4950
+F 0 "SW401" H 3125 5325 50  0000 C CNN
+F 1 "SW_DIP_x04" H 3125 5326 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_SMDSocket_SmallPads" H 3125 4950 50  0001 C CNN
+F 3 "" H 3125 4950 50  0001 C CNN
+	1    3125 4950
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2825 5050 2800 5050

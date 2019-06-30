@@ -1,0 +1,863 @@
+EESchema Schematic File Version 4
+LIBS:PCB_I2C-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_Expansion:TCA9548APWR U301
+U 1 1 5CF7D4E1
+P 2050 4350
+F 0 "U301" H 1500 4875 50  0000 C CNN
+F 1 "TCA9548APWR" H 1475 4775 50  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 2050 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 2100 4600 50  0001 C CNN
+	1    2050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J302
+U 1 1 5CF7D656
+P 3375 3550
+F 0 "J302" H 3481 3828 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3481 3737 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3375 3550 50  0001 C CNN
+F 3 "~" H 3375 3550 50  0001 C CNN
+	1    3375 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3025 2050 3450
+$Comp
+L Connector:Conn_01x04_Male J301
+U 1 1 5D02C90B
+P 800 3550
+F 0 "J301" H 772 3430 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 772 3521 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 800 3550 50  0001 C CNN
+F 3 "~" H 800 3550 50  0001 C CNN
+	1    800  3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3650 1325 3650
+Wire Wire Line
+	1000 3750 1525 3750
+Wire Wire Line
+	1000 3550 1150 3550
+Wire Wire Line
+	1150 3550 1150 3025
+$Comp
+L Device:C C301
+U 1 1 5D02C712
+P 1150 2875
+F 0 "C301" H 1265 2921 50  0000 L CNN
+F 1 "100n" H 1265 2830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1188 2725 50  0001 C CNN
+F 3 "~" H 1150 2875 50  0001 C CNN
+	1    1150 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C302
+U 1 1 5D02C761
+P 1675 2875
+F 0 "C302" H 1790 2921 50  0000 L CNN
+F 1 "1u" H 1790 2830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1713 2725 50  0001 C CNN
+F 3 "~" H 1675 2875 50  0001 C CNN
+	1    1675 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2725 1150 2725
+Wire Wire Line
+	1000 2725 1000 3450
+Wire Wire Line
+	3075 3025 3075 3550
+Wire Wire Line
+	3075 3550 3175 3550
+Wire Wire Line
+	3175 3450 3175 2725
+Text Notes 5625 2675 0    50   ~ 0
+GND
+Text Notes 5625 2975 0    50   ~ 0
+VCC
+Wire Wire Line
+	2450 3650 2675 3650
+Wire Wire Line
+	2450 3750 2875 3750
+$Comp
+L Device:R R310
+U 1 1 5D02D1ED
+P 3750 3475
+F 0 "R310" V 3675 3375 50  0000 L CNN
+F 1 "2.1k" V 3750 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3680 3475 50  0001 C CNN
+F 3 "~" H 3750 3475 50  0001 C CNN
+	1    3750 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R311
+U 1 1 5D02D294
+P 3950 3475
+F 0 "R311" V 3875 3375 50  0000 L CNN
+F 1 "2.1k" V 3950 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3475 50  0001 C CNN
+F 3 "~" H 3950 3475 50  0001 C CNN
+	1    3950 3475
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 3025
+Connection ~ 2050 3025
+Wire Wire Line
+	2050 3025 2675 3025
+Wire Wire Line
+	2675 3625 2675 3650
+Wire Wire Line
+	2875 3625 2875 3750
+Wire Wire Line
+	2675 3325 2675 3025
+Connection ~ 2675 3025
+Wire Wire Line
+	2675 3025 2875 3025
+Wire Wire Line
+	2875 3325 2875 3025
+Connection ~ 2875 3025
+Wire Wire Line
+	2875 3025 3075 3025
+$Comp
+L Connector:Conn_01x04_Male J305
+U 1 1 5D02ED0E
+P 4500 3750
+F 0 "J305" H 4472 3677 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 4473 3632 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3850 3750 3850
+Wire Wire Line
+	2450 3950 3950 3950
+Wire Wire Line
+	4300 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3025
+Wire Wire Line
+	4150 3025 3950 3025
+Connection ~ 3075 3025
+Wire Wire Line
+	4300 3650 4300 2725
+Wire Wire Line
+	4300 2725 3525 2725
+Connection ~ 3175 2725
+Wire Wire Line
+	3750 3325 3750 3025
+Connection ~ 3750 3025
+Wire Wire Line
+	3750 3025 3075 3025
+Wire Wire Line
+	3950 3325 3950 3025
+Connection ~ 3950 3025
+Wire Wire Line
+	3950 3025 3750 3025
+Wire Wire Line
+	3750 3625 3750 3850
+Connection ~ 3750 3850
+Wire Wire Line
+	3750 3850 2450 3850
+Wire Wire Line
+	3950 3625 3950 3950
+Connection ~ 3950 3950
+Wire Wire Line
+	3950 3950 4300 3950
+$Comp
+L Connector:Conn_01x04_Male J306
+U 1 1 5D03333E
+P 5575 3950
+F 0 "J306" H 5547 3877 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 5548 3832 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 5575 3950 50  0001 C CNN
+F 3 "~" H 5575 3950 50  0001 C CNN
+	1    5575 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5375 4050 4825 4050
+Wire Wire Line
+	2450 4150 5025 4150
+Wire Wire Line
+	5375 3950 5225 3950
+Wire Wire Line
+	5225 3950 5225 3025
+Wire Wire Line
+	5375 3850 5375 2725
+Wire Wire Line
+	4825 3525 4825 3025
+Wire Wire Line
+	5025 3525 5025 3025
+Wire Wire Line
+	4825 3825 4825 4050
+Connection ~ 4825 4050
+Wire Wire Line
+	4825 4050 2450 4050
+Wire Wire Line
+	5025 3825 5025 4150
+Connection ~ 5025 4150
+Wire Wire Line
+	5025 4150 5375 4150
+$Comp
+L Connector:Conn_01x04_Male J307
+U 1 1 5D033F70
+P 6625 4150
+F 0 "J307" H 6750 4375 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 6598 4032 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 6625 4150 50  0001 C CNN
+F 3 "~" H 6625 4150 50  0001 C CNN
+	1    6625 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 4250 5875 4250
+Wire Wire Line
+	2450 4350 6075 4350
+Wire Wire Line
+	6425 4150 6275 4150
+Wire Wire Line
+	6275 4150 6275 3025
+Wire Wire Line
+	6425 4050 6425 2725
+Wire Wire Line
+	5875 3725 5875 3025
+Wire Wire Line
+	6075 3725 6075 3025
+Wire Wire Line
+	5875 4025 5875 4250
+Connection ~ 5875 4250
+Wire Wire Line
+	5875 4250 2450 4250
+Wire Wire Line
+	6075 4025 6075 4350
+Connection ~ 6075 4350
+Wire Wire Line
+	6075 4350 6425 4350
+Wire Wire Line
+	4150 3025 4825 3025
+Connection ~ 4150 3025
+Connection ~ 6075 3025
+Wire Wire Line
+	6075 3025 6275 3025
+Connection ~ 5875 3025
+Wire Wire Line
+	5875 3025 6075 3025
+Connection ~ 5225 3025
+Wire Wire Line
+	5225 3025 5875 3025
+Connection ~ 5025 3025
+Wire Wire Line
+	5025 3025 5225 3025
+Connection ~ 4825 3025
+Wire Wire Line
+	4825 3025 5025 3025
+Wire Wire Line
+	4300 2725 5375 2725
+Connection ~ 4300 2725
+Wire Wire Line
+	5375 2725 6425 2725
+Connection ~ 5375 2725
+$Comp
+L Connector:Conn_01x04_Male J308
+U 1 1 5D0448BF
+P 7625 4350
+F 0 "J308" H 7731 4628 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7731 4537 50  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 7625 4350 50  0001 C CNN
+F 3 "~" H 7625 4350 50  0001 C CNN
+	1    7625 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 4350 7425 4350
+Wire Wire Line
+	2450 4450 6925 4450
+Wire Wire Line
+	2450 4550 7125 4550
+Wire Wire Line
+	6925 4425 6925 4450
+Connection ~ 6925 4450
+Wire Wire Line
+	6925 4125 6925 3025
+Wire Wire Line
+	7125 4125 7125 3025
+$Comp
+L Connector:Conn_01x04_Male J309
+U 1 1 5D0448DE
+P 8750 4550
+F 0 "J309" H 8722 4477 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8723 4432 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 8750 4550 50  0001 C CNN
+F 3 "~" H 8750 4550 50  0001 C CNN
+	1    8750 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4650 8000 4650
+Wire Wire Line
+	2450 4750 8200 4750
+Wire Wire Line
+	8550 4550 8400 4550
+Wire Wire Line
+	8000 4125 8000 3025
+Wire Wire Line
+	8200 4125 8200 3025
+Wire Wire Line
+	8000 4425 8000 4650
+Connection ~ 8000 4650
+Wire Wire Line
+	8000 4650 2450 4650
+Wire Wire Line
+	8200 4425 8200 4750
+Connection ~ 8200 4750
+Wire Wire Line
+	8200 4750 8550 4750
+$Comp
+L Connector:Conn_01x04_Male J310
+U 1 1 5D0448FD
+P 9825 4750
+F 0 "J310" H 9797 4677 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 9798 4632 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 9825 4750 50  0001 C CNN
+F 3 "~" H 9825 4750 50  0001 C CNN
+	1    9825 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 4850 9075 4850
+Wire Wire Line
+	2450 4950 9275 4950
+Wire Wire Line
+	9625 4750 9475 4750
+Wire Wire Line
+	9075 4625 9075 4850
+Connection ~ 9075 4850
+Wire Wire Line
+	9075 4850 2450 4850
+Wire Wire Line
+	9275 4625 9275 4950
+Connection ~ 9275 4950
+Wire Wire Line
+	9275 4950 9625 4950
+$Comp
+L Connector:Conn_01x04_Male J311
+U 1 1 5D04491C
+P 10875 4950
+F 0 "J311" H 10847 4877 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 10848 4832 50  0001 R CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 10875 4950 50  0001 C CNN
+F 3 "~" H 10875 4950 50  0001 C CNN
+	1    10875 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10675 5050 10125 5050
+Wire Wire Line
+	2450 5150 10325 5150
+Wire Wire Line
+	10675 4950 10525 4950
+Wire Wire Line
+	10125 4525 10125 3025
+Wire Wire Line
+	10325 4525 10325 3025
+Wire Wire Line
+	10125 4825 10125 5050
+Connection ~ 10125 5050
+Wire Wire Line
+	10125 5050 2450 5050
+Wire Wire Line
+	10325 4825 10325 5150
+Connection ~ 10325 5150
+Wire Wire Line
+	10325 5150 10675 5150
+Wire Wire Line
+	6425 2725 7425 2725
+Wire Wire Line
+	10675 2725 10675 4850
+Connection ~ 6425 2725
+Wire Wire Line
+	9625 2725 9625 4650
+Connection ~ 9625 2725
+Wire Wire Line
+	9625 2725 10675 2725
+Wire Wire Line
+	8550 2725 8550 4450
+Connection ~ 8550 2725
+Wire Wire Line
+	8550 2725 9625 2725
+Wire Wire Line
+	7425 2725 7425 4250
+Connection ~ 7425 2725
+Wire Wire Line
+	7425 2725 8550 2725
+Wire Wire Line
+	6275 3025 6925 3025
+Wire Wire Line
+	10525 3025 10525 4950
+Connection ~ 6275 3025
+Wire Wire Line
+	9475 3025 9475 4750
+Connection ~ 9475 3025
+Wire Wire Line
+	9475 3025 10125 3025
+Wire Wire Line
+	8400 3025 8400 4550
+Connection ~ 8400 3025
+Wire Wire Line
+	8400 3025 9075 3025
+Wire Wire Line
+	7325 3025 7325 4350
+Connection ~ 7325 3025
+Wire Wire Line
+	7325 3025 8000 3025
+Connection ~ 6925 3025
+Wire Wire Line
+	6925 3025 7125 3025
+Connection ~ 7125 3025
+Wire Wire Line
+	7125 3025 7325 3025
+Connection ~ 8000 3025
+Wire Wire Line
+	8000 3025 8200 3025
+Connection ~ 8200 3025
+Wire Wire Line
+	8200 3025 8400 3025
+Connection ~ 9075 3025
+Wire Wire Line
+	9075 3025 9275 3025
+Connection ~ 9275 3025
+Wire Wire Line
+	9275 3025 9475 3025
+Connection ~ 10125 3025
+Wire Wire Line
+	10125 3025 10325 3025
+Connection ~ 10325 3025
+Wire Wire Line
+	10325 3025 10525 3025
+$Comp
+L Device:R R308
+U 1 1 5D0AF2AA
+P 2675 3475
+F 0 "R308" V 2600 3375 50  0000 L CNN
+F 1 "2.1k" V 2675 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2605 3475 50  0001 C CNN
+F 3 "~" H 2675 3475 50  0001 C CNN
+	1    2675 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R309
+U 1 1 5D0AF2B0
+P 2875 3475
+F 0 "R309" V 2800 3375 50  0000 L CNN
+F 1 "2.1k" V 2875 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2805 3475 50  0001 C CNN
+F 3 "~" H 2875 3475 50  0001 C CNN
+	1    2875 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R312
+U 1 1 5D0B3070
+P 4825 3675
+F 0 "R312" V 4750 3575 50  0000 L CNN
+F 1 "2.1k" V 4825 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4755 3675 50  0001 C CNN
+F 3 "~" H 4825 3675 50  0001 C CNN
+	1    4825 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R313
+U 1 1 5D0B3076
+P 5025 3675
+F 0 "R313" V 4950 3575 50  0000 L CNN
+F 1 "2.1k" V 5025 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4955 3675 50  0001 C CNN
+F 3 "~" H 5025 3675 50  0001 C CNN
+	1    5025 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R314
+U 1 1 5D0B6DE6
+P 5875 3875
+F 0 "R314" V 5800 3775 50  0000 L CNN
+F 1 "2.1k" V 5875 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5805 3875 50  0001 C CNN
+F 3 "~" H 5875 3875 50  0001 C CNN
+	1    5875 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R315
+U 1 1 5D0B6DEC
+P 6075 3875
+F 0 "R315" V 6000 3800 50  0000 L CNN
+F 1 "2.1k" V 6075 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6005 3875 50  0001 C CNN
+F 3 "~" H 6075 3875 50  0001 C CNN
+	1    6075 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R301
+U 1 1 5D0CA7EA
+P 1325 3450
+F 0 "R301" V 1250 3350 50  0000 L CNN
+F 1 "2.1k" V 1325 3375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1255 3450 50  0001 C CNN
+F 3 "~" H 1325 3450 50  0001 C CNN
+	1    1325 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R306
+U 1 1 5D0CA7F0
+P 1525 3450
+F 0 "R306" V 1450 3350 50  0000 L CNN
+F 1 "2.1k" V 1525 3375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1455 3450 50  0001 C CNN
+F 3 "~" H 1525 3450 50  0001 C CNN
+	1    1525 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 2725
+Wire Wire Line
+	1675 2725 3175 2725
+Wire Wire Line
+	1675 3025 2050 3025
+Connection ~ 1675 2725
+Connection ~ 1675 3025
+Wire Wire Line
+	1150 3025 1325 3025
+Wire Wire Line
+	1150 2725 1675 2725
+Wire Wire Line
+	1325 3600 1325 3650
+Connection ~ 1325 3650
+Wire Wire Line
+	1325 3650 1000 3650
+Wire Wire Line
+	1525 3600 1525 3750
+Connection ~ 1525 3750
+Wire Wire Line
+	1525 3750 1650 3750
+Wire Wire Line
+	1325 3300 1325 3025
+Connection ~ 1325 3025
+Wire Wire Line
+	1325 3025 1525 3025
+Wire Wire Line
+	1525 3300 1525 3025
+Connection ~ 1525 3025
+Wire Wire Line
+	1525 3025 1675 3025
+$Comp
+L Switch:SW_DIP_x04 SW301
+U 1 1 5D0F0AF7
+P 1000 4850
+F 0 "SW301" H 950 5325 50  0000 C CNN
+F 1 "SW_DIP_x04" H 925 5225 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile" H 1000 4850 50  0001 C CNN
+F 3 "" H 1000 4850 50  0001 C CNN
+	1    1000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4650 1325 4650
+Wire Wire Line
+	1300 4750 1475 4750
+Wire Wire Line
+	1300 4850 1625 4850
+$Comp
+L Device:R R305
+U 1 1 5D114F7E
+P 1475 4450
+F 0 "R305" V 1400 4375 50  0000 L CNN
+F 1 "47k" V 1475 4375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1405 4450 50  0001 C CNN
+F 3 "~" H 1475 4450 50  0001 C CNN
+	1    1475 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R302
+U 1 1 5D115034
+P 1325 4450
+F 0 "R302" V 1250 4375 50  0000 L CNN
+F 1 "47k" V 1325 4375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1255 4450 50  0001 C CNN
+F 3 "~" H 1325 4450 50  0001 C CNN
+	1    1325 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R307
+U 1 1 5D1150F5
+P 1625 4450
+F 0 "R307" V 1550 4375 50  0000 L CNN
+F 1 "47k" V 1625 4375 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1555 4450 50  0001 C CNN
+F 3 "~" H 1625 4450 50  0001 C CNN
+	1    1625 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 4600 1325 4650
+Connection ~ 1325 4650
+Wire Wire Line
+	1325 4650 1650 4650
+Wire Wire Line
+	1475 4600 1475 4750
+Connection ~ 1475 4750
+Wire Wire Line
+	1475 4750 1650 4750
+Wire Wire Line
+	1625 4600 1625 4850
+Connection ~ 1625 4850
+Wire Wire Line
+	1625 4850 1650 4850
+Connection ~ 1150 3550
+Wire Wire Line
+	1150 3550 1150 4150
+Wire Wire Line
+	1625 4300 1475 4300
+Connection ~ 1475 4300
+Wire Wire Line
+	1325 4300 1475 4300
+Wire Wire Line
+	700  4650 650  4650
+Wire Wire Line
+	700  4750 650  4750
+Connection ~ 650  4750
+Wire Wire Line
+	650  4750 650  4650
+Wire Wire Line
+	700  4850 650  4850
+Wire Wire Line
+	650  4850 650  4750
+$Comp
+L Device:R R303
+U 1 1 5D1774A0
+P 1400 4150
+F 0 "R303" V 1300 4075 50  0000 C CNN
+F 1 "10k" V 1400 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1330 4150 50  0001 C CNN
+F 3 "~" H 1400 4150 50  0001 C CNN
+	1    1400 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 4150 1550 4150
+Wire Wire Line
+	1250 4150 1150 4150
+$Comp
+L Device:R R316
+U 1 1 5D18F1B7
+P 6925 4275
+F 0 "R316" V 6850 4175 50  0000 L CNN
+F 1 "2.1k" V 6925 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6855 4275 50  0001 C CNN
+F 3 "~" H 6925 4275 50  0001 C CNN
+	1    6925 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R317
+U 1 1 5D18F1BD
+P 7125 4275
+F 0 "R317" V 7050 4200 50  0000 L CNN
+F 1 "2.1k" V 7125 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7055 4275 50  0001 C CNN
+F 3 "~" H 7125 4275 50  0001 C CNN
+	1    7125 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R318
+U 1 1 5D196D68
+P 8000 4275
+F 0 "R318" V 7925 4175 50  0000 L CNN
+F 1 "2.1k" V 8000 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 4275 50  0001 C CNN
+F 3 "~" H 8000 4275 50  0001 C CNN
+	1    8000 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R319
+U 1 1 5D196D6E
+P 8200 4275
+F 0 "R319" V 8125 4200 50  0000 L CNN
+F 1 "2.1k" V 8200 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8130 4275 50  0001 C CNN
+F 3 "~" H 8200 4275 50  0001 C CNN
+	1    8200 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R320
+U 1 1 5D19E95F
+P 9075 4475
+F 0 "R320" V 9000 4375 50  0000 L CNN
+F 1 "2.1k" V 9075 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9005 4475 50  0001 C CNN
+F 3 "~" H 9075 4475 50  0001 C CNN
+	1    9075 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R321
+U 1 1 5D19E965
+P 9275 4475
+F 0 "R321" V 9200 4400 50  0000 L CNN
+F 1 "2.1k" V 9275 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9205 4475 50  0001 C CNN
+F 3 "~" H 9275 4475 50  0001 C CNN
+	1    9275 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 3025 9075 4325
+Wire Wire Line
+	9275 3025 9275 4325
+$Comp
+L Device:R R322
+U 1 1 5D1AE2F8
+P 10125 4675
+F 0 "R322" V 10050 4575 50  0000 L CNN
+F 1 "2.1k" V 10125 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10055 4675 50  0001 C CNN
+F 3 "~" H 10125 4675 50  0001 C CNN
+	1    10125 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R323
+U 1 1 5D1AE2FF
+P 10325 4675
+F 0 "R323" V 10250 4600 50  0000 L CNN
+F 1 "2.1k" V 10325 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10255 4675 50  0001 C CNN
+F 3 "~" H 10325 4675 50  0001 C CNN
+	1    10325 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J303
+U 1 1 5D1BDC17
+P 4175 1700
+F 0 "J303" H 4203 1680 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4202 1635 50  0001 L CNN
+F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 4175 1700 50  0001 C CNN
+F 3 "~" H 4175 1700 50  0001 C CNN
+	1    4175 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J304
+U 1 1 5D1BDD09
+P 4175 1925
+F 0 "J304" H 4203 1905 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4202 1860 50  0001 L CNN
+F 2 "Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork" H 4175 1925 50  0001 C CNN
+F 3 "~" H 4175 1925 50  0001 C CNN
+	1    4175 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D301
+U 1 1 5D042593
+P 1600 5350
+F 0 "D301" H 1625 5425 50  0000 C CNN
+F 1 "VERT" H 1700 5250 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 5350 50  0001 C CNN
+F 3 "~" H 1600 5350 50  0001 C CNN
+	1    1600 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R304
+U 1 1 5D042672
+P 1400 5125
+F 0 "R304" V 1325 5075 50  0000 C CNN
+F 1 "1k" V 1400 5125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1330 5125 50  0001 C CNN
+F 3 "~" H 1400 5125 50  0001 C CNN
+	1    1400 5125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3525 5350 3525 2725
+Connection ~ 3525 2725
+Wire Wire Line
+	3525 2725 3175 2725
+Wire Wire Line
+	2050 5350 3525 5350
+Connection ~ 2050 5350
+Wire Wire Line
+	650  4850 650  4950
+Wire Wire Line
+	650  4950 700  4950
+Connection ~ 650  4850
+Wire Wire Line
+	1300 4950 1400 4950
+Wire Wire Line
+	1400 4950 1400 4975
+Wire Wire Line
+	1400 5275 1400 5350
+Wire Wire Line
+	1400 5350 1450 5350
+Wire Wire Line
+	1750 5350 2050 5350
+NoConn ~ 3975 1700
+NoConn ~ 3975 1925
+Connection ~ 2875 3750
+Wire Wire Line
+	2875 3750 3175 3750
+Wire Wire Line
+	2675 3650 3175 3650
+Connection ~ 2675 3650
+Wire Wire Line
+	650  3025 1150 3025
+Connection ~ 650  4650
+Wire Wire Line
+	650  3025 650  4650
+Wire Wire Line
+	1325 4300 1050 4300
+Wire Wire Line
+	1050 4300 1050 3450
+Wire Wire Line
+	1050 3450 1000 3450
+Connection ~ 1325 4300
+Connection ~ 1000 3450
+Wire Wire Line
+	6925 4450 7425 4450
+Wire Wire Line
+	7125 4425 7125 4550
+Connection ~ 7125 4550
+Wire Wire Line
+	7125 4550 7425 4550
+$EndSCHEMATC
