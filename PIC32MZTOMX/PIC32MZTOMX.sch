@@ -5,58 +5,58 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "ELECTRONICAL_MAIN_BOARD_32"
-Date "2016-05-10"
-Rev "V1-50"
-Comp "CYBERNETIQUE EN NORD"
+Title "PIC32MZTOMX"
+Date "2019-07-03"
+Rev "V1-00"
+Comp "F4DEB"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J101
 U 1 1 5D11D255
-P 2050 1800
-F 0 "J?" H 2100 2317 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 2100 2226 50  0000 C CNN
-F 2 "" H 2050 1800 50  0001 C CNN
-F 3 "~" H 2050 1800 50  0001 C CNN
-	1    2050 1800
-	1    0    0    -1  
+P 2150 1800
+F 0 "J101" H 2200 2317 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2200 2226 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 2150 1800 50  0001 C CNN
+F 3 "~" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J102
 U 1 1 5D11D29B
-P 2050 3125
-F 0 "J?" H 2100 3642 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 2100 3551 50  0000 C CNN
-F 2 "" H 2050 3125 50  0001 C CNN
-F 3 "~" H 2050 3125 50  0001 C CNN
-	1    2050 3125
-	1    0    0    -1  
+P 2150 3125
+F 0 "J102" H 2200 3642 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2200 3551 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 2150 3125 50  0001 C CNN
+F 3 "~" H 2150 3125 50  0001 C CNN
+	1    2150 3125
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J103
 U 1 1 5D11D316
-P 2050 4425
-F 0 "J?" H 2100 4942 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 2100 4851 50  0000 C CNN
-F 2 "" H 2050 4425 50  0001 C CNN
-F 3 "~" H 2050 4425 50  0001 C CNN
-	1    2050 4425
-	1    0    0    -1  
+P 2150 4425
+F 0 "J103" H 2200 4942 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2200 4851 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 2150 4425 50  0001 C CNN
+F 3 "~" H 2150 4425 50  0001 C CNN
+	1    2150 4425
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J?
+L Connector_Generic:Conn_02x08_Odd_Even J104
 U 1 1 5D11D3FE
-P 2050 5750
-F 0 "J?" H 2100 6267 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 2100 6176 50  0000 C CNN
-F 2 "" H 2050 5750 50  0001 C CNN
-F 3 "~" H 2050 5750 50  0001 C CNN
-	1    2050 5750
-	1    0    0    -1  
+P 2150 5750
+F 0 "J104" H 2200 6267 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2200 6176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 2150 5750 50  0001 C CNN
+F 3 "~" H 2150 5750 50  0001 C CNN
+	1    2150 5750
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 1500 2750 1500
@@ -231,14 +231,14 @@ Wire Wire Line
 Wire Wire Line
 	5175 4775 4775 4775
 Wire Wire Line
-	5175 4875 4775 4875
+	9175 5325 8775 5325
 $Comp
-L f4deb-5:PIC32MZ2048ECM064 U?
+L f4deb-5:PIC32MZ2048ECM064 U101
 U 1 1 5D084F12
 P 6525 1775
-F 0 "U?" H 7025 1875 50  0000 C CNN
+F 0 "U101" H 7025 1875 50  0000 C CNN
 F 1 "PIC32MZ2048ECM064" H 5875 1875 50  0000 C CNN
-F 2 "" H 5475 1475 50  0001 C CNN
+F 2 "Package_QFP:LQFP-64_14x14mm_P0.8mm" H 5475 1475 50  0001 C CNN
 F 3 "" H 5475 1475 50  0001 C CNN
 	1    6525 1775
 	1    0    0    -1  
@@ -250,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	5175 5375 4775 5375
 Wire Wire Line
-	5175 4975 4775 4975
+	9175 5625 8775 5625
 Wire Wire Line
 	4775 3525 5175 3525
 Wire Wire Line
@@ -274,9 +274,9 @@ Wire Wire Line
 Wire Wire Line
 	9175 5175 8775 5175
 Wire Wire Line
-	9175 5475 8775 5475
+	9175 5425 8775 5425
 Wire Wire Line
-	9175 5575 8775 5575
+	9175 5525 8775 5525
 Wire Wire Line
 	9175 5075 8775 5075
 Wire Wire Line
@@ -465,7 +465,7 @@ Text Label 8950 4025 0    50   ~ 0
 2
 Text Label 8950 4125 0    50   ~ 0
 3
-Text Label 8950 1875 0    50   ~ 0
+Text Label 9875 1875 0    50   ~ 0
 7
 Text Label 4900 2675 0    50   ~ 0
 21
@@ -519,10 +519,8 @@ Text Label 4900 3525 0    50   ~ 0
 47
 Text Label 4900 3675 0    50   ~ 0
 48
-Text Label 4900 4875 0    50   ~ 0
+Text Label 8950 5325 0    50   ~ 0
 4
-Text Label 4900 4975 0    50   ~ 0
-10
 Text Label 4900 5375 0    50   ~ 0
 45
 Text Label 8950 2225 0    50   ~ 0
@@ -537,9 +535,9 @@ Text Label 8950 4575 0    50   ~ 0
 31
 Text Label 8950 4675 0    50   ~ 0
 32
-Text Label 8950 5475 0    50   ~ 0
+Text Label 8950 5425 0    50   ~ 0
 5
-Text Label 8950 5575 0    50   ~ 0
+Text Label 8950 5525 0    50   ~ 0
 6
 Text Label 8950 2625 0    50   ~ 0
 57
@@ -596,10 +594,10 @@ Wire Wire Line
 	8775 3275 9250 3275
 Connection ~ 9250 3025
 $Comp
-L Reference_Voltage:REF3033 U?
+L Reference_Voltage:REF3033 U102
 U 1 1 5D246E95
 P 10150 3175
-F 0 "U?" H 9920 3221 50  0000 R CNN
+F 0 "U102" H 9920 3221 50  0000 R CNN
 F 1 "REF3033" H 9920 3130 50  0000 R CIN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10150 2725 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/ref3033.pdf" H 10250 2825 50  0001 C CIN
@@ -607,12 +605,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/ref3033.pdf" H 10250 2825 50  0001 C CIN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L?
+L pspice:INDUCTOR L101
 U 1 1 5D25BF2C
 P 9700 2900
-F 0 "L?" V 9654 2978 50  0000 L CNN
+F 0 "L101" V 9654 2978 50  0000 L CNN
 F 1 "INDUCTOR" V 9745 2978 50  0000 L CNN
-F 2 "" H 9700 2900 50  0001 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 9700 2900 50  0001 C CNN
 F 3 "~" H 9700 2900 50  0001 C CNN
 	1    9700 2900
 	0    1    1    0   
@@ -641,10 +639,10 @@ Wire Wire Line
 	9825 3275 9250 3275
 Connection ~ 9250 3275
 $Comp
-L Device:Crystal_Small Y?
+L Device:Crystal_Small Y102
 U 1 1 5D280375
 P 4275 3925
-F 0 "Y?" V 4229 4013 50  0000 L CNN
+F 0 "Y102" V 4229 4013 50  0000 L CNN
 F 1 "12Mhz" V 4320 4013 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" H 4275 3925 50  0001 C CNN
 F 3 "~" H 4275 3925 50  0001 C CNN
@@ -652,10 +650,10 @@ F 3 "~" H 4275 3925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Crystal_Small Y?
+L Device:Crystal_Small Y101
 U 1 1 5D280498
 P 4000 3925
-F 0 "Y?" V 3954 4013 50  0000 L CNN
+F 0 "Y101" V 3954 4013 50  0000 L CNN
 F 1 "8Mhz" V 4045 4013 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm" H 4000 3925 50  0001 C CNN
 F 3 "~" H 4000 3925 50  0001 C CNN
@@ -663,10 +661,10 @@ F 3 "~" H 4000 3925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R101
 U 1 1 5D28053E
 P 3775 3925
-F 0 "R?" H 3845 3971 50  0000 L CNN
+F 0 "R101" H 3845 3971 50  0000 L CNN
 F 1 "1M" H 3845 3880 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3705 3925 50  0001 C CNN
 F 3 "~" H 3775 3925 50  0001 C CNN
@@ -674,10 +672,10 @@ F 3 "~" H 3775 3925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C101
 U 1 1 5D2805C5
 P 3500 3725
-F 0 "C?" V 3248 3725 50  0000 C CNN
+F 0 "C101" V 3248 3725 50  0000 C CNN
 F 1 "22pf" V 3339 3725 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 3575 50  0001 C CNN
 F 3 "~" H 3500 3725 50  0001 C CNN
@@ -685,10 +683,10 @@ F 3 "~" H 3500 3725 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C102
 U 1 1 5D280654
 P 3500 4125
-F 0 "C?" V 3248 4125 50  0000 C CNN
+F 0 "C102" V 3248 4125 50  0000 C CNN
 F 1 "22pf" V 3339 4125 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 3975 50  0001 C CNN
 F 3 "~" H 3500 4125 50  0001 C CNN
@@ -752,41 +750,202 @@ Wire Wire Line
 Connection ~ 3300 4125
 Connection ~ 9825 3475
 $Comp
-L Device:R R?
+L Device:R R103
 U 1 1 5D2F0C4E
 P 9975 1675
-F 0 "R?" H 10045 1721 50  0000 L CNN
-F 1 "R" H 10045 1630 50  0000 L CNN
+F 0 "R103" V 9900 1575 50  0000 L CNN
+F 1 "10k" V 9975 1600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9905 1675 50  0001 C CNN
 F 3 "~" H 9975 1675 50  0001 C CNN
 	1    9975 1675
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5D2F0CF0
-P 9975 2050
-F 0 "C?" H 10090 2096 50  0000 L CNN
-F 1 "C" H 10090 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10013 1900 50  0001 C CNN
-F 3 "~" H 9975 2050 50  0001 C CNN
-	1    9975 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9975 1875 9975 1900
-Wire Wire Line
-	8775 1875 9975 1875
 Wire Wire Line
 	9975 1825 9975 1875
-Connection ~ 9975 1875
-Wire Wire Line
-	9250 2325 9975 2325
-Wire Wire Line
-	9975 2325 9975 2200
 Wire Wire Line
 	9400 1525 9400 2025
 Wire Wire Line
 	9400 1525 9975 1525
 Connection ~ 9400 2025
+$Comp
+L Device:R R102
+U 1 1 5D20C410
+P 9675 1875
+F 0 "R102" V 9600 1875 50  0000 C CNN
+F 1 "470" V 9675 1875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9605 1875 50  0001 C CNN
+F 3 "~" H 9675 1875 50  0001 C CNN
+	1    9675 1875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9525 1875 8775 1875
+Wire Wire Line
+	9825 1875 9975 1875
+$Comp
+L Device:LED D101
+U 1 1 5D2203D7
+P 10875 3275
+F 0 "D101" V 10913 3158 50  0000 R CNN
+F 1 "LED" V 10822 3158 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 10875 3275 50  0001 C CNN
+F 3 "~" H 10875 3275 50  0001 C CNN
+	1    10875 3275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R104
+U 1 1 5D220581
+P 10875 2875
+F 0 "R104" H 10945 2921 50  0000 L CNN
+F 1 "1k" H 10945 2830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10805 2875 50  0001 C CNN
+F 3 "~" H 10875 2875 50  0001 C CNN
+	1    10875 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2625 10875 2625
+Wire Wire Line
+	10875 2625 10875 2725
+Connection ~ 10250 2625
+Wire Wire Line
+	10875 3025 10875 3125
+Wire Wire Line
+	10250 3475 10875 3475
+Wire Wire Line
+	10875 3475 10875 3425
+Connection ~ 10250 3475
+$Comp
+L Device:C C103
+U 1 1 5D249517
+P 7200 1100
+F 0 "C103" H 7315 1146 50  0000 L CNN
+F 1 "C" H 7315 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 950 50  0001 C CNN
+F 3 "~" H 7200 1100 50  0001 C CNN
+	1    7200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C104
+U 1 1 5D2497B7
+P 7525 1100
+F 0 "C104" H 7640 1146 50  0000 L CNN
+F 1 "C" H 7640 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7563 950 50  0001 C CNN
+F 3 "~" H 7525 1100 50  0001 C CNN
+	1    7525 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C105
+U 1 1 5D249853
+P 7875 1100
+F 0 "C105" H 7990 1146 50  0000 L CNN
+F 1 "C" H 7990 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7913 950 50  0001 C CNN
+F 3 "~" H 7875 1100 50  0001 C CNN
+	1    7875 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C106
+U 1 1 5D2498F8
+P 8250 1100
+F 0 "C106" H 8365 1146 50  0000 L CNN
+F 1 "C" H 8365 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8288 950 50  0001 C CNN
+F 3 "~" H 8250 1100 50  0001 C CNN
+	1    8250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C107
+U 1 1 5D2499B4
+P 8625 1100
+F 0 "C107" H 8740 1146 50  0000 L CNN
+F 1 "C" H 8740 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8663 950 50  0001 C CNN
+F 3 "~" H 8625 1100 50  0001 C CNN
+	1    8625 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1250 7200 1300
+Wire Wire Line
+	8625 1300 8625 1250
+Wire Wire Line
+	7200 950  7200 900 
+Wire Wire Line
+	8625 900  8625 950 
+Wire Wire Line
+	8250 950  8250 900 
+Connection ~ 8250 900 
+Wire Wire Line
+	8250 900  8625 900 
+Wire Wire Line
+	7875 950  7875 900 
+Wire Wire Line
+	7200 900  7525 900 
+Connection ~ 7875 900 
+Wire Wire Line
+	7875 900  8250 900 
+Wire Wire Line
+	7525 950  7525 900 
+Connection ~ 7525 900 
+Wire Wire Line
+	7525 900  7875 900 
+Wire Wire Line
+	7525 1250 7525 1300
+Wire Wire Line
+	7200 1300 7525 1300
+Connection ~ 7525 1300
+Wire Wire Line
+	7525 1300 7875 1300
+Wire Wire Line
+	7875 1250 7875 1300
+Connection ~ 7875 1300
+Wire Wire Line
+	7875 1300 8250 1300
+Wire Wire Line
+	8250 1250 8250 1300
+Connection ~ 8250 1300
+Wire Wire Line
+	8250 1300 8625 1300
+$Comp
+L Device:CP C108
+U 1 1 5D2AAC3F
+P 8975 1100
+F 0 "C108" H 9093 1146 50  0000 L CNN
+F 1 "CP" H 9093 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.9" H 9013 950 50  0001 C CNN
+F 3 "~" H 8975 1100 50  0001 C CNN
+	1    8975 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8625 900  8975 900 
+Wire Wire Line
+	8975 900  8975 950 
+Connection ~ 8625 900 
+Wire Wire Line
+	8625 1300 8975 1300
+Wire Wire Line
+	8975 1300 8975 1250
+Connection ~ 8625 1300
+Wire Wire Line
+	8975 900  9400 900 
+Wire Wire Line
+	9400 900  9400 1525
+Connection ~ 8975 900 
+Connection ~ 9400 1525
+Wire Wire Line
+	8975 1300 9250 1300
+Wire Wire Line
+	9250 1300 9250 2125
+Connection ~ 8975 1300
+Connection ~ 9250 2125
+Text Label 8950 5625 0    50   ~ 0
+8
 $EndSCHEMATC
