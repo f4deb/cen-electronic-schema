@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CEN-SCHEMA)(type Legacy)(uri ${KIPRJMOD}/../../../git-f4deb-cen-electronic-library/CEN-SCHEMA.lib)(options "")(descr ""))
+)

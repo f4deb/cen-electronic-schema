@@ -1,4 +1,4 @@
-update=mar. 01 oct. 2019 22:48:48 CEST
+update=lun. 14 sept. 2015 21:28:31 CEST
 version=1
 last_client=kicad
 [general]
@@ -48,3 +48,8 @@ LibName16=/mnt/64F86963F8693488/electronique/git-f4deb/git-f4deb-cen-electronic-
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=power
+LibName2=/travail/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName3=/mnt/64F86963F8693488/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName4=/usr/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
