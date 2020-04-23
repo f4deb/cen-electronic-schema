@@ -1,4 +1,4 @@
-update=03/04/2020 15:13:54
+update=22/03/2018 21:22:54
 last_client=kicad
 [general]
 version=1
@@ -43,3 +43,8 @@ LabSize=60
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=D:/electronique/git-f4deb/git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName2=power
+LibName3=../../../git-f4deb-cen-electronic-library/CEN-SCHEMA
+LibName4=C:/Program Files (x86)/KiCad/share/kicad/modules/packages3d/git-f4deb-cen-electronic-library/CEN-SCHEMA
