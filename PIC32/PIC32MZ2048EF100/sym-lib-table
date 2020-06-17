@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PIC32MZ2048EF100-kicad5-rescue)(type Legacy)(uri ${KIPRJMOD}/PIC32MZ2048EF100-kicad5-rescue.lib)(options "")(descr ""))
+)
