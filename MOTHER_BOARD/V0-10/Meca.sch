@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MTOHER_BOARD"
+Date "2020-06-21"
+Rev "V0.10"
+Comp "F4DEB-FOCUS ROBOTIQUE"
 Comment1 ""
 Comment2 ""
 Comment3 ""
