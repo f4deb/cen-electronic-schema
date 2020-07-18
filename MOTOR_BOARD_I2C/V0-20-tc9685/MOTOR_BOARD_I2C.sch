@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MOTOR_BOARD_I2C-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -331,7 +330,7 @@ Wire Wire Line
 	2950 6125 2950 6175
 Wire Wire Line
 	3150 6125 3150 6175
-NoConn ~ 1550 3300
+NoConn ~ 1550 3100
 $Comp
 L power:+5VD #PWR0107
 U 1 1 5DD8B09E
@@ -457,17 +456,6 @@ F 3 "" H 1200 4750 50  0001 C CNN
 	1    1200 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5VD #PWR0108
-U 1 1 5DDCF86E
-P 2050 3900
-F 0 "#PWR0108" H 2050 3750 50  0001 C CNN
-F 1 "+5VD" H 2065 4073 50  0000 C CNN
-F 2 "" H 2050 3900 50  0001 C CNN
-F 3 "" H 2050 3900 50  0001 C CNN
-	1    2050 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1050 3500 1200 3500
 Connection ~ 1200 3500
@@ -479,8 +467,6 @@ Wire Wire Line
 	1350 4700 1200 4700
 Wire Wire Line
 	1550 4000 1200 4000
-Wire Wire Line
-	2050 3900 2050 4100
 Connection ~ 1350 4700
 Wire Wire Line
 	1200 4450 1200 4700
