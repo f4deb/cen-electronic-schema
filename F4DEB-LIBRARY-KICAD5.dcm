@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BTS50055
+D BTS50055-1TMA, 34V Vds, 70A Id, 6mOhm Rds, N-Channel vertical power FET, PG-TO220-7-4
+K N-Channel vertical power FET
+F http://www.infineon.com/dgdl/Infineon-BTS50055_1TMA-DS-v01_01-en.pdf?fileId=db3a3043183a95550118607dca6c36c1&ack=t
+$ENDCMP
+#
 #End Doc Library
